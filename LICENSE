@@ -1,0 +1,11 @@
+# OpenPackagedFood Data Licensing Notice (`opf-data`)
+
+SPDX-License-Identifier: ODbL-1.0 AND DbCL-1.0 AND CC-BY-SA-4.0
+
+1. **Database (`products/`, `overlays/`, and generated `/v1/` indices & snapshots)**
+   Licensed under the **Open Data Commons Open Database License v1.0 (`ODbL-1.0`)**, with individual contents licensed under the **Database Contents License v1.0 (`DbCL-1.0`)**.
+   See [`LICENSE-DATA`](LICENSE-DATA) and https://opendatacommons.org/licenses/odbl/1-0/.
+
+2. **Cropped Label Evidence Images (`evidence-*` Releases)**
+   Licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License (`CC-BY-SA-4.0`)**.
+   See [`LICENSE-MEDIA`](LICENSE-MEDIA) and https://creativecommons.org/licenses/by-sa/4.0/legalcode.

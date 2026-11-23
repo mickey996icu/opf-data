@@ -1,0 +1,102 @@
+name: Validate Products & Deploy Static API to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+env:
+  # Pinned open-packaged-food release tag for reproducible schema validation (v0.2)
+  OPF_TOOL_REF: "v0.2.0"
+  OPF_MEDIA_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository_owner }}/opf-media/main"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-${{ github.ref }}"
+  cancel-in-progress: false
+
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout opf-data
+        uses: actions/checkout@v4
+        with:
+          path: opf-data
+          fetch-depth: 0
+
+      - name: Checkout open-packaged-food tooling (pinned version)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/open-packaged-food
+          path: open-packaged-food
+          fetch-depth: 0
+
+      - name: Checkout pinned OPF_TOOL_REF (fallback to main prior to first tag)
+        run: |
+          if git -C open-packaged-food rev-parse --verify "${OPF_TOOL_REF}" >/dev/null 2>&1; then
+            git -C open-packaged-food checkout "${OPF_TOOL_REF}"
+          else
+            echo "Tag ${OPF_TOOL_REF} not yet created; using default branch."
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate all product records
+        run: ./open-packaged-food/bin/opf validate --allow-empty opf-data/products
+
+      - name: Verify opf-media references exist on opf-media main
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          if [ "${EVENT_NAME}" = "pull_request" ] && [ -n "${BASE_REF}" ] && git -C opf-data rev-parse --verify "origin/${BASE_REF}" >/dev/null 2>&1; then
+            ./open-packaged-food/bin/opf check-media-refs \
+              --media-base-url "${OPF_MEDIA_BASE_URL}" \
+              --only-refs-from-git-diff "origin/${BASE_REF}" \
+              opf-data/products
+          elif [ "${EVENT_NAME}" = "push" ] && [ -n "${BEFORE_SHA}" ] && [ "${BEFORE_SHA}" != "0000000000000000000000000000000000000000" ] && git -C opf-data cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            ./open-packaged-food/bin/opf check-media-refs \
+              --media-base-url "${OPF_MEDIA_BASE_URL}" \
+              --only-refs-from-git-diff "${BEFORE_SHA}" \
+              opf-data/products
+          else
+            ./open-packaged-food/bin/opf check-media-refs \
+              --media-base-url "${OPF_MEDIA_BASE_URL}" \
+              opf-data/products
+          fi
+
+      - name: Build static API v1 & Catalog Card Explorer
+        run: |
+          ./open-packaged-food/bin/opf build \
+            --data-dir opf-data/products \
+            --out-dir _site \
+            --canonical-base "https://${{ github.repository_owner }}.github.io/opf-data" \
+            --media-base-url "${OPF_MEDIA_BASE_URL}"
+
+      - name: Upload Pages artifact
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy-pages:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

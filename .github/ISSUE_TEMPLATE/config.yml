@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "📖 开发者贡献指南 / Developer Contributing Guide (CONTRIBUTING.md)"
+    url: "https://github.com/mickey996icu/open-packaged-food/blob/main/CONTRIBUTING.md"
+    about: "通过标准纯 Git 双仓 PR 流程贡献新商品记录与裁剪标签图 / Submit new product records via the pure-Git dual-PR developer workflow"
+  - name: "🧰 工具链与前端问题反馈 / Tooling, Validator & Web Issues"
+    url: "https://github.com/mickey996icu/open-packaged-food/issues"
+    about: "报告 CLI、配料解析、百克换算、静态网页或法规词典问题 / Report CLI, parser, validator, web explorer, or dictionary issues"

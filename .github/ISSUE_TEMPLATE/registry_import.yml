@@ -1,0 +1,52 @@
+name: "🏛️ 官方公开数据库批量导入提案 (Official Registry Import)"
+description: "提议接入 CC0 或兼容开放许可的官方食品成分/产品登记库 / Propose a bulk import from a CC0 or compatible official food registry"
+title: "[Registry Import]: "
+labels: ["registry-import"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 官方公开数据库批量导入提案 / Official Open Registry Import Proposal
+        本模板用于讨论与规划符合 OPF 许可协议（`ODbL-1.0` 兼容，如 `CC0-1.0` / 政府开放数据授权）的官方公共数据库批量导入与 `overlays/` 映射规则。
+        Use this template to propose importing a CC0 or ODbL-compatible official food registry into `opf-data` (`official_registry_imported`) with reproducible mapping and `overlays/` rules.
+
+  - type: input
+    id: registry_name
+    attributes:
+      label: "官方数据库名称与发布机构 / Registry Name & Publishing Authority"
+      placeholder: "例如 / e.g.: USDA FoodData Central (Branded Foods)"
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: "官方数据集或文档链接 / Official Dataset or Documentation URL"
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: license_type
+    attributes:
+      label: "数据开源/开放许可协议 / Upstream Data License"
+      description: "请说明上游数据集的明确许可条款（须兼容 ODbL-1.0 且允许再分发）。 / State the explicit upstream license (must be compatible with ODbL-1.0 redistribution)."
+      placeholder: "例如 / e.g.: CC0-1.0 Public Domain"
+    validations:
+      required: true
+
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: "适用法域与法规 Profile / Jurisdiction & Regulatory Profile"
+      placeholder: "例如 / e.g.: US/FDA-NLEA, EU/1169-2011, JP/CAA-2015"
+    validations:
+      required: true
+
+  - type: textarea
+    id: mapping_notes
+    attributes:
+      label: "字段映射、修约规则与覆盖策略 / Field Mapping, Rounding & Overlay Strategy"
+      description: "请说明 GTIN 规范化方式、营养基准（100g/100ml/serving）、配料原文语言标签以及上游错漏如何通过 overlays/ 隔离修订。 / Describe GTIN handling, nutrition basis, ingredient text language tags, and how upstream errata will be handled via overlays/."
+    validations:
+      required: true

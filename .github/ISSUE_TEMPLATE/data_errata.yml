@@ -1,0 +1,70 @@
+name: "✏️ 数据勘误 / 拆轨合并 / 停产标记 (Data Errata & Lifecycle)"
+description: "报告已有商品数据的字段勘误、多厂拆轨或合并重定向、以及停产/撤回标记 / Report errata, track split/merge, or discontinuation for an existing record"
+title: "[Errata]: "
+labels: ["data-errata"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 开发者与维护者数据勘误通道 / Data Errata, Track Split & Lifecycle Channel
+        本模板仅用于对 **`opf-data` 已有商品记录** 提交字段纠错、同条码多工厂拆轨（`retrack`）、重复版本重定向合并（`merge`）或停产状态变更（`lifecycle`）。
+        This template is strictly for reporting errata, supply-chain track splits (`retrack`), duplicate redirects (`merge`), or discontinuation (`lifecycle`) on **existing `opf-data` records**.
+
+        > 📖 新增商品请使用开发者纯 Git 双仓 PR 流程（详见 [`CONTRIBUTING.md`](https://github.com/mickey996icu/open-packaged-food/blob/main/CONTRIBUTING.md)）。
+        > 严禁在 Issue 中提交完整正面商业包装封面图、购买日期、价格、小票或精确到日的生产/到期批号（仅限 `YYYY-MM` 年月）。
+
+  - type: input
+    id: product_id
+    attributes:
+      label: "商品标准 ID / Canonical Product ID (`product_id`)"
+      description: "请填写标准 `gtin:<14位数字>` 或 `opf:<brand>/<product>/<spec>`。 / Canonical `gtin:<14-digits>` or `opf:<brand>/<product>/<spec>`."
+      placeholder: "gtin:00000000000017"
+    validations:
+      required: true
+
+  - type: input
+    id: edition_rev
+    attributes:
+      label: "目标版本与修订号 / Target Edition & Revision (`edition_id@rev`)"
+      description: "需勘误或变更生命周期的 26 位 ULID 版本号及修订号（如无明确修订号可填 `@1` 或 `overview`）。 / 26-char ULID and revision number (e.g., `01M832XFTAB5PRFS35BQRDGGE3@1`)."
+      placeholder: "01M832XFTAB5PRFS35BQRDGGE3@1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: errata_kind
+    attributes:
+      label: "变更类别 / Change Kind"
+      options:
+        - "errata — 营养数值 / 配料文本 / 厂家字段勘误 (Field Errata)"
+        - "retrack — 同条码不同工厂/配料轨道拆分或合并 (Track Split / Merge)"
+        - "lifecycle — 停产 (discontinued) 或撤回 (retracted)"
+        - "evidence — 补充局部文字裁剪图核验或报告断链"
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "错误或变更描述 / Description of Issue or Requested Change"
+      description: "请逐条说明当前记录中的错误字段、应修正为的客观值，或需要拆轨/合并/标记停产的原因。 / Describe the erroneous fields, expected objective values, or reason for retrack/merge/lifecycle update."
+      placeholder: "例如：nutrition_declared 中钠的单位应为 mg/100ml；或某轨道产品已停产..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: package_evidence
+    attributes:
+      label: "客观包装依据 / Objective Package Basis"
+      description: "请附上核对依据（如对应文字区域的局部裁剪照、执行标准号、或粗粒度年月 `YYYY-MM`；切勿上传整盒正面封面或个人购买信息）。 / Provide objective evidence from the printed package (tightly cropped factual text panel only, standard code, or coarse `YYYY-MM` month—never front-of-pack cover art or purchase info)."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirm_rules
+    attributes:
+      label: "规范与许可确认 / Policy & License Confirmation"
+      options:
+        - label: "我确认所提交内容仅为客观包装事实（不含主观健康评分、商业封面大图、购买日期或日级批次信息），数据遵循 ODbL-1.0、裁剪文字图遵循 CC BY-SA 4.0。 / I confirm this report contains objective package facts only (no subjective scores, front cover art, or personal/day-level batch data) under ODbL-1.0 / CC BY-SA 4.0."
+          required: true
