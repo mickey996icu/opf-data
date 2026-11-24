@@ -1,0 +1,393 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06974117080016",
+  "edition_id": "01M878B0F0DV4ANXHE5GD6S60Q",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "22",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1054",
+          "unit": "kJ",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "protein",
+          "value": "17.6",
+          "unit": "g",
+          "nrv_pct": "29"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "15.4",
+          "unit": "g",
+          "nrv_pct": "26"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "2.5",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "10.9",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "3.2",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "778",
+          "unit": "mg",
+          "nrv_pct": "39"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "sesame",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "大豆拉丝蛋白",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "大豆分离蛋白",
+                "allergens": [
+                  "soybeans"
+                ]
+              },
+              {
+                "name": "低温食用豆粕",
+                "allergens": [
+                  "soybeans"
+                ]
+              },
+              {
+                "name": "谷朊粉",
+                "allergens": [
+                  "gluten_cereals"
+                ]
+              },
+              {
+                "name": "小麦粉",
+                "allergens": [
+                  "gluten_cereals"
+                ]
+              },
+              {
+                "name": "大豆浓缩蛋白",
+                "allergens": [
+                  "soybeans"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "大豆油",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "黑胡椒"
+          },
+          {
+            "name": "芝麻仁",
+            "allergens": [
+              "sesame"
+            ]
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "食用香精香料"
+          },
+          {
+            "name": "5'-呈味核苷酸二钠",
+            "ins": "635",
+            "is_additive": true
+          },
+          {
+            "name": "辣椒红"
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "素牛排（黑椒味）"
+      }
+    ],
+    "brand": "红派",
+    "declared_category": "风味大豆蛋白制品（豆制品）",
+    "net_content_label": "(20+2)克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "大豆拉丝蛋白(大豆分离蛋白、低温食用豆粕、谷朊粉、小麦粉、大豆浓缩蛋白)、水、大豆油、白砂糖、味精、黑胡椒、芝麻仁、食用盐、香辛料、食用香精香料、5'-呈味核苷酸二钠、辣椒红、山梨酸钾"
+      }
+    ],
+    "allergens_raw_text": "本产品含有小麦、大豆、芝麻及其制品",
+    "origin": {
+      "country": "CN",
+      "region": "河南省安阳市",
+      "raw_text": "河南省安阳市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "河南红派食品有限公司",
+        "address": "汤阴县产业集聚区众品大道与兴隆路交叉口西南角",
+        "license": "SC10441052300040"
+      }
+    ],
+    "product_standard": [
+      "Q/HHP 0001S"
+    ],
+    "shelf_life": {
+      "value": "9",
+      "unit": "month"
+    },
+    "storage_text": "请置于阴凉干燥通风处，避免阳光直射",
+    "usage_text": "开袋即食",
+    "claims_text": [
+      "加量10%"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208",
+      "media_ref": "opf-media://sha256/919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-hongpai-202609",
+      "evidence_id": "sha256:919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
+      "media_ref": "opf-media://sha256/96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-hongpai-202609",
+      "evidence_id": "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc",
+      "media_ref": "opf-media://sha256/2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-hongpai-202609",
+      "evidence_id": "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-24T17:06:00Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "sha256:919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208",
+        "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
+        "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1054",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "17.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "15.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "2.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "10.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "3.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "778",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "251.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.95",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "202",
+      "621",
+      "635"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "sesame",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "sesame",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "gluten_cereals",
+        "sesame",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "22",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "231.9",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "3.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "3.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "2.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "171.2",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "55.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.43",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7e23a61498bc4c5e7664bfb9be863aaf2c8d90b9a4458e556e1b8f0b6c7e8e83",
+  "label_fingerprint": "sha256:9b9f328ab73b1bcb04069cfd690a1fb2bab9128e155c088e468a36c8b431b50d"
+}
