@@ -4,11 +4,12 @@ on:
   push:
     branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, edited]
   workflow_dispatch:
 
 env:
   # Pinned open-packaged-food release tag for reproducible schema validation (v0.2)
-  OPF_TOOL_REF: "v0.2.1"
+  OPF_TOOL_REF: "v0.2.2"
   OPF_MEDIA_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository_owner }}/opf-media/main"
 
 permissions:
@@ -49,6 +50,27 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      - name: Validate PR metadata & DCO sign-off
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          EXTRA_FLAGS=()
+          if [ -n "${BASE_REF}" ] && git -C opf-data rev-parse --verify "origin/${BASE_REF}" >/dev/null 2>&1; then
+            if ! ./open-packaged-food/bin/opf check-media-refs \
+              --media-base-url "${OPF_MEDIA_BASE_URL}" \
+              --only-refs-from-git-diff "origin/${BASE_REF}" \
+              opf-data/products >/dev/null 2>&1; then
+              EXTRA_FLAGS+=(--require-companion-media-pr)
+            fi
+          fi
+          ./open-packaged-food/bin/opf check-pr-meta \
+            --repo-kind data \
+            --event-path "$GITHUB_EVENT_PATH" \
+            --repo-dir opf-data \
+            --base-ref "origin/${BASE_REF}" \
+            "${EXTRA_FLAGS[@]}"
 
       - name: Validate all product records
         run: ./open-packaged-food/bin/opf validate --allow-empty opf-data/products
