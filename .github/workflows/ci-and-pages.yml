@@ -8,7 +8,7 @@ on:
 
 env:
   # Pinned open-packaged-food release tag for reproducible schema validation (v0.2)
-  OPF_TOOL_REF: "v0.2.0"
+  OPF_TOOL_REF: "v0.2.1"
   OPF_MEDIA_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository_owner }}/opf-media/main"
 
 permissions:
