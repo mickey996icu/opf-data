@@ -2,11 +2,11 @@
   "opf_schema": "0.2",
   "id": "gtin:06974117080016",
   "edition_id": "01M878B0F0DV4ANXHE5GD6S60Q",
-  "rev": 1,
+  "rev": 2,
   "track": "CN/default",
   "supersedes": [],
   "core": {
-    "regulatory_profile": "CN/GB28050-2011",
+    "regulatory_profile": "CN/GB28050-2025",
     "net_content": [
       {
         "value": "22",
@@ -152,7 +152,9 @@
             "is_additive": true
           },
           {
-            "name": "辣椒红"
+            "name": "辣椒红",
+            "ins": "160c",
+            "is_additive": true
           },
           {
             "name": "山梨酸钾",
@@ -201,10 +203,7 @@
       "unit": "month"
     },
     "storage_text": "请置于阴凉干燥通风处，避免阳光直射",
-    "usage_text": "开袋即食",
-    "claims_text": [
-      "加量10%"
-    ]
+    "usage_text": "开袋即食"
   },
   "evidence": [
     {
@@ -253,6 +252,61 @@
         "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
       ],
       "patch": []
+    },
+    {
+      "rev": 2,
+      "kind": "errata",
+      "created_at": "2026-11-24T17:46:14Z",
+      "author": "github:mickey996icu",
+      "reason": "Align regulatory_profile to CN/GB28050-2025 (1+6 table), tag INS 160c paprika extract, and remove un-evidenced claims_text",
+      "evidence_refs": [
+        "sha256:919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208",
+        "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
+        "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
+      ],
+      "patch": [
+        {
+          "op": "add",
+          "path": "/core/ingredients_tree/0/nodes/11/ins",
+          "value": "160c"
+        },
+        {
+          "op": "add",
+          "path": "/core/ingredients_tree/0/nodes/11/is_additive",
+          "value": true
+        },
+        {
+          "op": "replace",
+          "path": "/core/regulatory_profile",
+          "value": "CN/GB28050-2025"
+        },
+        {
+          "op": "remove",
+          "path": "/attributes/claims_text"
+        }
+      ],
+      "reverse_patch": [
+        {
+          "op": "add",
+          "path": "/attributes/claims_text",
+          "value": [
+            "加量10%"
+          ]
+        },
+        {
+          "op": "replace",
+          "path": "/core/regulatory_profile",
+          "value": "CN/GB28050-2011"
+        },
+        {
+          "op": "remove",
+          "path": "/core/ingredients_tree/0/nodes/11/is_additive"
+        },
+        {
+          "op": "remove",
+          "path": "/core/ingredients_tree/0/nodes/11/ins"
+        }
+      ]
     }
   ],
   "normalized": {
@@ -305,6 +359,7 @@
       }
     },
     "additives_ins": [
+      "160c",
       "202",
       "621",
       "635"
@@ -388,6 +443,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:7e23a61498bc4c5e7664bfb9be863aaf2c8d90b9a4458e556e1b8f0b6c7e8e83",
-  "label_fingerprint": "sha256:9b9f328ab73b1bcb04069cfd690a1fb2bab9128e155c088e468a36c8b431b50d"
+  "core_fingerprint": "sha256:11e6568dd6661156fbcc25d2a36e2fdb4c1c0ceafd00fc149d8b35db187f9683",
+  "label_fingerprint": "sha256:584142ce717df55a7b5da371e5ababe9ff4467c66ce2d985f6f3161c20ba142d"
 }
