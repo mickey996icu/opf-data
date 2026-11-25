@@ -1,0 +1,273 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06977772131239",
+  "edition_id": "01M88DVBMBHDDJ19T3BGH5ZKNP",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "200",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "482",
+          "unit": "kJ",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "protein",
+          "value": "19.6",
+          "unit": "g",
+          "nrv_pct": "33"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.7",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.2",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "7.2",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "2",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "775",
+          "unit": "mg",
+          "nrv_pct": "39"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡胸肉"
+          },
+          {
+            "name": "黑椒腌料",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "玉米淀粉"
+          },
+          {
+            "name": "饮用水"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "喜嘉辉",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "黑椒香煎鸡胸肉"
+      }
+    ],
+    "declared_category": "冷藏调制食品(生制品)",
+    "net_content_label": "200g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡胸肉、黑椒腌料(复合调味料)、玉米淀粉、饮用水"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市",
+      "raw_text": "广东省东莞市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "广东嘉辉食品供应链有限公司",
+        "address": "广东省东莞市凤岗镇凤观路57号4栋301室",
+        "license": "SC10344190019837"
+      }
+    ],
+    "product_standard": [
+      "Q/JH 0001S-2026"
+    ],
+    "shelf_life": {
+      "value": "4",
+      "unit": "day"
+    },
+    "storage_text": "0-4℃冷藏保存",
+    "usage_text": "烹调加工方式:煎、烤、炸等"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "c18976bcf7068bcfd820bbb2fda0adec880cf8df73ddbe6aa213b7a57bc30f4d",
+      "media_ref": "opf-media://sha256/c18976bcf7068bcfd820bbb2fda0adec880cf8df73ddbe6aa213b7a57bc30f4d",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-jiahui-pepper-chicken-breast-202610",
+      "evidence_id": "sha256:c18976bcf7068bcfd820bbb2fda0adec880cf8df73ddbe6aa213b7a57bc30f4d"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T04:01:33Z",
+      "author": "github:contributor",
+      "evidence_refs": [
+        "sha256:c18976bcf7068bcfd820bbb2fda0adec880cf8df73ddbe6aa213b7a57bc30f4d"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "482",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "19.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "0.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "7.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "775",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "115.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.94",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "200",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "964",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "39.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "14.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "1550",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "230.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "3.88",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:2143ed5f12e7ee3503dec0f11067768f6d85f53393f64425ee57bf585e5e19ed",
+  "label_fingerprint": "sha256:1d4a7e5a5db80b11cb3eec68cca08ad228f2005d11f0e148e07f17413f16ef45"
+}
