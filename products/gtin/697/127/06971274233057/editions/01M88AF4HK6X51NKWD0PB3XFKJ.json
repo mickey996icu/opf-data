@@ -1,0 +1,326 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06971274233057",
+  "edition_id": "01M88AF4HK6X51NKWD0PB3XFKJ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "500",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "705",
+          "unit": "kJ",
+          "nrv_pct": "8"
+        },
+        {
+          "nutrient": "protein",
+          "value": "34.5",
+          "unit": "g",
+          "nrv_pct": "58"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "3.2",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "371",
+          "unit": "mg",
+          "nrv_pct": "19"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛肉",
+            "qualifier": "≥95%"
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "鸡精调味料"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "固态复合调味料"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "香卤牛肉"
+      }
+    ],
+    "brand": "沃集鲜",
+    "declared_category": "酱卤畜肉类",
+    "net_content_label": "250克X2",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛肉(≥95%)、水、植物油、食用盐、味精、鸡精调味料、白砂糖、香辛料、固态复合调味料"
+      }
+    ],
+    "allergens_raw_text": "本产品含有大豆制品、含有麸质的谷物及其制品",
+    "origin": {
+      "country": "CN",
+      "region": "山东省菏泽市",
+      "raw_text": "山东省菏泽市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "名佑(成都)食品有限公司",
+        "address": "中国(四川)自由贸易试验区成都高新区益州大道中段722号5栋5楼517号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "山东隆达众成农产品有限公司",
+        "address": "山东省菏泽市成武县永昌街道办事处文亭路东段路北(富江汽贸城对过)",
+        "license": "SC11137172300934"
+      }
+    ],
+    "product_standard": [
+      "GB/T 23586"
+    ],
+    "shelf_life": {
+      "value": "90",
+      "unit": "day"
+    },
+    "storage_text": "0-4℃冷藏储存",
+    "usage_text": "开袋即食",
+    "claims_text": [
+      "精选牛前腿肉",
+      "文火慢卤",
+      "零添加防腐剂(亚硝酸钠、山梨酸)"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "evidence_id": "ev:01M88AF484YB8FM75PP5RDT5Q1"
+    },
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d",
+      "media_ref": "opf-media://sha256/bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-spiced-beef-202611",
+      "evidence_id": "sha256:bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b",
+      "media_ref": "opf-media://sha256/0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-spiced-beef-202611",
+      "evidence_id": "sha256:0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1",
+      "media_ref": "opf-media://sha256/8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-spiced-beef-202611",
+      "evidence_id": "sha256:8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1"
+    },
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "evidence_id": "ev:01M88AJ8Z3WBZQVZY3SP330KJ6"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T03:02:27Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "ev:01M88AF484YB8FM75PP5RDT5Q1",
+        "sha256:bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d",
+        "sha256:0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b",
+        "sha256:8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "705",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "34.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "3.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "371",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "168.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.93",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "500",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "3525",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "172.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "16",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "1855",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "842.5",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "4.65",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:d8a69ad20b65a1307085c25dde7fa6116ee2d0a4cc507e3a4fd08c965f1ce38d",
+  "label_fingerprint": "sha256:2130719671b4bc600526708ea4e0b7a4a1a65a7c4a7d5980aaeae980fe5c9251"
+}
