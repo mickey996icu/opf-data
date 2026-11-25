@@ -1,0 +1,338 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06970674931280",
+  "edition_id": "01M88Q1J2ZNAZ49Q7G0HWWRPFD",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "200",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "504",
+          "unit": "kJ",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "protein",
+          "value": "14.8",
+          "unit": "g",
+          "nrv_pct": "25"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "3.6",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "7",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "623",
+          "unit": "mg",
+          "nrv_pct": "31"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "去骨带皮鸡腿肉"
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "奥尔良风味腌料"
+          },
+          {
+            "name": "玉米淀粉"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "大豆分离蛋白",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "辣椒粉"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "复配水分保持剂",
+            "children": [
+              {
+                "name": "三聚磷酸钠",
+                "ins": "451(i)",
+                "is_additive": true
+              },
+              {
+                "name": "六偏磷酸钠",
+                "ins": "452(i)",
+                "is_additive": true
+              },
+              {
+                "name": "卡拉胶",
+                "ins": "407",
+                "is_additive": true
+              },
+              {
+                "name": "D-异抗坏血酸钠",
+                "ins": "316",
+                "is_additive": true
+              },
+              {
+                "name": "碳酸钠",
+                "ins": "500(i)",
+                "is_additive": true
+              },
+              {
+                "name": "碳酸氢钠",
+                "ins": "500(ii)",
+                "is_additive": true
+              },
+              {
+                "name": "焦磷酸钠",
+                "ins": "450",
+                "is_additive": true
+              },
+              {
+                "name": "焦磷酸二氢二钠",
+                "ins": "450",
+                "is_additive": true
+              },
+              {
+                "name": "柠檬酸钠",
+                "ins": "331(iii)",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "复配增稠剂",
+            "children": [
+              {
+                "name": "醋酸酯淀粉"
+              },
+              {
+                "name": "瓜尔胶",
+                "ins": "412",
+                "is_additive": true
+              },
+              {
+                "name": "黄原胶",
+                "ins": "415",
+                "is_additive": true
+              },
+              {
+                "name": "魔芋粉"
+              },
+              {
+                "name": "麦芽糊精"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "一号私厨",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "新奥尔良鸡腿扒"
+      }
+    ],
+    "declared_category": "冷藏调制食品(生制品、非即食)",
+    "net_content_label": "200克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "去骨带皮鸡腿肉、水、奥尔良风味腌料、玉米淀粉、植物油、大豆分离蛋白、辣椒粉、白砂糖、复配水分保持剂(三聚磷酸钠、六偏磷酸钠、卡拉胶、D-异抗坏血酸钠、碳酸钠、碳酸氢钠、焦磷酸钠、焦磷酸二氢二钠、柠檬酸钠)、复配增稠剂(醋酸酯淀粉、瓜尔胶、黄原胶、魔芋粉、麦芽糊精)"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省广州市",
+      "raw_text": "广东省广州市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "广州尚好菜食品有限公司",
+        "address": "广州市南沙区榄核镇榄北路110号B101",
+        "license": "SC11144011500492"
+      }
+    ],
+    "product_standard": [
+      "SB/T 10648"
+    ],
+    "storage_text": "冷藏保存(0-4℃)"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "43100eb28e284ec17a8d122a8b349d69162d178cb228016ce38380dc97bbe4d7",
+      "media_ref": "opf-media://sha256/43100eb28e284ec17a8d122a8b349d69162d178cb228016ce38380dc97bbe4d7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-yihao-orleans-chicken-202610",
+      "evidence_id": "sha256:43100eb28e284ec17a8d122a8b349d69162d178cb228016ce38380dc97bbe4d7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T06:42:13Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:43100eb28e284ec17a8d122a8b349d69162d178cb228016ce38380dc97bbe4d7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "504",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "14.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "3.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "623",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "120.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.56",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "316",
+      "331(iii)",
+      "407",
+      "412",
+      "415",
+      "450",
+      "451(i)",
+      "452(i)",
+      "500(i)",
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [
+        "soybeans"
+      ],
+      "declared_contains": [],
+      "inferred_from_ingredients": [
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "200",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1008",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "29.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "7.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "14",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "1246",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "241",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "3.12",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:6297eb41dd2db7b2931c1d0272e9dec2c8083c1f3b5a01a415b1621555e9c196",
+  "label_fingerprint": "sha256:c7b3ccd7c0c5979cfbb0628edaeaa973d5dd9893cab9eed83a1f478200e39839"
+}
