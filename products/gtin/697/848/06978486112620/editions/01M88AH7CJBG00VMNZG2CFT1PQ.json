@@ -159,7 +159,8 @@
       "type": "community_report",
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
-      "evidence_id": "ev:01M88AH7CJB9VNYKAP7RA2K1T3"
+      "evidence_id": "ev:01M88AH7CJB9VNYKAP7RA2K1T3",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -169,7 +170,8 @@
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "specimen_id": "sp-marketside-blueberry-acai-202611",
-      "evidence_id": "sha256:b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529"
+      "evidence_id": "sha256:b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -179,7 +181,8 @@
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "specimen_id": "sp-marketside-blueberry-acai-202611",
-      "evidence_id": "sha256:b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3"
+      "evidence_id": "sha256:b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -189,13 +192,15 @@
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "specimen_id": "sp-marketside-blueberry-acai-202611",
-      "evidence_id": "sha256:7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc"
+      "evidence_id": "sha256:7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc",
+      "provenance": "maintainer"
     },
     {
       "type": "community_report",
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
-      "evidence_id": "ev:01M88AKJ9SB6286DM319G5AMF2"
+      "evidence_id": "ev:01M88AKJ9SB6286DM319G5AMF2",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -210,7 +215,8 @@
         "sha256:b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3",
         "sha256:7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {

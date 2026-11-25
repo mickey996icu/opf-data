@@ -165,7 +165,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b"
+      "evidence_id": "sha256:7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -176,7 +177,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c"
+      "evidence_id": "sha256:1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -187,7 +189,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2"
+      "evidence_id": "sha256:5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -198,7 +201,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45"
+      "evidence_id": "sha256:78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -209,7 +213,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4"
+      "evidence_id": "sha256:33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -220,7 +225,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277"
+      "evidence_id": "sha256:ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -231,7 +237,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-11",
       "specimen_id": "sp-xinxiwang-202611",
-      "evidence_id": "sha256:7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff"
+      "evidence_id": "sha256:7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -249,7 +256,8 @@
         "sha256:ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277",
         "sha256:7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {
