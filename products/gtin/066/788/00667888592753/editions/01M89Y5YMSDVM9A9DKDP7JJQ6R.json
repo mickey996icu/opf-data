@@ -1,0 +1,403 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:00667888592753",
+  "edition_id": "01M89Y5YMSDVM9A9DKDP7JJQ6R",
+  "rev": 1,
+  "track": "AU/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "AU/FSANZ-1.2.8",
+    "net_content": [
+      {
+        "value": "85",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "42",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1500",
+          "unit": "kJ"
+        },
+        {
+          "nutrient": "protein",
+          "value": "2.4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "qualifier": "<",
+          "value": "1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "qualifier": "<",
+          "value": "1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "85.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "52.4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "29",
+          "unit": "mg"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "may_contain": [
+        "milk"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "Maltose syrup"
+          },
+          {
+            "name": "Sugar"
+          },
+          {
+            "name": "Concentrated apple juice"
+          },
+          {
+            "name": "Gelatine"
+          },
+          {
+            "name": "Banana Puree",
+            "qualifier": "3%"
+          },
+          {
+            "name": "Humectants",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "sorbitol",
+                "ins": "420",
+                "is_additive": true
+              },
+              {
+                "name": "glycerol",
+                "ins": "422",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Acidity Regulators",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "citric acid",
+                "ins": "330",
+                "is_additive": true
+              },
+              {
+                "name": "malic acid",
+                "ins": "296",
+                "is_additive": true
+              },
+              {
+                "name": "sodium citrate",
+                "ins": "331(iii)",
+                "is_additive": true
+              },
+              {
+                "name": "lactic acid",
+                "ins": "270",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Thickeners",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "carrageenan",
+                "ins": "407",
+                "is_additive": true
+              },
+              {
+                "name": "pectin",
+                "ins": "440",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Maltodextrin"
+          },
+          {
+            "name": "Flavour"
+          },
+          {
+            "name": "Sunflower oil"
+          },
+          {
+            "name": "Glazing agent",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "carnauba wax",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Colours",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "102",
+                "ins": "102",
+                "is_additive": true
+              },
+              {
+                "name": "171",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "AMOS",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "Peelerz Banana·Banane"
+      }
+    ],
+    "net_content_label": "85 g",
+    "serving_size_label": "42 g",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "Maltose syrup, Sugar, Concentrated apple juice, Gelatine, Banana Puree (3%), Humectants (sorbitol, glycerol), Acidity Regulators (citric acid, malic acid, sodium citrate, lactic acid), Thickeners (carrageenan, pectin), Maltodextrin, Flavour, Sunflower oil, Glazing agent (carnauba wax), Colours (102,171)."
+      }
+    ],
+    "allergens_raw_text": "May contain: Milk.",
+    "origin": {
+      "country": "CN",
+      "raw_text": "MADE IN CHINA"
+    },
+    "parties": [
+      {
+        "role": "importer",
+        "name": "DOLLARAMA AUSTRALIA PTY LTD",
+        "address": "245 RACECOURSE ROAD, KENSINGTON VIC 3031, AUSTRALIA"
+      }
+    ],
+    "packaging_code": "12-3125515-A",
+    "storage_text": "KEEP IN A COOL, DRY PLACE.",
+    "usage_text": "CAUTION: Lollies may become a choking hazard. Adult supervision recommended."
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "4bfc5f0483a914921a37a9c8832a855147e05bfc4d7c5caa2601673acba09d9f",
+      "media_ref": "opf-media://sha256/4bfc5f0483a914921a37a9c8832a855147e05bfc4d7c5caa2601673acba09d9f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-banana-85g",
+      "evidence_id": "sha256:4bfc5f0483a914921a37a9c8832a855147e05bfc4d7c5caa2601673acba09d9f"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "e5501d94ac12caffbf2d5cd7fc4fbe5c66d6e9a8d3724da6a747051a153d9566",
+      "media_ref": "opf-media://sha256/e5501d94ac12caffbf2d5cd7fc4fbe5c66d6e9a8d3724da6a747051a153d9566",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-banana-85g",
+      "evidence_id": "sha256:e5501d94ac12caffbf2d5cd7fc4fbe5c66d6e9a8d3724da6a747051a153d9566"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "68b8bc760242ef178cdd3d78656248da5425af4671a608b26eb1b9996e8ec356",
+      "media_ref": "opf-media://sha256/68b8bc760242ef178cdd3d78656248da5425af4671a608b26eb1b9996e8ec356",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-banana-85g",
+      "evidence_id": "sha256:68b8bc760242ef178cdd3d78656248da5425af4671a608b26eb1b9996e8ec356"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T18:06:12Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:4bfc5f0483a914921a37a9c8832a855147e05bfc4d7c5caa2601673acba09d9f",
+        "sha256:e5501d94ac12caffbf2d5cd7fc4fbe5c66d6e9a8d3724da6a747051a153d9566",
+        "sha256:68b8bc760242ef178cdd3d78656248da5425af4671a608b26eb1b9996e8ec356"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1500",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "2.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      },
+      "fat_saturated": {
+        "value": "1",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      },
+      "carbs_available": {
+        "value": "85.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "52.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "29",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "358.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.07",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "102",
+      "270",
+      "296",
+      "330",
+      "331(iii)",
+      "407",
+      "420",
+      "422",
+      "440"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": [
+        "milk"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "42",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "630",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.42",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.42",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "36",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "22",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "12.2",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "150.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.03",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:d4eb699ab3efac5e798a6938cf404ea85cfb45be83c586022dd1c31a1951702d",
+  "label_fingerprint": "sha256:46b15251de925641b287a08c6ea3cb43d508845faf83eed3b650b8398606918d"
+}
