@@ -1,0 +1,305 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06922577711056",
+  "edition_id": "01M88VKW5DK1GJF6GY86Y6ZXNB",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "950",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "291",
+          "unit": "kJ",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "protein",
+          "value": "3.6",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "4",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.8",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "60",
+          "unit": "mg",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "calcium",
+          "value": "120",
+          "unit": "mg",
+          "nrv_pct": "15"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "生牛乳",
+            "allergens": [
+              "milk"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "A2β-酪蛋白鲜牛奶"
+      }
+    ],
+    "declared_category": "巴氏杀菌乳",
+    "net_content_label": "950mL",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "生牛乳"
+      }
+    ],
+    "allergens_raw_text": "本产品中含有乳成分",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "君乐宝乳业集团股份有限公司",
+        "address": "河北省石家庄市鹿泉区石铜路68号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "威县乐牛乳业有限公司",
+        "address": "河北省邢台市威县乳业园区迎宾大道6号",
+        "plant_code": "F",
+        "license": "SC10513053300453"
+      },
+      {
+        "role": "manufacturer",
+        "name": "正阳君乐宝乳业有限公司",
+        "address": "河南省驻马店市正阳县真阳镇君乐宝大道68号",
+        "plant_code": "D",
+        "license": "SC10541172400014"
+      }
+    ],
+    "product_standard": [
+      "GB 19645"
+    ],
+    "shelf_life": {
+      "value": "21",
+      "unit": "day"
+    },
+    "storage_text": "2℃~6℃保存",
+    "special_indicators": [
+      {
+        "name": "非脂乳固体",
+        "qualifier": ">=",
+        "value": "8.6",
+        "unit": "g/100g"
+      },
+      {
+        "name": "A2β-酪蛋白",
+        "qualifier": ">=",
+        "value": "10",
+        "unit": "g/L"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "7db54b832f0a1f0599bece7d18313face938c4e52a196ead404f874060caaec3",
+      "media_ref": "opf-media://sha256/7db54b832f0a1f0599bece7d18313face938c4e52a196ead404f874060caaec3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-a2-milk-202611",
+      "evidence_id": "sha256:7db54b832f0a1f0599bece7d18313face938c4e52a196ead404f874060caaec3"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "0d69ed57ea9036e9a05952d366dfe5714f848a5a5c2bf0d2ab31deddb2a95e4c",
+      "media_ref": "opf-media://sha256/0d69ed57ea9036e9a05952d366dfe5714f848a5a5c2bf0d2ab31deddb2a95e4c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-a2-milk-202611",
+      "evidence_id": "sha256:0d69ed57ea9036e9a05952d366dfe5714f848a5a5c2bf0d2ab31deddb2a95e4c"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "88ff35cdcfc6d519c25edcaddf9a57aea6a77176d74521554bdcff751044587e",
+      "media_ref": "opf-media://sha256/88ff35cdcfc6d519c25edcaddf9a57aea6a77176d74521554bdcff751044587e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-a2-milk-202611",
+      "evidence_id": "sha256:88ff35cdcfc6d519c25edcaddf9a57aea6a77176d74521554bdcff751044587e"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:02:08Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:7db54b832f0a1f0599bece7d18313face938c4e52a196ead404f874060caaec3",
+        "sha256:0d69ed57ea9036e9a05952d366dfe5714f848a5a5c2bf0d2ab31deddb2a95e4c",
+        "sha256:88ff35cdcfc6d519c25edcaddf9a57aea6a77176d74521554bdcff751044587e"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "291",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "3.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "60",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "calcium": {
+        "value": "120",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "69.6",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.15",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "950",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "2764.5",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "34.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "38",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "45.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "570",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "calcium": {
+          "value": "1140",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "661.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "1.43",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7e3e6b2023d6c2ed64fa1db2001bd3206995a9ab2f1ea97ff83384f66a53aa2a",
+  "label_fingerprint": "sha256:cd7ee249ea79e175c4eccc476b13e845859dfbfae7474124de300f0ffd7f8f2a"
+}
