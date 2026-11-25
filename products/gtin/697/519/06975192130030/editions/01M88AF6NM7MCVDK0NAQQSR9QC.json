@@ -1,0 +1,331 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06975192130030",
+  "edition_id": "01M88AF6NM7MCVDK0NAQQSR9QC",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "90",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "184",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "1",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "9.8",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "7.4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "草莓"
+          },
+          {
+            "name": "蓝莓"
+          },
+          {
+            "name": "桑葚"
+          },
+          {
+            "name": "树莓"
+          },
+          {
+            "name": "黑莓"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "每日莓果"
+      }
+    ],
+    "brand": "素坊",
+    "declared_category": "速冻水果 生制品",
+    "net_content_label": "90g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "草莓、蓝莓、桑葚、树莓、黑莓"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "山东省滨州市",
+      "raw_text": "山东省滨州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "凯拓(上海)食品有限公司",
+        "address": "上海市嘉定区江桥镇丰华路777号1幢1层102室"
+      },
+      {
+        "role": "manufacturer",
+        "name": "滨州亿德福食品有限公司",
+        "address": "滨州市滨城区长江一路韩国工业园",
+        "license": "SC11137160100576"
+      }
+    ],
+    "product_standard": [
+      "Q/SEDF 0004S"
+    ],
+    "shelf_life": {
+      "value": "18",
+      "unit": "month"
+    },
+    "storage_text": "-18℃及以下冷冻保存",
+    "claims_text": [
+      "5重水果风味",
+      "≈39kcal 每包热量",
+      "≈139mg 每包花青素",
+      "每100g花青素为155mg"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "evidence_id": "ev:01M88AF6BF7S11XK49C4JZ963X"
+    },
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "2a666cd29b470c406b5575c553c880b40007f6292d904233c1c6b8f0425894fe",
+      "media_ref": "opf-media://sha256/2a666cd29b470c406b5575c553c880b40007f6292d904233c1c6b8f0425894fe",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-sofine-daily-berry-202610",
+      "evidence_id": "sha256:2a666cd29b470c406b5575c553c880b40007f6292d904233c1c6b8f0425894fe"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "b3886b481db387af2b2a73afeec3ab1eeb1bb6661d3d3c5d600fbe5a626cb09e",
+      "media_ref": "opf-media://sha256/b3886b481db387af2b2a73afeec3ab1eeb1bb6661d3d3c5d600fbe5a626cb09e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-sofine-daily-berry-202610",
+      "evidence_id": "sha256:b3886b481db387af2b2a73afeec3ab1eeb1bb6661d3d3c5d600fbe5a626cb09e"
+    },
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "evidence_id": "ev:01M88ANYXJND9V8094QNFA9B2P"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T03:02:29Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "ev:01M88AF6BF7S11XK49C4JZ963X",
+        "sha256:2a666cd29b470c406b5575c553c880b40007f6292d904233c1c6b8f0425894fe",
+        "sha256:b3886b481db387af2b2a73afeec3ab1eeb1bb6661d3d3c5d600fbe5a626cb09e"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "184",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "9.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "7.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "qualifier": "<",
+        "value": "5",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "energy_kcal": {
+        "value": "44",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.01",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "90",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "165.6",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "0.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.45",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.45",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "8.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "6.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "4.5",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "energy_kcal": {
+          "value": "39.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.009",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sodium",
+      "detail": "Declared 0 mg under CN/GB28050-2025 zero-threshold rule implies <5 mg/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:ca86f79fb86a4634b50551fdab51e937d67680e2b2874ae6d9c5e4f2ca2c0072",
+  "label_fingerprint": "sha256:2cc4f292ff6d1a1fa1da130a1b0f6fa70a70ac799332693c9b5eea2e34bc0d04"
+}
