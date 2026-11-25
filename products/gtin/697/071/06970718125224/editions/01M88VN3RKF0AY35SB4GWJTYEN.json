@@ -203,6 +203,18 @@
       "vintage_month": "2026-09",
       "specimen_id": "sp-growthpower-chicken-strips-202609",
       "evidence_id": "sha256:0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad",
+      "media_ref": "opf-media://sha256/c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-growthpower-chicken-strips-202609",
+      "evidence_id": "sha256:c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad"
     }
   ],
   "revisions": [
@@ -214,7 +226,8 @@
       "provenance": "maintainer",
       "evidence_refs": [
         "sha256:e6b684c9f7e0d3b7e5df6ff9da46d0aa5a670dfa1f549fd5b5149598f11aaac7",
-        "sha256:0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d"
+        "sha256:0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d",
+        "sha256:c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad"
       ],
       "patch": []
     }
