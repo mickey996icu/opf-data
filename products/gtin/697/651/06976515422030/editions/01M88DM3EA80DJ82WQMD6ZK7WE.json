@@ -1,0 +1,319 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06976515422030",
+  "edition_id": "01M88DM3EA80DJ82WQMD6ZK7WE",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "102",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1296",
+          "unit": "kJ",
+          "nrv_pct": "15"
+        },
+        {
+          "nutrient": "protein",
+          "value": "2.9",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "69.7",
+          "unit": "g",
+          "nrv_pct": "23"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "69.6",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "7.7",
+          "unit": "g",
+          "nrv_pct": "31"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "420",
+          "unit": "mg",
+          "nrv_pct": "21"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "凤梨",
+            "qualifier": "添加量≥95%"
+          },
+          {
+            "name": "食用盐",
+            "qualifier": "≥0.05%",
+            "children": [
+              {
+                "name": "海盐"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "海盐金钻凤梨圈"
+      }
+    ],
+    "declared_category": "水果干制品",
+    "net_content_label": "102克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "凤梨（添加量≥95%）、食用盐（海盐）≥0.05%"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "安徽省合肥市",
+      "raw_text": "安徽省合肥市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "安徽滋滋果食品科技有限公司",
+        "address": "安徽省合肥市肥东县肥东经济开发区桂王路666号2幢",
+        "license": "SC11734012231281"
+      }
+    ],
+    "product_standard": [
+      "Q/ZZG 0001S"
+    ],
+    "storage_text": "未开封状态下保存于常温、避光、阴凉干燥处,避免高温、潮湿;开封后宜密闭冷藏,及时食用。",
+    "usage_text": "开袋即食。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "a494e3ca75500aabf8e8662921ef2fd39348219b3aaed513eab17a22df9bb3fd",
+      "media_ref": "opf-media://sha256/a494e3ca75500aabf8e8662921ef2fd39348219b3aaed513eab17a22df9bb3fd",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-pineapple-rings-202609",
+      "evidence_id": "sha256:a494e3ca75500aabf8e8662921ef2fd39348219b3aaed513eab17a22df9bb3fd"
+    },
+    {
+      "type": "label_photo",
+      "region": "ingredients_box",
+      "cropped_sha256": "8a3c9d3c6ee76197f3af960507c683b46eedb5ea5652465d78d289079c456645",
+      "media_ref": "opf-media://sha256/8a3c9d3c6ee76197f3af960507c683b46eedb5ea5652465d78d289079c456645",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-pineapple-rings-202609",
+      "evidence_id": "sha256:8a3c9d3c6ee76197f3af960507c683b46eedb5ea5652465d78d289079c456645"
+    },
+    {
+      "type": "label_photo",
+      "region": "nutrition_table",
+      "cropped_sha256": "ba15d7279e9456f29e847454583bc016357d85ba43616081527fd9c691b8a7f8",
+      "media_ref": "opf-media://sha256/ba15d7279e9456f29e847454583bc016357d85ba43616081527fd9c691b8a7f8",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-pineapple-rings-202609",
+      "evidence_id": "sha256:ba15d7279e9456f29e847454583bc016357d85ba43616081527fd9c691b8a7f8"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T03:57:35Z",
+      "author": "github:contributor",
+      "evidence_refs": [
+        "sha256:a494e3ca75500aabf8e8662921ef2fd39348219b3aaed513eab17a22df9bb3fd",
+        "sha256:8a3c9d3c6ee76197f3af960507c683b46eedb5ea5652465d78d289079c456645",
+        "sha256:ba15d7279e9456f29e847454583bc016357d85ba43616081527fd9c691b8a7f8"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1296",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "2.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "69.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "69.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "dietary_fiber": {
+        "value": "7.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "420",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "309.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.05",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "102",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1321.9",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.51",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.51",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "71.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "71",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "7.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "428.4",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "316",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "1.07",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:6b8d2e65b2b314d89d5df7cf197db49bd82d66170943feafe00dae7027e2093f",
+  "label_fingerprint": "sha256:766ecd59e2cfd3e13c030013be35509e357df0b02667caa43ed39d12371c54d6"
+}
