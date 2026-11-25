@@ -1,0 +1,121 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06939729915002",
+  "edition_id": "01M89Q4M2BE4XFJ9VYQ8XSXE02",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "350",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "packaged_water",
+      "legal_basis": "GB 28050-2011 豁免（包装饮用水，执行标准 GB 19298）"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "今麦郎",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "饮用纯净水"
+      }
+    ],
+    "net_content_label": "350mL",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水"
+      }
+    ],
+    "product_standard": [
+      "GB 19298"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "请置于阴凉干燥处；避免暴晒、高温或冰冻，适合常温或冷藏饮用",
+    "origin": {
+      "country": "CN",
+      "region": "浙江省杭州市",
+      "raw_text": "浙江省杭州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "今麦郎饮品股份有限公司",
+        "address": "北京市密云区经济开发区科技路38号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "今麦郎饮品(杭州)有限公司",
+        "address": "浙江省杭州市桐庐县凤川街道凤川大道358号1幢",
+        "plant_code": "HZ",
+        "license": "SC10633012203597"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "10a892ff97468448a3405e0979adba1dd20cc9634145146cfa625ba401f0ef3f",
+      "media_ref": "opf-media://sha256/10a892ff97468448a3405e0979adba1dd20cc9634145146cfa625ba401f0ef3f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-jinmailang-water-350ml-202611",
+      "evidence_id": "sha256:10a892ff97468448a3405e0979adba1dd20cc9634145146cfa625ba401f0ef3f"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T16:03:08Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:10a892ff97468448a3405e0979adba1dd20cc9634145146cfa625ba401f0ef3f"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'packaged_water' (GB 28050-2011 豁免（包装饮用水，执行标准 GB 19298）); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:92b5229f7443a97f011989c5c3b7f2ded1e7b6f571c2d4f4669e7bf102331391",
+  "label_fingerprint": "sha256:47da52e2d33667a9611fab600ff766847ca0e86ae92c0929d95e837ae580411d"
+}
