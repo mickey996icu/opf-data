@@ -1,0 +1,111 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:langlu/drinking-water/350ml",
+  "edition_id": "01M89MMAJFZZP47W9Z7XFB92PR",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "350",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "packaged_water",
+      "legal_basis": "GB 28050-2011 豁免（包装饮用水）"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "朗露",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "包装饮用水"
+      }
+    ],
+    "net_content_label": "350ml",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水"
+      }
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "常温阴凉干燥处保存",
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市",
+      "raw_text": "广东省东莞市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "东莞市朗露饮用水有限公司",
+        "address": "东莞市大朗镇松水路908号101室"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "ef20a79ca6f2135868aef6fe1e5139912bb8d2367e0fd5be681ff25d5c93b576",
+      "media_ref": "opf-media://sha256/ef20a79ca6f2135868aef6fe1e5139912bb8d2367e0fd5be681ff25d5c93b576",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-langlu-water-350ml-202611",
+      "evidence_id": "sha256:ef20a79ca6f2135868aef6fe1e5139912bb8d2367e0fd5be681ff25d5c93b576"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T15:19:17Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:ef20a79ca6f2135868aef6fe1e5139912bb8d2367e0fd5be681ff25d5c93b576"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'packaged_water' (GB 28050-2011 豁免（包装饮用水）); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:92b5229f7443a97f011989c5c3b7f2ded1e7b6f571c2d4f4669e7bf102331391",
+  "label_fingerprint": "sha256:e3074c1d19f177b35c2839363532baeaf50a9cec5e8f16715809af58775dd4d9"
+}
