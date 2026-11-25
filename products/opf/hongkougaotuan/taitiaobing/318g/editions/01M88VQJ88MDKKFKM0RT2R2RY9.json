@@ -1,0 +1,297 @@
+{
+  "opf_schema": "0.2",
+  "id": "opf:hongkougaotuan/taitiaobing/318g",
+  "edition_id": "01M88VQJ88MDKKFKM0RT2R2RY9",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "318",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "2104",
+          "unit": "kJ",
+          "nrv_pct": "25"
+        },
+        {
+          "nutrient": "protein",
+          "value": "5.7",
+          "unit": "g",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "23",
+          "unit": "g",
+          "nrv_pct": "38"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "68",
+          "unit": "g",
+          "nrv_pct": "23"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "259",
+          "unit": "mg",
+          "nrv_pct": "13"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "小麦粉",
+            "allergens": [
+              "gluten_cereals"
+            ]
+          },
+          {
+            "name": "饮用水"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "大豆油",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "非转基因"
+              }
+            ]
+          },
+          {
+            "name": "奶油",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "新西兰黄油",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "芝麻",
+            "allergens": [
+              "sesame"
+            ]
+          },
+          {
+            "name": "海苔粉"
+          },
+          {
+            "name": "碳酸氢钠",
+            "ins": "500(ii)",
+            "is_additive": true
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "上海虹口糕团",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "苔条饼"
+      }
+    ],
+    "declared_category": "烘烤类糕点",
+    "net_content_label": "318克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "小麦粉，饮用水，白砂糖，大豆油（非转基因），奶油，新西兰黄油，芝麻，海苔粉，碳酸氢钠"
+      }
+    ],
+    "allergens_raw_text": "含豆类、麸质的谷物及其制品",
+    "origin": {
+      "country": "CN",
+      "region": "江苏南通市",
+      "raw_text": "江苏南通市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "上海虹口糕团食品厂南通分厂",
+        "address": "江苏省南通市通州区二甲镇余北居一组",
+        "license": "SC10132061201349"
+      }
+    ],
+    "product_standard": [
+      "GB/T20977"
+    ],
+    "shelf_life": {
+      "value": "45",
+      "unit": "day"
+    },
+    "storage_text": "阴凉干燥处"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "033d5f7f1c46a45f7508a8b27c4683e2b6a8b61bfe6ea5c619bd2c1ab2e1c4b3",
+      "media_ref": "opf-media://sha256/033d5f7f1c46a45f7508a8b27c4683e2b6a8b61bfe6ea5c619bd2c1ab2e1c4b3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-hongkougaotuan-taitiaobing-202609",
+      "evidence_id": "sha256:033d5f7f1c46a45f7508a8b27c4683e2b6a8b61bfe6ea5c619bd2c1ab2e1c4b3"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:04:09Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:033d5f7f1c46a45f7508a8b27c4683e2b6a8b61bfe6ea5c619bd2c1ab2e1c4b3"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "2104",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "5.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "23",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "68",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "259",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "502.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.65",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "milk",
+        "sesame",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "gluten_cereals",
+        "milk",
+        "sesame",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "318",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "6690.7",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "18.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "73.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "216.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "823.6",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "1599.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "2.07",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:631d4bd9e2620708e26967a2c6bd8a1c324ab9c99c4e7069554412894e6b42ab",
+  "label_fingerprint": "sha256:a78c8d379ef76cdfd915b97da2dfa3f7e30f59849d417a4cead7e37db877dd8d"
+}
