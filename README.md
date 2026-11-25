@@ -2,9 +2,9 @@
 
 **[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Italiano](README.it.md)** · **[🌐 Live Web Explorer & Static API](https://mickey996icu.github.io/opf-data/)** · **[🖼️ Label Media Store (`opf-media`)](https://github.com/mickey996icu/opf-media)** · **[🧰 Tooling, Spec & Agent Skill (`open-packaged-food`)](https://github.com/mickey996icu/open-packaged-food)**
 
-This repository is the canonical open database for **OpenPackagedFood (`opf` v0.2)**, hosting directory-structured, verified industrial packaged food JSON records (`products/`), official registry errata overlays (`overlays/`), and the automated GitHub Pages zero-auth static API (`/v1/`) and bilingual web database explorer. Cropped label evidence binaries live in the separate [`opf-media`](https://github.com/mickey996icu/opf-media) repository and are referenced solely via location-independent `opf-media://sha256/<hex>` URIs.
+This repository is the canonical open database for **OpenPackagedFood (`opf` v0.2)**, hosting directory-structured industrial packaged food JSON records backed by cropped label photos or public registry sources (`products/`), official registry errata overlays (`overlays/`), and the automated GitHub Pages zero-auth static API (`/v1/`) and 7-language web database explorer. Cropped label evidence binaries live in the separate [`opf-media`](https://github.com/mickey996icu/opf-media) repository and are referenced solely via location-independent `opf-media://sha256/<hex>` URIs.
 
-> **Clean Initialization (`products/.gitkeep`)**: `opf-data` initializes cleanly with `0` pre-populated placeholder records and never ships synthetic or unphotographed commercial seed data; only authentic community-verified submissions (or CC0 official registry imports) are admitted under `products/`.
+> **Clean Initialization (`products/.gitkeep`)**: `opf-data` initializes cleanly with `0` pre-populated placeholder records and never ships synthetic or unphotographed commercial seed data; only submissions backed by cropped label photos (or CC0 official public registries) are admitted under `products/`.
 
 ---
 
@@ -13,7 +13,7 @@ This repository is the canonical open database for **OpenPackagedFood (`opf` v0.
 - **Online Web Explorer & Static API Root**: [https://mickey996icu.github.io/opf-data/](https://mickey996icu.github.io/opf-data/) (read-only 7-language explorer with pure-static client-side barcode/QR scanning, Light & Dark themes)
 - **Cropped Label Media Store**: [`mickey996icu/opf-media`](https://github.com/mickey996icu/opf-media)
 - **Specification, CLI & Agent Skill Repository**: [`mickey996icu/open-packaged-food`](https://github.com/mickey996icu/open-packaged-food)
-- **Licensing**: [**ODbL-1.0** (Database) / **DbCL-1.0** (Contents)](LICENSE-DATA) · [**CC BY-SA 4.0** (Cropped Label Evidence Media)](LICENSE-MEDIA)
+- **Licensing & Data Boundaries**: [**ODbL-1.0** (Database) / **DbCL-1.0** (Contents)](LICENSE-DATA) · [**CC BY-SA 4.0** (Cropped Label Evidence Media)](LICENSE-MEDIA) · [**Data Limitations**](https://github.com/mickey996icu/open-packaged-food/blob/main/docs/DATA-LIMITATIONS.md) · [**Report Errata / Retraction**](https://github.com/mickey996icu/opf-data/issues/new?template=data_errata.yml)
 
 ---
 
@@ -91,7 +91,7 @@ If duplicate concurrent submissions were consolidated, consult `edition_redirect
 Developers who already have `uvx` and an authenticated `gh` session (`gh auth login`) may optionally run `opf pr` instead of manual git branching/pushing:
 
 ```bash
-uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.4 \
+uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.5 \
   opf pr --input draft.json \
   --photo nutrition_table=crop_nutrition.jpg \
   --photo ingredients_box=crop_ingredients.jpg \

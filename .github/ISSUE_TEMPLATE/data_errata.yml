@@ -12,6 +12,7 @@ body:
 
         > 📖 新增商品请使用开发者纯 Git 双仓 PR 流程（详见 [`CONTRIBUTING.md`](https://github.com/mickey996icu/open-packaged-food/blob/main/CONTRIBUTING.md)）。
         > 严禁在 Issue 中提交完整正面商业包装封面图、购买日期、价格、小票或精确到日的生产/到期批号（仅限 `YYYY-MM` 年月）。
+        > ⚠️ 涉及致敏原错漏、未列明配料或需停产/撤回（`retracted`）隔离的报告将**优先处理**（不设定固定响应时限承诺）。
 
   - type: input
     id: product_id
@@ -36,10 +37,10 @@ body:
     attributes:
       label: "变更类别 / Change Kind"
       options:
-        - "errata — 营养数值 / 配料文本 / 厂家字段勘误 (Field Errata)"
+        - "errata — 营养数值 / 配料文本 / 致敏原 / 厂家字段勘误 (Field Errata)"
         - "retrack — 同条码不同工厂/配料轨道拆分或合并 (Track Split / Merge)"
         - "lifecycle — 停产 (discontinued) 或撤回 (retracted)"
-        - "evidence — 补充局部文字裁剪图核验或报告断链"
+        - "evidence — 补充局部文字裁剪照片或报告断链"
       default: 0
     validations:
       required: true
