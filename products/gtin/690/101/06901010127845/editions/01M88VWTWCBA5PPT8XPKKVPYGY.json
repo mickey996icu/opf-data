@@ -1,0 +1,377 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06901010127845",
+  "edition_id": "01M88VWTWCBA5PPT8XPKKVPYGY",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "330",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "139",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "8.2",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "7.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "20",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "果葡糖浆"
+          },
+          {
+            "name": "酸梅浓缩汁",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "乌梅"
+              },
+              {
+                "name": "山楂"
+              },
+              {
+                "name": "橘皮",
+                "children": [
+                  {
+                    "name": "陈皮"
+                  }
+                ]
+              },
+              {
+                "name": "甘草"
+              },
+              {
+                "name": "桂花"
+              }
+            ]
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "二氧化碳",
+            "ins": "290",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸钠",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "焦糖色",
+            "ins": "150a",
+            "is_additive": true
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          },
+          {
+            "name": "甜菊糖苷",
+            "ins": "960a",
+            "is_additive": true
+          },
+          {
+            "name": "蔗糖素"
+          },
+          {
+            "name": "食用香精"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "健力宝",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乌梅爽爽乌梅味汽水"
+      }
+    ],
+    "net_content_label": "330ml",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、果葡糖浆、酸梅浓缩汁(水、乌梅、山楂、橘皮(陈皮)、甘草、桂花)、食用盐、二氧化碳、柠檬酸、柠檬酸钠、焦糖色、山梨酸钾、甜菊糖苷、蔗糖素、食用香精"
+      }
+    ],
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "广东健力宝股份有限公司",
+        "address": "广东省佛山市三水区西南街道金港路58号",
+        "plant_code": "SS",
+        "license": "SC10644060700170"
+      },
+      {
+        "role": "manufacturer",
+        "name": "北京广东健力宝饮料有限公司",
+        "address": "北京市怀柔区雁栖镇下庄432号",
+        "plant_code": "BJ",
+        "license": "SC10611160412107"
+      },
+      {
+        "role": "manufacturer",
+        "name": "陕西健力宝饮料有限公司",
+        "address": "陕西省咸阳市三原县清河食品工业园区一路",
+        "plant_code": "SX",
+        "license": "SC10661042200304"
+      },
+      {
+        "role": "manufacturer",
+        "name": "健力宝(镇江)饮料有限公司",
+        "address": "江苏省镇江市丹徒区恒园路18号",
+        "plant_code": "ZJ",
+        "license": "SC10632111200061"
+      }
+    ],
+    "product_standard": [
+      "GB/T 10792"
+    ],
+    "shelf_life": {
+      "value": "18",
+      "unit": "month"
+    },
+    "storage_text": "在阴凉、干燥、通风处贮存，防止冻结，禁止加热，避免日光直接照射。",
+    "special_indicators": [
+      {
+        "name": "乌梅添加量",
+        "qualifier": ">=",
+        "value": "10",
+        "unit": "mg/L"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "provenance": "maintainer",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-02",
+      "evidence_id": "ev:01M88VWTK0N5S73MPHKGW9AHB0"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:07:01Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "ev:01M88VWTK0N5S73MPHKGW9AHB0"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "139",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "8.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "7.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "20",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "33.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.05",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "202",
+      "290",
+      "330",
+      "331(iii)",
+      "960a"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "330",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "458.7",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.65",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "1.65",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "1.65",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "27.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "26.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "66",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "109.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.17",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:9e460dde476a246d991cc5431a39b98bbc77380a1113d17347420c46fdb84870",
+  "label_fingerprint": "sha256:e95a503358acddb58cbec28409220e7b0d4b63357f329fc56f5ba7c73d727cf5"
+}
