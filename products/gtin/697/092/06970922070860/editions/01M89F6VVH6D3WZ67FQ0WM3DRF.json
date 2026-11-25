@@ -1,0 +1,312 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06970922070860",
+  "edition_id": "01M89F6VVH6D3WZ67FQ0WM3DRF",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "800",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "545",
+          "unit": "kJ",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "protein",
+          "value": "17.7",
+          "unit": "g",
+          "nrv_pct": "30"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "6.6",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "3",
+          "unit": "g",
+          "nrv_pct": "15"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "177",
+          "unit": "mg",
+          "nrv_pct": "9"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛肉",
+            "qualifier": "添加量≥90%"
+          },
+          {
+            "name": "黑胡椒调味液",
+            "allergens": [
+              "gluten_cereals",
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "special_indicators": [
+      {
+        "name": "黑胡椒添加量",
+        "qualifier": ">=",
+        "value": "0.18",
+        "unit": "%"
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "黑椒组合装牛排 (1片眼肉+1片西冷+2片上脑)"
+      }
+    ],
+    "declared_category": "冷冻预制肉类食品(调味生制品)、非即食",
+    "net_content_label": "800g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛肉（添加量≥90%）、黑胡椒调味液（复合调味料）"
+      }
+    ],
+    "allergens_raw_text": "致敏物质提示:本产品含有大豆及其制品、麸质的谷物及其制品",
+    "origin": {
+      "country": "CN",
+      "region": "河北省沧州市",
+      "raw_text": "河北省沧州市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "河北德泰食品有限公司",
+        "address": "河北省沧州市献县本斋乡本斋西村036号",
+        "license": "SC10413092900483"
+      }
+    ],
+    "product_standard": [
+      "SB/T 10482"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "-18℃及以下冷冻贮存",
+    "usage_text": "将自然解冻后的牛排双面各煎烤一分半左右后即可食用(可根据个人喜好适当调整烹饪时间),出锅后静置三分钟左右,口感更佳。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "18666b1f08451f7eacd512cfcc7fd6852adbb8cbe155a6a8cbbb5901e182007e",
+      "media_ref": "opf-media://sha256/18666b1f08451f7eacd512cfcc7fd6852adbb8cbe155a6a8cbbb5901e182007e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-marketside-combo-steak-202610",
+      "evidence_id": "sha256:18666b1f08451f7eacd512cfcc7fd6852adbb8cbe155a6a8cbbb5901e182007e"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T13:44:33Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:18666b1f08451f7eacd512cfcc7fd6852adbb8cbe155a6a8cbbb5901e182007e"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "545",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "17.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "6.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "177",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "130.3",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.44",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "800",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "4360",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "141.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "52.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "24",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "4",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sugars_total": {
+          "value": "4",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "1416",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "1042.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "3.52",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:4c2768b5a449ff498afd31bbfac2e54c2f843c0cc048f09fe185e2d6e3edc8c6",
+  "label_fingerprint": "sha256:fb15f2351a5d163f51f136ac4389e48bbaad27c7856254af37d83708794fde87"
+}
