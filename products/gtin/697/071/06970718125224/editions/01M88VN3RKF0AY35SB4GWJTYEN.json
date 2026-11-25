@@ -1,0 +1,348 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06970718125224",
+  "edition_id": "01M88VN3RKF0AY35SB4GWJTYEN",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "500",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1497",
+          "unit": "kJ",
+          "nrv_pct": "18"
+        },
+        {
+          "nutrient": "protein",
+          "value": "28.3",
+          "unit": "g",
+          "nrv_pct": "47"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "7.2",
+          "unit": "g",
+          "nrv_pct": "12"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "44.1",
+          "unit": "g",
+          "nrv_pct": "15"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "635",
+          "unit": "mg",
+          "nrv_pct": "32"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "fish",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡胸肉"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "海藻糖"
+          },
+          {
+            "name": "豌豆粉"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "鱼露",
+            "allergens": [
+              "fish"
+            ]
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "酿造酱油",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "含焦糖色",
+                "ins": "150a",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "甘油",
+            "ins": "422",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "丙三醇",
+                "ins": "422",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "辣椒红",
+            "ins": "160c",
+            "is_additive": true
+          },
+          {
+            "name": "双乙酸钠",
+            "ins": "262(ii)",
+            "is_additive": true
+          },
+          {
+            "name": "食用香精香料"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "光合力量",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "手撕鸡肉条 (香辣味)"
+      },
+      {
+        "lang": "en",
+        "text": "HAND-PULLED CHICKEN STRIPS"
+      }
+    ],
+    "declared_category": "肉干",
+    "net_content_label": "500克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡胸肉、白砂糖、海藻糖、豌豆粉、食用盐、鱼露、植物油、酿造酱油（含焦糖色）、香辛料、甘油（丙三醇）、辣椒红、双乙酸钠、食用香精香料"
+      }
+    ],
+    "allergens_raw_text": "本产品含有大豆制品、鱼露",
+    "origin": {
+      "country": "CN",
+      "region": "福建省漳州市",
+      "raw_text": "福建省漳州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "山东和润健康科技有限公司",
+        "address": "山东省临沂市兰山区柳青街道枋河路与南京路交汇处临沂应用科学城B座609室"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漳州市东辉食品有限公司",
+        "address": "福建省漳州市龙海区海澄镇前厝村后厝355号2号厂房2楼",
+        "license": "SC10435068104260"
+      }
+    ],
+    "product_standard": [
+      "Q/ZZDH 0005S"
+    ],
+    "shelf_life": {
+      "value": "180",
+      "unit": "day"
+    },
+    "storage_text": "于阴凉、干燥处贮存",
+    "usage_text": "开罐即食"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "e6b684c9f7e0d3b7e5df6ff9da46d0aa5a670dfa1f549fd5b5149598f11aaac7",
+      "media_ref": "opf-media://sha256/e6b684c9f7e0d3b7e5df6ff9da46d0aa5a670dfa1f549fd5b5149598f11aaac7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-growthpower-chicken-strips-202609",
+      "evidence_id": "sha256:e6b684c9f7e0d3b7e5df6ff9da46d0aa5a670dfa1f549fd5b5149598f11aaac7"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d",
+      "media_ref": "opf-media://sha256/0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-growthpower-chicken-strips-202609",
+      "evidence_id": "sha256:0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad",
+      "media_ref": "opf-media://sha256/c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-growthpower-chicken-strips-202609",
+      "evidence_id": "sha256:c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:02:48Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:e6b684c9f7e0d3b7e5df6ff9da46d0aa5a670dfa1f549fd5b5149598f11aaac7",
+        "sha256:0cb8ae80d480a002cb0156470facb828883f1c0e932f13a14d1da4aa6886f13d",
+        "sha256:c88d13228cbb681d0f51cef72b312018a8d4522fb4d938c5ddd7be5f2456c1ad"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1497",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "28.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "7.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "44.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "635",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "357.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.59",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "160c",
+      "262(ii)",
+      "422"
+    ],
+    "allergens": {
+      "contains": [
+        "fish",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "fish",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "fish",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "500",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "7485",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "141.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "36",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "220.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "3175",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "1789",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "7.95",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:2ba6e9849c0aec246e65a527de900843fb88d38454d9ec32ee6556efb49094a8",
+  "label_fingerprint": "sha256:d46fcc6956213818e11c087653b485ab5f0834543068a71cf3987177be7968a7"
+}
