@@ -91,7 +91,7 @@ If duplicate concurrent submissions were consolidated, consult `edition_redirect
 Developers who already have `uvx` and an authenticated `gh` session (`gh auth login`) may optionally run `opf pr` instead of manual git branching/pushing:
 
 ```bash
-uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.5 \
+uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.6 \
   opf pr --input draft.json \
   --photo nutrition_table=crop_nutrition.jpg \
   --photo ingredients_box=crop_ingredients.jpg \
