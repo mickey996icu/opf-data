@@ -1,0 +1,238 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06931537104104",
+  "edition_id": "01M88DS1H24P7D2HY8GRPA1CJJ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "160",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1091",
+          "unit": "kJ",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "protein",
+          "value": "16.6",
+          "unit": "g",
+          "nrv_pct": "28"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "21.4",
+          "unit": "g",
+          "nrv_pct": "36"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "1",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "229",
+          "unit": "mg",
+          "nrv_pct": "11"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛肉",
+            "qualifier": "≥95%"
+          },
+          {
+            "name": "食用盐",
+            "qualifier": "≤3%"
+          },
+          {
+            "name": "黑胡椒碎",
+            "qualifier": "≤2%"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "澳洲黑椒鲜牛肉饼"
+      }
+    ],
+    "declared_category": "冷藏预制调理肉制品(非即食)",
+    "net_content_label": "160g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛肉≥95%,食用盐≤3%,黑胡椒碎≤2%"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市",
+      "raw_text": "广东省东莞市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "山东硕昌农牧有限公司",
+        "address": "C昌邑市新昌路北首"
+      },
+      {
+        "role": "manufacturer",
+        "name": "广东肉掌盟食品科技有限公司",
+        "address": "广东省东莞市塘厦镇凤宝路8号2栋2单元201室",
+        "license": "SC11144190022105"
+      }
+    ],
+    "product_standard": [
+      "Q/RZM 0001S"
+    ],
+    "storage_text": "0-4℃冷藏保存",
+    "usage_text": "该产品为非即食型产品,烧烤熟制后食用"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "05ac6f5881f9cb7d2d164ef2b1d5e171d76be2e8215fce64e543d67146b61b25",
+      "media_ref": "opf-media://sha256/05ac6f5881f9cb7d2d164ef2b1d5e171d76be2e8215fce64e543d67146b61b25",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-beef-patty-202611",
+      "evidence_id": "sha256:05ac6f5881f9cb7d2d164ef2b1d5e171d76be2e8215fce64e543d67146b61b25"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T04:00:17Z",
+      "author": "github:contributor",
+      "evidence_refs": [
+        "sha256:05ac6f5881f9cb7d2d164ef2b1d5e171d76be2e8215fce64e543d67146b61b25"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1091",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "16.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "21.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "229",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "260.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.57",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "160",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1745.6",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "26.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "34.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "1.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "366.4",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "417.3",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.91",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7be8973ca556776b67a452560794d8bbeba6a8e40c480b7ad2d08bd97591cc33",
+  "label_fingerprint": "sha256:b894b7b6e58797ecb32782ac27151d6f3879c7f5a6a99380b76f5a59890144c5"
+}
