@@ -1,0 +1,302 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06977175141927",
+  "edition_id": "01M89XPNW7BSBH3AQBQKCB7H45",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "120",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1570",
+          "unit": "kJ",
+          "nrv_pct": "19"
+        },
+        {
+          "nutrient": "protein",
+          "value": "6.4",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.5",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "82.7",
+          "unit": "g",
+          "nrv_pct": "28"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "434",
+          "unit": "mg",
+          "nrv_pct": "22"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "裙带菜"
+          },
+          {
+            "name": "冻干蟹棒",
+            "allergens": [
+              "crustaceans"
+            ]
+          },
+          {
+            "name": "鱼板",
+            "allergens": [
+              "fish"
+            ]
+          },
+          {
+            "name": "虾",
+            "allergens": [
+              "crustaceans"
+            ],
+            "children": [
+              {
+                "name": "虾仁",
+                "allergens": [
+                  "crustaceans"
+                ]
+              },
+              {
+                "name": "麻油",
+                "allergens": [
+                  "sesame"
+                ]
+              },
+              {
+                "name": "白砂糖"
+              },
+              {
+                "name": "谷氨酸钠",
+                "ins": "621",
+                "is_additive": true
+              },
+              {
+                "name": "食用盐"
+              },
+              {
+                "name": "三聚磷酸钠",
+                "ins": "451(i)",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "脱水香葱"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "顶正至臻&章小菜&铭享记",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "海鲜蔬菜包"
+      }
+    ],
+    "net_content_label": "6gx20包",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "裙带菜、冻干蟹棒、鱼板、虾（虾仁、麻油、白砂糖、谷氨酸钠、食用盐、三聚磷酸钠）、脱水香葱"
+      }
+    ],
+    "product_standard": [
+      "Q/DZKJ 0005S"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "放通风阴凉干燥处贮存",
+    "usage_text": "泡发食用：用200毫升开水泡发10分钟左右，泡软后，倒掉水可作为泡面、水饺馅料、蔬菜汤、炒饭、炒菜、面条、包子馅料等。",
+    "origin": {
+      "country": "CN",
+      "region": "江苏省泰州市兴化市",
+      "raw_text": "江苏省泰州市兴化市垛田街道王横工业区1号"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "兴化市顶正食品科技有限公司",
+        "address": "江苏省泰州市兴化市垛田街道王横工业区1号",
+        "license": "SC10632128108504"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "20d93f76f101009f8d0e25505ced3b7382801af65529c2a0cdbc6f9947f1f958",
+      "media_ref": "opf-media://sha256/20d93f76f101009f8d0e25505ced3b7382801af65529c2a0cdbc6f9947f1f958",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-dingzheng-veggie-120g",
+      "evidence_id": "sha256:20d93f76f101009f8d0e25505ced3b7382801af65529c2a0cdbc6f9947f1f958"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "a788a37b70188b51e96536a3d58454f97b3892c8d70eec8ef3ac51fc626794f3",
+      "media_ref": "opf-media://sha256/a788a37b70188b51e96536a3d58454f97b3892c8d70eec8ef3ac51fc626794f3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "specimen_id": "sp-dingzheng-veggie-120g",
+      "evidence_id": "sha256:a788a37b70188b51e96536a3d58454f97b3892c8d70eec8ef3ac51fc626794f3"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T17:57:51Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:20d93f76f101009f8d0e25505ced3b7382801af65529c2a0cdbc6f9947f1f958",
+        "sha256:a788a37b70188b51e96536a3d58454f97b3892c8d70eec8ef3ac51fc626794f3"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1570",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "6.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "82.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "434",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "375.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.09",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "451(i)",
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "crustaceans",
+        "fish",
+        "sesame"
+      ],
+      "declared_contains": [],
+      "inferred_from_ingredients": [
+        "crustaceans",
+        "fish",
+        "sesame"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "120",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1884",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "7.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "99.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "520.8",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "450.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "1.31",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:5c2d19695800eed93fef4b7e09591449670a3cd7a9216546fedda3182ace5b71",
+  "label_fingerprint": "sha256:afe3471f7346ac1c578e40649a730f6ce96902ca579593d7eff6acb35d32fb05"
+}
