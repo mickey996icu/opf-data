@@ -2,9 +2,9 @@
 
 **[English](README.md) | [简体中文](README.zh-CN.md) | [日本語](README.ja.md) | [Deutsch](README.de.md) | [Français](README.fr.md) | [Español](README.es.md) | [Italiano](README.it.md)** · **[🌐 在线检索网页与复杂筛选台](https://mickey996icu.github.io/opf-data/)** · **[🖼️ 标签图片媒体仓 (`opf-media`)](https://github.com/mickey996icu/opf-media)** · **[🧰 规范、CLI 工具链与 Agent Skill (`open-packaged-food`)](https://github.com/mickey996icu/open-packaged-food)**
 
-本仓库是 **OpenPackagedFood (`opf` v0.2)** 的官方开放数据库仓库，负责托管按目录拆分的经核验工业预包装食品 JSON 记录（`products/`）、官方数据源勘误补丁（`overlays/`），以及由 GitHub Actions 自动编译发布的零鉴权静态 API（`/v1/`）与中英双语检索网页。所有标签裁剪证据图均隔离托管于独立的 [`opf-media`](https://github.com/mickey996icu/opf-media) 仓库（通过 `opf-media://sha256/<hex>` 逻辑 URI 解耦，避免 Git 历史膨胀）。
+本仓库是 **OpenPackagedFood (`opf` v0.2)** 的官方开放数据库仓库，负责托管按目录拆分、附带标签裁剪照片或官方公开依据的工业预包装食品 JSON 记录（`products/`）、官方数据源勘误补丁（`overlays/`），以及由 GitHub Actions 自动编译发布的零鉴权静态 API（`/v1/`）与 7 语言检索网页。所有标签裁剪证据图均隔离托管于独立的 [`opf-media`](https://github.com/mickey996icu/opf-media) 仓库（通过 `opf-media://sha256/<hex>` 逻辑 URI 解耦，避免 Git 历史膨胀）。
 
-> **零虚构纯净初始化（`products/.gitkeep`）**：`opf-data` 仓库以 `0` 条占位记录纯净初始化，不预先填充任何无实拍佐证的商业品牌数据；`products/` 下仅接纳经实拍标签裁剪图或 CC0 官方开放库核验的真实商品投稿。
+> **零虚构纯净初始化（`products/.gitkeep`）**：`opf-data` 仓库以 `0` 条占位记录纯净初始化，不预先填充任何无实拍或官方依据的商业品牌数据；`products/` 下仅接纳附带裁剪标签照片或 CC0 官方开放库依据的真实商品投稿。
 
 ---
 
@@ -13,7 +13,7 @@
 - **在线检索网页与静态 API 根地址**：[https://mickey996icu.github.io/opf-data/](https://mickey996icu.github.io/opf-data/)（面向普通用户的只读检索与纯静态本地扫码网页，支持 7 语与浅色/深色主题）
 - **配套媒体仓（裁剪 WebP 证据图）**：[`mickey996icu/opf-media`](https://github.com/mickey996icu/opf-media)
 - **规范、CLI 工具链与 AI Agent Skill**：[`mickey996icu/open-packaged-food`](https://github.com/mickey996icu/open-packaged-food)
-- **开源许可协议**：[**ODbL-1.0**（数据库）/ **DbCL-1.0**（内容）](LICENSE-DATA) · [**CC BY-SA 4.0**（裁剪标签证据图）](LICENSE-MEDIA)
+- **开源许可与数据边界**：[**ODbL-1.0**（数据库）/ **DbCL-1.0**（内容）](LICENSE-DATA) · [**CC BY-SA 4.0**（裁剪标签证据图）](LICENSE-MEDIA) · [**数据局限性说明**](https://github.com/mickey996icu/open-packaged-food/blob/main/docs/DATA-LIMITATIONS.zh-CN.md) · [**报告勘误 / 撤回**](https://github.com/mickey996icu/opf-data/issues/new?template=data_errata.yml)
 
 ---
 
@@ -91,7 +91,7 @@ curl -s https://mickey996icu.github.io/opf-data/v1/gtin/000/000/00000000000017.j
 已安装 `uvx` 且完成 `gh auth login` 的开发者，也可选用 `opf pr` 一键自动化提交双 PR：
 
 ```bash
-uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.4 \
+uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.5 \
   opf pr --input draft.json \
   --photo nutrition_table=crop_nutrition.jpg \
   --photo ingredients_box=crop_ingredients.jpg \
