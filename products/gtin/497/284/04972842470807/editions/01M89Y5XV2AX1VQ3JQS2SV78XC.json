@@ -1,0 +1,349 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:04972842470807",
+  "edition_id": "01M89Y5XV2AX1VQ3JQS2SV78XC",
+  "rev": 1,
+  "track": "HK/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "HK/CFS-132W",
+    "net_content": [
+      {
+        "value": "240",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "46",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "11.5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "10.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "12",
+          "unit": "mg"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "Water"
+          },
+          {
+            "name": "High Fructose Corn Syrup"
+          },
+          {
+            "name": "Melon Juice"
+          },
+          {
+            "name": "Flavor"
+          },
+          {
+            "name": "Carbonating Agent",
+            "children": [
+              {
+                "name": "E290",
+                "ins": "290",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Acidity Regulator",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E330",
+                "ins": "330",
+                "is_additive": true
+              },
+              {
+                "name": "E339",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Color",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E150a",
+                "ins": "150a",
+                "is_additive": true
+              },
+              {
+                "name": "E102",
+                "ins": "102",
+                "is_additive": true
+              },
+              {
+                "name": "E133",
+                "ins": "133",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "Kimura",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "Kimura Shizouka Muskmelon Cider 240mL"
+      }
+    ],
+    "net_content_label": "240mL",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "Water, High Fructose Corn Syrup, Melon Juice, Flavor, Carbonating Agent (E290), Acidity Regulator (E330, E339), Color (E150a, E102, E133)."
+      }
+    ],
+    "origin": {
+      "country": "JP",
+      "region": "Shizuoka",
+      "raw_text": "PRODUCT OF JAPAN"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "Kimura Drink Co. Ltd.",
+        "address": "2429 Miyagawacho, Shimada, Shizuoka 427-0044, JAPAN"
+      }
+    ],
+    "storage_text": "Keep at cool & dry place. Avoid direct sunlight.",
+    "usage_text": "Please consume immediately after opening."
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "5fba949e60a6f14fa13afbc1bd4bd034866b01c44643a9747d8949818d7c7d57",
+      "media_ref": "opf-media://sha256/5fba949e60a6f14fa13afbc1bd4bd034866b01c44643a9747d8949818d7c7d57",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-kimura-muskmelon-240ml-hk",
+      "evidence_id": "sha256:5fba949e60a6f14fa13afbc1bd4bd034866b01c44643a9747d8949818d7c7d57"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T18:06:11Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:5fba949e60a6f14fa13afbc1bd4bd034866b01c44643a9747d8949818d7c7d57"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "46",
+        "unit": "kcal",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "0.3",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "11.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "10.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "12",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kj": {
+        "value": "192.5",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.03",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "102",
+      "133",
+      "150a",
+      "290",
+      "330"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "240",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "110.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_trans": {
+          "value": "0.72",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "27.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "26.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "28.8",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "462",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.07",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under HK/CFS-132W zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under HK/CFS-132W zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under HK/CFS-132W zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g under HK/CFS-132W zero-threshold rule implies <0.3 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:3ec8d65426a86f7eef0c2ca212ea17f09bef2a8487c1c1c0425e795dfb4b4cb3",
+  "label_fingerprint": "sha256:17709ac0fcbdc4bd3d9ceeb93e3ddb8362cf396f85513b30576af528d1dfb813"
+}

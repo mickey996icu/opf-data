@@ -1,0 +1,492 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:04897053645656",
+  "edition_id": "01M89Y5WSPTY926EBXPAAG2VF7",
+  "rev": 1,
+  "track": "HK/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "HK/CFS-132W",
+    "net_content": [
+      {
+        "value": "50",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "25",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "25",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "147",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "1.4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "10.8",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "5.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "11",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "140",
+          "unit": "mg"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "Potato"
+          },
+          {
+            "name": "Palm Oil"
+          },
+          {
+            "name": "Flavour and Flavouring",
+            "children": [
+              {
+                "name": "Pork"
+              }
+            ]
+          },
+          {
+            "name": "White Sugar"
+          },
+          {
+            "name": "Tomato Powder"
+          },
+          {
+            "name": "Salt"
+          },
+          {
+            "name": "Hydrolysed Soya Protein",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "Flavour Enhancer",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "621",
+                "ins": "621",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Maltodextrin"
+          },
+          {
+            "name": "Anticaking Agent",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "551",
+                "ins": "551",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Colour",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "160c",
+                "ins": "160c",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Antioxidant",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "307b",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Sweetener",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "960",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lang": "zh-Hant",
+        "nodes": [
+          {
+            "name": "馬鈴薯"
+          },
+          {
+            "name": "棕櫚油"
+          },
+          {
+            "name": "調味料及調味劑",
+            "children": [
+              {
+                "name": "豬肉"
+              }
+            ]
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "番茄粉"
+          },
+          {
+            "name": "食鹽"
+          },
+          {
+            "name": "水解大豆蛋白",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "增味劑",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "621",
+                "ins": "621",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "麥芽糊精"
+          },
+          {
+            "name": "抗結劑",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "551",
+                "ins": "551",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "色素",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "160c",
+                "ins": "160c",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "抗氧化劑",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "307b",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "甜味劑",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "960",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "日清湖池屋",
+    "product_name": [
+      {
+        "lang": "zh-Hant",
+        "text": "日清湖池屋激肉魔薯大快活阿活焗豬扒飯味薯片 - 50克"
+      },
+      {
+        "lang": "en",
+        "text": "Nissin Koikeya Nikumucho Fairwood Ah Wood Baked Pork Chop with Rice Flavour Potato Chips - 50g"
+      }
+    ],
+    "net_content_label": "50克",
+    "serving_size_label": "25g/克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hant",
+        "text": "馬鈴薯、棕櫚油、調味料及調味劑(豬肉)、白砂糖、番茄粉、食鹽、水解大豆蛋白、增味劑(621)、麥芽糊精、抗結劑(551)、色素(160c)、抗氧化劑(307b)、甜味劑(960)。"
+      },
+      {
+        "lang": "en",
+        "text": "Potato, Palm Oil, Flavour and Flavouring (Pork), White Sugar, Tomato Powder, Salt, Hydrolysed Soya Protein, Flavour Enhancer (621), Maltodextrin, Anticaking Agent (551), Colour (160c), Antioxidant (307b), Sweetener (960)."
+      }
+    ],
+    "allergens_raw_text": "本產品含有下列過敏成分: 大豆 / 此產品含有大豆及其製品。 / This product contains soya beans and their products.",
+    "origin": {
+      "country": "CN",
+      "raw_text": "中國製造 Product of China"
+    },
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "日清湖池屋（中國‧香港）有限公司",
+        "address": "香港新界大埔工業邨大順街11-13號"
+      }
+    ],
+    "storage_text": "請存放於陰涼乾爽處。避免陽光直射。請勿將此產品與含有強烈氣味的物件一同存放，否則有可能會發生氣味轉移。",
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "NISSIN KOIKEYA",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "41530e9d7b799dadc1a3c05bce33176a4352ce1504027342a869d16e03db985f",
+      "media_ref": "opf-media://sha256/41530e9d7b799dadc1a3c05bce33176a4352ce1504027342a869d16e03db985f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nissin-porkchop-chips-50g",
+      "evidence_id": "sha256:41530e9d7b799dadc1a3c05bce33176a4352ce1504027342a869d16e03db985f"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "barcode_net_content",
+      "cropped_sha256": "2b5fee084e3c1db1cc5bf58e81b3ae35db4fbd178c027b0f46f877fbff0399a3",
+      "media_ref": "opf-media://sha256/2b5fee084e3c1db1cc5bf58e81b3ae35db4fbd178c027b0f46f877fbff0399a3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nissin-porkchop-chips-50g",
+      "evidence_id": "sha256:2b5fee084e3c1db1cc5bf58e81b3ae35db4fbd178c027b0f46f877fbff0399a3"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T18:06:10Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:41530e9d7b799dadc1a3c05bce33176a4352ce1504027342a869d16e03db985f",
+        "sha256:2b5fee084e3c1db1cc5bf58e81b3ae35db4fbd178c027b0f46f877fbff0399a3"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "588",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "5.6",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "value": "43.2",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_saturated": {
+        "value": "23.6",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "0.3",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "44",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "2.8",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "560",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kj": {
+        "value": "2460.2",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.4",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "160c",
+      "551",
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "soybeans"
+      ],
+      "declared_contains": [
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "25",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "147",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "10.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "5.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_trans": {
+          "value": "0.08",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "11",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "140",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "615.1",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.35",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 25g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g under HK/CFS-132W zero-threshold rule implies <0.3 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:d56598e2b68e17cbfc7b19055f6afca3f995f79ce0b693b7bec72cdb0616113c",
+  "label_fingerprint": "sha256:30b3231b75cc386610616969b443a1a4f9b052238b7ce4a46b16bdca806da63a"
+}
