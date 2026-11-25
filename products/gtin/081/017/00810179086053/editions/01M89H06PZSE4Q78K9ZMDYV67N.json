@@ -1,0 +1,528 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:00810179086053",
+  "edition_id": "01M89H06PZSE4Q78K9ZMDYV67N",
+  "rev": 1,
+  "track": "US/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "US/FDA-NLEA",
+    "net_content": [
+      {
+        "value": "170",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "30",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "30",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "110",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "cholesterol",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_total",
+          "value": "26",
+          "unit": "g",
+          "nrv_pct": "9"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "15",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_added",
+          "value": "13",
+          "unit": "g",
+          "nrv_pct": "26"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "35",
+          "unit": "mg",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "calcium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "iron",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "potassium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "vitamin_d",
+          "value": "0",
+          "unit": "ug",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "GLUCOSE SYRUP",
+            "children": [
+              {
+                "name": "FROM CORN"
+              }
+            ]
+          },
+          {
+            "name": "SUGAR"
+          },
+          {
+            "name": "WATER"
+          },
+          {
+            "name": "CONCENTRATED APPLE JUICE"
+          },
+          {
+            "name": "GELATIN"
+          },
+          {
+            "name": "GLYCEROL",
+            "ins": "422",
+            "is_additive": true
+          },
+          {
+            "name": "PECTIN",
+            "ins": "440",
+            "is_additive": true
+          },
+          {
+            "name": "CITRIC ACID",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "CONCENTRATED RASPBERRY JUICE"
+          },
+          {
+            "name": "MALIC ACID",
+            "ins": "296",
+            "is_additive": true
+          },
+          {
+            "name": "SODIUM CITRATE",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "ARTIFICIAL FLAVOR"
+          },
+          {
+            "name": "SODIUM HEXAMETAPHOSPHATE",
+            "ins": "452(i)",
+            "is_additive": true
+          },
+          {
+            "name": "COCONUT OIL"
+          },
+          {
+            "name": "AGAR",
+            "ins": "406",
+            "is_additive": true
+          },
+          {
+            "name": "COLORED WITH FRUIT AND VEGETABLE JUICES"
+          },
+          {
+            "name": "SPIRULINA EXTRACT"
+          },
+          {
+            "name": "CARNAUBA WAX"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "Amos",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "Peelerz Gummy Blue Raspberry"
+      }
+    ],
+    "declared_category": "GUMMY CANDY",
+    "net_content_label": "NET WT. 6 OZ (170 g)",
+    "serving_size_label": "6 Pieces (30g)",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "GLUCOSE SYRUP (FROM CORN), SUGAR, WATER, CONCENTRATED APPLE JUICE, GELATIN, GLYCEROL, PECTIN, CITRIC ACID, CONCENTRATED RASPBERRY JUICE, MALIC ACID, SODIUM CITRATE, ARTIFICIAL FLAVOR, SODIUM HEXAMETAPHOSPHATE, COCONUT OIL, AGAR, COLORED WITH FRUIT AND VEGETABLE JUICES, SPIRULINA EXTRACT, CARNAUBA WAX."
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "raw_text": "MADE IN CHINA"
+    },
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "AMOS SWEETS INC.",
+        "address": "475 S GRAND CENTRAL PKWY, LAS VEGAS, NV 89106, USA"
+      }
+    ],
+    "storage_text": "STORE IN A COOL, DRY PLACE. AWAY FROM DIRECT SUNLIGHT.",
+    "usage_text": "AGES 4+ CAUTION: SMALL OBJECTS SUCH AS HARD AND SOFT CANDIES MAY INADVERTENTLY BECOME LODGED IN THE THROAT."
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "6fbe32f35c28c52446790d0aa0635c5fc057efcd95a983ddbeb4ded99041874e",
+      "media_ref": "opf-media://sha256/6fbe32f35c28c52446790d0aa0635c5fc057efcd95a983ddbeb4ded99041874e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-blue-202611",
+      "evidence_id": "sha256:6fbe32f35c28c52446790d0aa0635c5fc057efcd95a983ddbeb4ded99041874e"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "28536e7c0b0a4e6ea8663b2db8f9d6f9111fe8daaf4b4ffdd6777a63af68712f",
+      "media_ref": "opf-media://sha256/28536e7c0b0a4e6ea8663b2db8f9d6f9111fe8daaf4b4ffdd6777a63af68712f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-blue-202611",
+      "evidence_id": "sha256:28536e7c0b0a4e6ea8663b2db8f9d6f9111fe8daaf4b4ffdd6777a63af68712f"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "33a44831e8961a492419d35014b3be53235a714b954d68c1592f4aab1761cc0d",
+      "media_ref": "opf-media://sha256/33a44831e8961a492419d35014b3be53235a714b954d68c1592f4aab1761cc0d",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-amos-peelerz-blue-202611",
+      "evidence_id": "sha256:33a44831e8961a492419d35014b3be53235a714b954d68c1592f4aab1761cc0d"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T14:15:52Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:6fbe32f35c28c52446790d0aa0635c5fc057efcd95a983ddbeb4ded99041874e",
+        "sha256:28536e7c0b0a4e6ea8663b2db8f9d6f9111fe8daaf4b4ffdd6777a63af68712f",
+        "sha256:33a44831e8961a492419d35014b3be53235a714b954d68c1592f4aab1761cc0d"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "366.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "3.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "1.67",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "1.67",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "1.67",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "cholesterol": {
+        "qualifier": "<",
+        "value": "6.67",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_total": {
+        "value": "86.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "50",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_added": {
+        "value": "43.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "dietary_fiber": {
+        "qualifier": "<",
+        "value": "1.67",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "116.7",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "calcium": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "iron": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "potassium": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "vitamin_d": {
+        "value": "0",
+        "unit": "ug",
+        "basis": "derived"
+      },
+      "energy_kj": {
+        "value": "1534.3",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.29",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "296",
+      "330",
+      "331(iii)",
+      "406",
+      "422",
+      "440",
+      "452(i)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "30",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "110",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_trans": {
+          "value": "0.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "cholesterol": {
+          "value": "2",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_total": {
+          "value": "26",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "15",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_added": {
+          "value": "13",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "0.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "35",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "calcium": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "iron": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "potassium": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "vitamin_d": {
+          "value": "0",
+          "unit": "ug",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "460.3",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.09",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 30g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g per 30g under US/FDA-NLEA implies <0.5 g/serving (<1.67 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g per 30g under US/FDA-NLEA implies <0.5 g/serving (<1.67 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g per 30g under US/FDA-NLEA implies <0.5 g/serving (<1.67 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "cholesterol",
+      "detail": "Declared 0 mg per 30g under US/FDA-NLEA implies <2 mg/serving (<6.67 mg/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "dietary_fiber",
+      "detail": "Declared 0 g per 30g under US/FDA-NLEA implies <0.5 g/serving (<1.67 g/100g)"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    },
+    {
+      "code": "CARBS_TOTAL_INCLUDES_FIBER",
+      "field": "carbs_total",
+      "detail": "US/FDA-NLEA declares total carbohydrates including dietary fiber"
+    }
+  ],
+  "core_fingerprint": "sha256:6ed2e2b98240784d251c5719d67461445d00f8dd618aa4e3d93c3b0fe705d82b",
+  "label_fingerprint": "sha256:180b19f65c7eff141c2c00201a07b7cac21e5d8189c939932c490a0f14866522"
+}
