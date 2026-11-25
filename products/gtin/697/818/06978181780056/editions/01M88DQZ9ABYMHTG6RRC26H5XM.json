@@ -1,0 +1,501 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06978181780056",
+  "edition_id": "01M88DQZ9ABYMHTG6RRC26H5XM",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "165",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "964",
+          "unit": "kJ",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "protein",
+          "value": "5.6",
+          "unit": "g",
+          "nrv_pct": "9"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "5",
+          "unit": "g",
+          "nrv_pct": "8"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1.2",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "40.2",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "2.8",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "1805",
+          "unit": "mg",
+          "nrv_pct": "90"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": [
+        "eggs",
+        "peanuts",
+        "tree_nuts"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "大米",
+            "functional_class": "调制干米粉包"
+          },
+          {
+            "name": "玉米淀粉"
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "水",
+            "functional_class": "卤汁包"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "酱油",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "含焦糖色"
+              }
+            ]
+          },
+          {
+            "name": "蚝油"
+          },
+          {
+            "name": "食用植物油"
+          },
+          {
+            "name": "牛肉"
+          },
+          {
+            "name": "猪骨"
+          },
+          {
+            "name": "冰糖"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "5'-呈味核苷酸二钠",
+            "ins": "635",
+            "is_additive": true
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          },
+          {
+            "name": "乳酸链球菌素",
+            "ins": "234",
+            "is_additive": true
+          },
+          {
+            "name": "酸豆角",
+            "functional_class": "酸豆角酸笋包",
+            "children": [
+              {
+                "name": "豆角"
+              },
+              {
+                "name": "水"
+              },
+              {
+                "name": "食用盐"
+              },
+              {
+                "name": "苯甲酸钠",
+                "ins": "211",
+                "is_additive": true
+              },
+              {
+                "name": "山梨酸钾",
+                "ins": "202",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "酸笋",
+            "children": [
+              {
+                "name": "竹笋"
+              },
+              {
+                "name": "水"
+              },
+              {
+                "name": "食用盐"
+              },
+              {
+                "name": "焦亚硫酸钠",
+                "ins": "223",
+                "is_additive": true,
+                "allergens": [
+                  "sulphites"
+                ]
+              },
+              {
+                "name": "苯甲酸钠",
+                "ins": "211",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "食用植物油"
+          },
+          {
+            "name": "辣椒"
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "豌豆",
+            "functional_class": "雪豆包"
+          },
+          {
+            "name": "食用植物油"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "洋葱粉"
+          },
+          {
+            "name": "食用植物油",
+            "functional_class": "辣椒油包"
+          },
+          {
+            "name": "食用猪油"
+          },
+          {
+            "name": "香葱"
+          },
+          {
+            "name": "辣椒"
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "小米葱",
+            "functional_class": "脱水葱包"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "艾泽拉斯",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "香辣桂林风味米粉"
+      }
+    ],
+    "net_content_label": "165克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "调制干米粉包:大米、玉米淀粉、水。卤汁包:水、食用盐、酱油(含焦糖色)、蚝油、食用植物油、牛肉、猪骨、冰糖、味精、香辛料、5'-呈味核苷酸二钠、山梨酸钾、乳酸链球菌素。酸豆角酸笋包:酸豆角(豆角、水、食用盐、苯甲酸钠、山梨酸钾)、酸笋(竹笋、水、食用盐、焦亚硫酸钠、苯甲酸钠)、食用植物油、辣椒、柠檬酸。雪豆包:豌豆、食用植物油、食用盐、白砂糖、洋葱粉。辣椒油包:食用植物油、食用猪油、香葱、辣椒、香辛料。脱水葱包:小米葱。"
+      }
+    ],
+    "allergens_raw_text": "含有大豆、含有麸质的谷物(小麦)。生产线同时加工花生、蛋类、坚果类制品。",
+    "origin": {
+      "country": "CN",
+      "region": "广西桂林市",
+      "raw_text": "广西桂林市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "桂林艾泽拉斯食品有限公司",
+        "address": "灵川县灵川镇粑粑厂村委独田村(地号:96)",
+        "license": "SC10345032301693"
+      }
+    ],
+    "product_standard": [
+      "Q/FDSP 0001S"
+    ],
+    "shelf_life": {
+      "value": "6",
+      "unit": "month"
+    },
+    "storage_text": "置于阴凉干燥处,避免阳光直射"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "db6e762f4332bbbcbace297442b40a426363006bf4262398501fcb475963fcac",
+      "media_ref": "opf-media://sha256/db6e762f4332bbbcbace297442b40a426363006bf4262398501fcb475963fcac",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-azeroth-guilin-noodle-202609",
+      "evidence_id": "sha256:db6e762f4332bbbcbace297442b40a426363006bf4262398501fcb475963fcac"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "47aaf99c8ec63060a647fa45a8776c32c56ae3ce92c2351daa035b851f714e51",
+      "media_ref": "opf-media://sha256/47aaf99c8ec63060a647fa45a8776c32c56ae3ce92c2351daa035b851f714e51",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-azeroth-guilin-noodle-202609",
+      "evidence_id": "sha256:47aaf99c8ec63060a647fa45a8776c32c56ae3ce92c2351daa035b851f714e51"
+    },
+    {
+      "type": "label_photo",
+      "region": "ingredients_box",
+      "cropped_sha256": "3dc508f81589d63f0b3e609d256db3493ef78d596472bf449775166c191c1a51",
+      "media_ref": "opf-media://sha256/3dc508f81589d63f0b3e609d256db3493ef78d596472bf449775166c191c1a51",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-azeroth-guilin-noodle-202609",
+      "evidence_id": "sha256:3dc508f81589d63f0b3e609d256db3493ef78d596472bf449775166c191c1a51"
+    },
+    {
+      "type": "label_photo",
+      "region": "manufacturer_block",
+      "cropped_sha256": "956de9af927f1fab4f39c66bb3a1c41862ae4309d1b7f75c10a79d04fa51edc8",
+      "media_ref": "opf-media://sha256/956de9af927f1fab4f39c66bb3a1c41862ae4309d1b7f75c10a79d04fa51edc8",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-azeroth-guilin-noodle-202609",
+      "evidence_id": "sha256:956de9af927f1fab4f39c66bb3a1c41862ae4309d1b7f75c10a79d04fa51edc8"
+    },
+    {
+      "type": "label_photo",
+      "region": "nutrition_table",
+      "cropped_sha256": "8f47bf03f028573ec62ddc9a57bfc677794e24340fddab189043e8c3d668129d",
+      "media_ref": "opf-media://sha256/8f47bf03f028573ec62ddc9a57bfc677794e24340fddab189043e8c3d668129d",
+      "contributor": "github:contributor",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-azeroth-guilin-noodle-202609",
+      "evidence_id": "sha256:8f47bf03f028573ec62ddc9a57bfc677794e24340fddab189043e8c3d668129d"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T03:59:42Z",
+      "author": "github:contributor",
+      "evidence_refs": [
+        "sha256:db6e762f4332bbbcbace297442b40a426363006bf4262398501fcb475963fcac",
+        "sha256:47aaf99c8ec63060a647fa45a8776c32c56ae3ce92c2351daa035b851f714e51",
+        "sha256:3dc508f81589d63f0b3e609d256db3493ef78d596472bf449775166c191c1a51",
+        "sha256:956de9af927f1fab4f39c66bb3a1c41862ae4309d1b7f75c10a79d04fa51edc8",
+        "sha256:8f47bf03f028573ec62ddc9a57bfc677794e24340fddab189043e8c3d668129d"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "964",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "5.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "40.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "2.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "1805",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "230.4",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "4.51",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "202",
+      "211",
+      "223",
+      "234",
+      "330",
+      "621",
+      "635"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans",
+        "sulphites"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "soybeans",
+        "sulphites"
+      ],
+      "may_contain": [
+        "eggs",
+        "peanuts",
+        "tree_nuts"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "165",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1590.6",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "9.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "8.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "66.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "4.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "2978.3",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "380.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "7.44",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:b53e2addf6e018e6cfee9d3f3bbd627e10e7213e02381914a3af0cf55f489818",
+  "label_fingerprint": "sha256:561801426a454712adf6efb924306604f2026ab56f671c1aa4dd6d6f77d8ba02"
+}
