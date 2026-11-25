@@ -1,0 +1,285 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:04909411086275",
+  "edition_id": "01M89M3BXQEW9Q9WCNDTHR8QCR",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "1500",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "65",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "3.8",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "8",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "甜味料",
+            "children": [
+              {
+                "name": "果葡糖浆"
+              },
+              {
+                "name": "白砂糖"
+              }
+            ]
+          },
+          {
+            "name": "红茶"
+          },
+          {
+            "name": "食用香料"
+          },
+          {
+            "name": "维生素C",
+            "ins": "300",
+            "is_additive": true
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "麒麟",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "麒麟午后红茶原味红茶饮料(家庭装)"
+      },
+      {
+        "lang": "ja",
+        "text": "紅茶飲料"
+      }
+    ],
+    "declared_category": "调味茶饮料",
+    "net_content_label": "1.5升",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水,甜味料(果葡糖浆,白砂糖),红茶,食用香料,维生素C"
+      }
+    ],
+    "origin": {
+      "country": "JP",
+      "raw_text": "日本"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "キリンビバレッジ株式会社",
+        "address": "東京都中野区中野4-10-2",
+        "license": "CJPN24052302030096"
+      },
+      {
+        "role": "importer",
+        "name": "杭州桐丰贸易有限公司",
+        "address": "杭州市萧山区宁围街道左右商务中心1幢1单元1202室-2"
+      }
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "阴凉干燥处保存,避免阳光直射,开启后冷藏并尽快饮用"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "59e963b45143d8e550284f402f6b3bb0587f05dde887f3c242cc30801cbf1165",
+      "media_ref": "opf-media://sha256/59e963b45143d8e550284f402f6b3bb0587f05dde887f3c242cc30801cbf1165",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-08",
+      "specimen_id": "sp-kirin-gogotea-cn-1500-202608",
+      "evidence_id": "sha256:59e963b45143d8e550284f402f6b3bb0587f05dde887f3c242cc30801cbf1165"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "2fca3de678027e25cb59fcbfca583e2d4d69ac880d357687d40f56d07ce0ddeb",
+      "media_ref": "opf-media://sha256/2fca3de678027e25cb59fcbfca583e2d4d69ac880d357687d40f56d07ce0ddeb",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-08",
+      "specimen_id": "sp-kirin-gogotea-cn-1500-202608",
+      "evidence_id": "sha256:2fca3de678027e25cb59fcbfca583e2d4d69ac880d357687d40f56d07ce0ddeb"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T15:10:01Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:59e963b45143d8e550284f402f6b3bb0587f05dde887f3c242cc30801cbf1165",
+        "sha256:2fca3de678027e25cb59fcbfca583e2d4d69ac880d357687d40f56d07ce0ddeb"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "65",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "3.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "8",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "15.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.02",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "300"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "1500",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "975",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "7.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "7.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "57",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "120",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "232.5",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.3",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:a5c67371e8452456414c22a41d8b832f86a2b592cbd9b24283f5f3f9f7f1809a",
+  "label_fingerprint": "sha256:91944fc4ba2b3eba248abf72b271bfed251a9b1b5f3bd708a13378d0b4709454"
+}
