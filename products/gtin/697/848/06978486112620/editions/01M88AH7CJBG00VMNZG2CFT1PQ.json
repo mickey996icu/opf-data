@@ -1,0 +1,365 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06978486112620",
+  "edition_id": "01M88AH7CJBG00VMNZG2CFT1PQ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "300",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "155",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "9.1",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "NFC蓝莓汁",
+            "qualifier": "≥12.5%"
+          },
+          {
+            "name": "浓缩苹果汁"
+          },
+          {
+            "name": "浓缩蓝莓汁",
+            "qualifier": "≥1%"
+          },
+          {
+            "name": "巴西莓(阿萨伊果)浓缩汁",
+            "qualifier": "≥0.5%"
+          },
+          {
+            "name": "紫胡萝卜浓缩清汁"
+          },
+          {
+            "name": "红葡萄浓缩汁"
+          },
+          {
+            "name": "蓝莓浓缩粉",
+            "qualifier": "≥0.25%",
+            "children": [
+              {
+                "name": "蓝莓",
+                "qualifier": "≥80%"
+              },
+              {
+                "name": "麦芽糊精"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "蓝莓巴西莓复合果蔬汁饮料"
+      }
+    ],
+    "brand": "沃集鲜",
+    "declared_category": "复合果蔬汁饮料",
+    "net_content_label": "300mL",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、NFC蓝莓汁(≥12.5%)、浓缩苹果汁、浓缩蓝莓汁(≥1%)、巴西莓(阿萨伊果)浓缩汁(≥0.5%)、紫胡萝卜浓缩清汁、红葡萄浓缩汁、蓝莓浓缩粉(蓝莓≥80%、麦芽糊精)(≥0.25%)"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "浙江省杭州市",
+      "raw_text": "浙江省杭州市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "东方鸿鹄(杭州)科技有限公司",
+        "address": "浙江省杭州市淳安县千岛湖镇康盛路168号",
+        "license": "SC10633012718438"
+      }
+    ],
+    "product_standard": [
+      "GB/T 31121"
+    ],
+    "shelf_life": {
+      "value": "9",
+      "unit": "month"
+    },
+    "storage_text": "置于阴凉干燥处,避免阳光直接照射,开启后请尽快饮用",
+    "usage_text": "开启直接饮用,冷藏风味更佳",
+    "claims_text": [
+      "巴西莓、蓝莓双重莓果搭配",
+      "花青素含量15mg/瓶",
+      "含花青素",
+      "阿萨伊果(巴西莓)",
+      "NFC蓝莓汁",
+      "果蔬汁总含量≥90%"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "evidence_id": "ev:01M88AH7CJB9VNYKAP7RA2K1T3"
+    },
+    {
+      "type": "label_photo",
+      "region": "nutrition_table",
+      "cropped_sha256": "b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529",
+      "media_ref": "opf-media://sha256/b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-blueberry-acai-202611",
+      "evidence_id": "sha256:b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529"
+    },
+    {
+      "type": "label_photo",
+      "region": "ingredients_box",
+      "cropped_sha256": "b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3",
+      "media_ref": "opf-media://sha256/b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-blueberry-acai-202611",
+      "evidence_id": "sha256:b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc",
+      "media_ref": "opf-media://sha256/7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-marketside-blueberry-acai-202611",
+      "evidence_id": "sha256:7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc"
+    },
+    {
+      "type": "community_report",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "evidence_id": "ev:01M88AKJ9SB6286DM319G5AMF2"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T03:03:35Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "ev:01M88AH7CJB9VNYKAP7RA2K1T3",
+        "sha256:b234f1054db87f6e6db05593430db09313d2b527ca7c0adce6bca319027cb529",
+        "sha256:b4ff1251c9ad2217817c912a25ca396d3dd7ad0b75a8c921a3c4dd721ea846c3",
+        "sha256:7c545a15e431d43bc203427cb669a205c2150f98e9f0681c881bceb11c8275fc"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "155",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "9.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "qualifier": "<",
+        "value": "5",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "energy_kcal": {
+        "value": "37",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.01",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "300",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "465",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "27.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "27",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "15",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "energy_kcal": {
+          "value": "111",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.03",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sodium",
+      "detail": "Declared 0 mg under CN/GB28050-2025 zero-threshold rule implies <5 mg/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7c926ed5926661a9274351a6087727f9b3af476f62721dcfb7c07563d76f5664",
+  "label_fingerprint": "sha256:16477f069120d6bd3c6dcd16e0258fc80f0cbf7ca0736e667ce207adce01ffb6"
+}
