@@ -1,0 +1,255 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06970922070839",
+  "edition_id": "01M89F8E6HPHJN7QDDVG2TYK89",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "800",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "869",
+          "unit": "kJ",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "protein",
+          "value": "20",
+          "unit": "g",
+          "nrv_pct": "33"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "14.3",
+          "unit": "g",
+          "nrv_pct": "24"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "30",
+          "unit": "mg",
+          "nrv_pct": "2"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "may_contain": [
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛肉",
+            "qualifier": "添加量≥90%"
+          },
+          {
+            "name": "黑胡椒调味液",
+            "qualifier": "添加量≤10%",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "黑椒眼肉牛排"
+      }
+    ],
+    "declared_category": "冷冻预制肉类食品(调味生制品)、非即食",
+    "net_content_label": "800g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛肉（添加量≥90%）、黑胡椒调味液（（复合调味料）、添加量≤10%）"
+      }
+    ],
+    "allergens_raw_text": "致敏物质提示:此生产车间也加工含大豆及其制品的食品",
+    "origin": {
+      "country": "CN",
+      "region": "河北省沧州市",
+      "raw_text": "河北省沧州市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "河北德泰食品有限公司",
+        "address": "河北省沧州市献县本斋乡本斋西村",
+        "license": "SC10413092900483"
+      }
+    ],
+    "product_standard": [
+      "SB/T 10482"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "-18℃以下贮存",
+    "usage_text": "将自然解冻后的牛排表面水分吸干,双面均需煎烤一分半左右即可食用(可根据个人喜好适当调整烹饪时间),出锅后静置三分钟左右,口感更佳。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "5825539e7ac6290e5cabd32dfb3384c433dcb56d18d9883ccc862271ff75e3b8",
+      "media_ref": "opf-media://sha256/5825539e7ac6290e5cabd32dfb3384c433dcb56d18d9883ccc862271ff75e3b8",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-ribeye-steak-202609",
+      "evidence_id": "sha256:5825539e7ac6290e5cabd32dfb3384c433dcb56d18d9883ccc862271ff75e3b8"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T13:45:24Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:5825539e7ac6290e5cabd32dfb3384c433dcb56d18d9883ccc862271ff75e3b8"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "869",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "20",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "14.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "30",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "207.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.08",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": [
+        "soybeans"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "800",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "6952",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "160",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "114.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "4",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "240",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "1661.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.64",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:3aab542d2cd8339d0f3434d7b469e2015f806f14203542aa099cb26d4cdb5ff0",
+  "label_fingerprint": "sha256:6cd4ec80a51fe6c9915f8214b3c6d50e60193c72486199b92a284480007dac56"
+}
