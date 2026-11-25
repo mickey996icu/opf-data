@@ -1,5 +1,5 @@
 {
-  "opf_schema": "0.2",
+  "opf_schema": "0.3",
   "id": "gtin:06922577711056",
   "edition_id": "01M88VKW5DK1GJF6GY86Y6ZXNB",
   "rev": 1,
@@ -74,6 +74,20 @@
           }
         ]
       }
+    ],
+    "special_indicators": [
+      {
+        "name": "非脂乳固体",
+        "qualifier": ">=",
+        "value": "8.6",
+        "unit": "g/100g"
+      },
+      {
+        "name": "A2β-酪蛋白",
+        "qualifier": ">=",
+        "value": "10",
+        "unit": "g/L"
+      }
     ]
   },
   "attributes": {
@@ -121,21 +135,7 @@
       "value": "21",
       "unit": "day"
     },
-    "storage_text": "2℃~6℃保存",
-    "special_indicators": [
-      {
-        "name": "非脂乳固体",
-        "qualifier": ">=",
-        "value": "8.6",
-        "unit": "g/100g"
-      },
-      {
-        "name": "A2β-酪蛋白",
-        "qualifier": ">=",
-        "value": "10",
-        "unit": "g/L"
-      }
-    ]
+    "storage_text": "2℃~6℃保存"
   },
   "evidence": [
     {
@@ -300,6 +300,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:7e3e6b2023d6c2ed64fa1db2001bd3206995a9ab2f1ea97ff83384f66a53aa2a",
-  "label_fingerprint": "sha256:cd7ee249ea79e175c4eccc476b13e845859dfbfae7474124de300f0ffd7f8f2a"
+  "core_fingerprint": "sha256:ec2a98eff3b5bb97e9149b7a0b084db1ad893463dd4b97a02506b1840ae72f63",
+  "label_fingerprint": "sha256:ebc2ea1fad53eb319af14868ea14e376e10c0cfd59cb47e3ff24d1a767c60c36"
 }
