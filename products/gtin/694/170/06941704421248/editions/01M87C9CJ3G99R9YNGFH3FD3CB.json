@@ -1,0 +1,390 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06941704421248",
+  "edition_id": "01M87C9CJ3G99R9YNGFH3FD3CB",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "340",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "319",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "4",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "4.4",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "2.5",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "5.2",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "2.6",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "50",
+          "unit": "mg",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "calcium",
+          "value": "110",
+          "unit": "mg",
+          "nrv_pct": "14"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "生牛乳",
+            "qualifier": "≥99.9%",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "德氏乳杆菌保加利亚亚种",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "唾液链球菌嗜热亚种"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "一桶纯酸奶"
+      }
+    ],
+    "brand": "新希望",
+    "declared_category": "风味酸乳",
+    "net_content_label": "340克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "生牛乳≥99.9%、德氏乳杆菌保加利亚亚种、唾液链球菌嗜热亚种"
+      }
+    ],
+    "allergens_raw_text": "本品含有乳成分",
+    "origin": {
+      "country": "CN",
+      "region": "湖南省长沙市 / 福建省福州市",
+      "raw_text": "湖南省长沙市 / 福建省福州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "新希望乳业股份有限公司",
+        "address": "四川省成都市锦江区金石路366号新希望中鼎国际2栋8楼2号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "湖南新希望南山液态乳业有限公司",
+        "address": "湖南省长沙市望城区望城经济开发区雷锋大道108号",
+        "plant_code": "N",
+        "license": "SC10543011200116"
+      },
+      {
+        "role": "manufacturer",
+        "name": "福州新希望澳牛乳业有限公司",
+        "address": "福建省连江县丹阳镇桂林村云路58号",
+        "plant_code": "Y",
+        "license": "SC10535012201790"
+      }
+    ],
+    "product_standard": [
+      "GB 19302"
+    ],
+    "shelf_life": {
+      "value": "21",
+      "unit": "day"
+    },
+    "storage_text": "2℃~6℃冷藏",
+    "usage_text": "请勿摇晃或倒置，以免影响产品状态。产品表面略有乳清析出属正常现象，建议开启后2℃~6℃冷藏保存，并尽快食用完。",
+    "claims_text": [
+      "配料只有生牛乳和乳酸菌",
+      "每420千焦本品中蛋白质的营养素参考值%为9%",
+      "本产品乳糖含量符合GB28050-2025《食品安全国家标准 预包装食品营养标签通则》对无乳糖的要求。"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b",
+      "media_ref": "opf-media://sha256/7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b"
+    },
+    {
+      "type": "label_photo",
+      "region": "ingredients_box",
+      "cropped_sha256": "1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c",
+      "media_ref": "opf-media://sha256/1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c"
+    },
+    {
+      "type": "label_photo",
+      "region": "manufacturer_block",
+      "cropped_sha256": "5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2",
+      "media_ref": "opf-media://sha256/5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45",
+      "media_ref": "opf-media://sha256/78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4",
+      "media_ref": "opf-media://sha256/33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277",
+      "media_ref": "opf-media://sha256/ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277"
+    },
+    {
+      "type": "label_photo",
+      "region": "other",
+      "cropped_sha256": "7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff",
+      "media_ref": "opf-media://sha256/7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xinxiwang-202611",
+      "evidence_id": "sha256:7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-24T18:15:01Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "sha256:7e70e2a7b50084b9dbe57a5cc1740de98d69c094df8498dab02084130ca2c19b",
+        "sha256:1f9310ef1c72e5cd1b8d76dccf1697a1db44318e412449b8b33ee816e5fb682c",
+        "sha256:5891d55599fb88b3f80525623ec833cb76ec6e203a4fc92e4febf581c07798f2",
+        "sha256:78cf382c71389041d570409b259a646f75989bf900c046302b6bcac720edba45",
+        "sha256:33f298b159804a3e7a4f0c59c6b9280737cf021237648b3b02453579f86b90b4",
+        "sha256:ec5e5140f87ebcbda24eaa14f16102d0cd2eeb0acf6337afcfd8bfd17b278277",
+        "sha256:7b68cc42944c77770719d598976da36b35baa0c16cd48c2526e7b9743383fbff"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "319",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "4.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "2.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "5.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "2.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "50",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "calcium": {
+        "value": "110",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "76.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.13",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "340",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1084.6",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "13.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "15",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "8.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "17.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "8.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "170",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "calcium": {
+          "value": "374",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "259.1",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.44",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:2232bb9f54ead50d5ef4adf2e47de24c098b59816f7f7adcde0193a2a9b2bd76",
+  "label_fingerprint": "sha256:c292648f0693991e09debd006b9de7131059511e2b4bcb6d665d8ad6303cf147"
+}
