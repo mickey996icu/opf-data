@@ -1,0 +1,256 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06945277300436",
+  "edition_id": "01M88VPA61TJBC1PACDBT44Z5G",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "400",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "346",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "3.5",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.8",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "15.1",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "21",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "有机甜玉米粒"
+          },
+          {
+            "name": "有机胡萝卜"
+          },
+          {
+            "name": "有机青豆",
+            "children": [
+              {
+                "name": "有机豌豆"
+              }
+            ],
+            "qualifier": "含量1:1:1"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "有机速冻什锦蔬菜丁"
+      }
+    ],
+    "declared_category": "速冻蔬菜 生制品 非即食",
+    "net_content_label": "400克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "有机甜玉米粒、有机胡萝卜、有机青豆(有机豌豆) 含量1:1:1"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "河北省邯郸市",
+      "raw_text": "河北省邯郸市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "企美实业集团有限公司",
+        "address": "河北省邯郸市永年区临洺关镇建安路236号",
+        "license": "SC11113042900051"
+      }
+    ],
+    "product_standard": [
+      "Q/HBQM 0006S"
+    ],
+    "shelf_life": {
+      "value": "18",
+      "unit": "month"
+    },
+    "storage_text": "-18℃及以下冷冻保存",
+    "claims_text": [
+      "非转基因玉米",
+      "-35℃速冻"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "1ff71af01bb062e3a6ab4881d98cb76ddc3009dc952022af21c05e8e652861e4",
+      "media_ref": "opf-media://sha256/1ff71af01bb062e3a6ab4881d98cb76ddc3009dc952022af21c05e8e652861e4",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-01m88vpa61",
+      "evidence_id": "sha256:1ff71af01bb062e3a6ab4881d98cb76ddc3009dc952022af21c05e8e652861e4"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "98fbb89b106651077f784389240c4d501ada38fa742a796aa783a065d6d52e40",
+      "media_ref": "opf-media://sha256/98fbb89b106651077f784389240c4d501ada38fa742a796aa783a065d6d52e40",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-01m88vpa61",
+      "evidence_id": "sha256:98fbb89b106651077f784389240c4d501ada38fa742a796aa783a065d6d52e40"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:03:28Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:1ff71af01bb062e3a6ab4881d98cb76ddc3009dc952022af21c05e8e652861e4",
+        "sha256:98fbb89b106651077f784389240c4d501ada38fa742a796aa783a065d6d52e40"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "346",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "3.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "15.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "21",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "82.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.05",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "400",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1384",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "14",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "3.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "60.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "84",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "330.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.2",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:f966af444ac96a79bf006c63803ac54171399ecc57768b443a76439d2ea56643",
+  "label_fingerprint": "sha256:5d55abe207db661b14a1690741d5db78f0045b3049dd774c0aa8508f52cab3f5"
+}
