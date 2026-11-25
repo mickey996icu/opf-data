@@ -1,0 +1,335 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06924743918481",
+  "edition_id": "01M88VYEKC1YQNG72RNC62KRDK",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "40",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "40",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "40",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "987",
+          "unit": "kJ",
+          "nrv_pct": "12"
+        },
+        {
+          "nutrient": "protein",
+          "value": "1.9",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "16.8",
+          "unit": "g",
+          "nrv_pct": "28"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "8.4",
+          "unit": "g",
+          "nrv_pct": "42"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "19.6",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "3.3",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "163",
+          "unit": "mg",
+          "nrv_pct": "8"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "milk",
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "马铃薯"
+          },
+          {
+            "name": "植物油",
+            "children": [
+              {
+                "name": "植物油"
+              },
+              {
+                "name": "特丁基对苯二酚",
+                "ins": "319",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "番茄酱味调味料",
+            "children": [
+              {
+                "name": "含食用香精"
+              },
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              },
+              {
+                "name": "5'-呈味核苷酸二钠",
+                "ins": "635",
+                "is_additive": true
+              },
+              {
+                "name": "DL-苹果酸",
+                "ins": "296",
+                "is_additive": true
+              },
+              {
+                "name": "阿斯巴甜（含苯丙氨酸）",
+                "ins": "951",
+                "is_additive": true
+              },
+              {
+                "name": "纽甜"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "乐事",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乐事薯条亨氏番茄酱味"
+      }
+    ],
+    "serving_size_label": "1杯(40克)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "马铃薯、植物油（植物油、特丁基对苯二酚）、番茄酱味调味料（含食用香精、柠檬酸、5'-呈味核苷酸二钠、DL-苹果酸、阿斯巴甜（含苯丙氨酸）、纽甜）"
+      }
+    ],
+    "allergens_raw_text": "含有大豆制品、乳制品和含有麸质的谷物制品。",
+    "origin": {
+      "country": "CN",
+      "region": "北京市",
+      "raw_text": "北京市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "百事食品(中国)有限公司",
+        "address": "上海市松江工业区东兴路99号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "北京凯达恒业农业技术开发有限公司",
+        "address": "北京市房山区窦店镇久安路38号",
+        "plant_code": "B",
+        "license": "SC11711110811427"
+      }
+    ],
+    "product_standard": [
+      "QB/T 2686"
+    ],
+    "shelf_life": {
+      "value": "8",
+      "unit": "month"
+    },
+    "storage_text": "请置于干燥凉爽处，避免阳光直射。"
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "provenance": "maintainer",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-10-16",
+      "evidence_id": "ev:01M88VYEBPNR9FFV8G6XDY1T4E"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:07:54Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "ev:01M88VYEBPNR9FFV8G6XDY1T4E"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "2467.5",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "4.8",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "value": "42",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_saturated": {
+        "value": "21",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "carbs_available": {
+        "value": "49",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "8.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "407.5",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kcal": {
+        "value": "589.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.02",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "296",
+      "319",
+      "330",
+      "635",
+      "951"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "milk",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "milk",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "40",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "987",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "16.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "8.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "19.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "3.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "163",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "235.9",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.41",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 40g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:1e58a6ae29a5adde9de86ce0d94480d195428fc6d50ccf2a6b5a55f9732f7190",
+  "label_fingerprint": "sha256:f4e7ec1c968144a9675e16d5fafee2a229f8829376c055b397a31fffa0de9a83"
+}
