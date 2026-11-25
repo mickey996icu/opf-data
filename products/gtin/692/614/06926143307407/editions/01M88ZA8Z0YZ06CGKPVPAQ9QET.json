@@ -1,0 +1,368 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06926143307407",
+  "edition_id": "01M88ZA8Z0YZ06CGKPVPAQ9QET",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "200",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1479",
+          "unit": "kJ",
+          "nrv_pct": "18"
+        },
+        {
+          "nutrient": "protein",
+          "value": "34.9",
+          "unit": "g",
+          "nrv_pct": "58"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "5.8",
+          "unit": "g",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "39.5",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "20.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "1457",
+          "unit": "mg",
+          "nrv_pct": "73"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "soybeans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡肉",
+            "qualifier": "≥65%"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "豌豆粉"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "酿造酱油",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "name": "含焦糖色",
+                "ins": "150a",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "香辛料",
+            "children": [
+              {
+                "name": "辐照"
+              }
+            ]
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "乙基麦芽酚",
+                "is_additive": true
+              },
+              {
+                "name": "辣椒红",
+                "ins": "160c",
+                "is_additive": true
+              },
+              {
+                "name": "红曲红",
+                "is_additive": true
+              },
+              {
+                "name": "D-异抗坏血酸钠",
+                "ins": "316",
+                "is_additive": true
+              },
+              {
+                "name": "双乙酸钠",
+                "is_additive": true,
+                "ins": "262(ii)"
+              }
+            ]
+          },
+          {
+            "name": "食用香精香料"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "牛川",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "手切鸡肉条(香辣味)"
+      }
+    ],
+    "declared_category": "熟肉干制品",
+    "net_content_label": "200g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡肉(≥65%)、白砂糖、豌豆粉、植物油、食用盐、味精、酿造酱油(含焦糖色)、香辛料(辐照)、食品添加剂(乙基麦芽酚、辣椒红、红曲红、D-异抗坏血酸钠、双乙酸钠)、食用香精香料"
+      }
+    ],
+    "allergens_raw_text": "含大豆及其制品；本车间生产牛肉、猪肉、鸡肉、鸭肉等产品",
+    "origin": {
+      "country": "CN",
+      "region": "福建省漳州市",
+      "raw_text": "福建省漳州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "漳州市浦阳食品有限公司",
+        "address": "福建省漳州市龙文区朝阳工业集中区朝盛路302号(2号楼2楼)"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漳州市卤小仙食品有限公司",
+        "address": "福建省漳州市龙文区石浦路18号1号生产车间3楼",
+        "license": "SC10435060310938"
+      }
+    ],
+    "product_standard": [
+      "GB 2726"
+    ],
+    "shelf_life": {
+      "value": "10",
+      "unit": "month"
+    },
+    "storage_text": "请置于阴凉干燥处,避免阳光直射",
+    "usage_text": "开封即食"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "d58bfc6abc836d71e8c7bd365678e4563c3e5002cf0e2797db25f55431e12455",
+      "media_ref": "opf-media://sha256/d58bfc6abc836d71e8c7bd365678e4563c3e5002cf0e2797db25f55431e12455",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-07",
+      "specimen_id": "sp-niuchuan-chicken-strips-202607",
+      "evidence_id": "sha256:d58bfc6abc836d71e8c7bd365678e4563c3e5002cf0e2797db25f55431e12455"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "df9e16ab1d77b2f17f530ee92ec627ad79f58931bafe254a13f007cd03ccb70b",
+      "media_ref": "opf-media://sha256/df9e16ab1d77b2f17f530ee92ec627ad79f58931bafe254a13f007cd03ccb70b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-07",
+      "specimen_id": "sp-niuchuan-chicken-strips-202607",
+      "evidence_id": "sha256:df9e16ab1d77b2f17f530ee92ec627ad79f58931bafe254a13f007cd03ccb70b"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T09:06:47Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:d58bfc6abc836d71e8c7bd365678e4563c3e5002cf0e2797db25f55431e12455",
+        "sha256:df9e16ab1d77b2f17f530ee92ec627ad79f58931bafe254a13f007cd03ccb70b"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1479",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "34.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "5.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "39.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "20.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "1457",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "353.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "3.64",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "160c",
+      "262(ii)",
+      "316",
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "soybeans"
+      ],
+      "declared_contains": [
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "200",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "2958",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "69.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "11.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "2.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "79",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "41.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "2914",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "707",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "7.28",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:9dd7d177a726b7149e4e57fa60a6bc2c0293bddfffe72fc3db59e12b0c247c77",
+  "label_fingerprint": "sha256:edb7552164371cba1f7cfe96038907bb4398a299beed6880335c518664e7dc94"
+}
