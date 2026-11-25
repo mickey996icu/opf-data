@@ -1,0 +1,231 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06921168509256",
+  "edition_id": "01M89XPNJD0H4DNDV01R98YCW1",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "550",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "packaged_water",
+      "legal_basis": "GB 28050-2011 §7 包装饮用水豁免"
+    },
+    "special_indicators": [
+      {
+        "name": "钙",
+        "qualifier": ">=",
+        "value": "400",
+        "unit": "ug/100ml"
+      },
+      {
+        "name": "镁",
+        "qualifier": ">=",
+        "value": "50",
+        "unit": "ug/100ml"
+      },
+      {
+        "name": "钾",
+        "qualifier": ">=",
+        "value": "35",
+        "unit": "ug/100ml"
+      },
+      {
+        "name": "钠",
+        "qualifier": ">=",
+        "value": "80",
+        "unit": "ug/100ml"
+      },
+      {
+        "name": "偏硅酸",
+        "qualifier": ">=",
+        "value": "180",
+        "unit": "ug/100ml"
+      },
+      {
+        "name": "pH值(25℃)",
+        "value": "7.3",
+        "tolerance": "0.5"
+      }
+    ],
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "天然水"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "农夫山泉",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "饮用天然水"
+      }
+    ],
+    "net_content_label": "550ml",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "天然水"
+      }
+    ],
+    "product_standard": [
+      "Q/NFS 0001S"
+    ],
+    "packaging_code": "5-HYGHW-2506",
+    "lot_code_rule": "生产商见生产日期后端工厂代码",
+    "shelf_life": {
+      "value": "24",
+      "unit": "month"
+    },
+    "storage_text": "阴凉干燥无异味处，不宜冷冻",
+    "origin": {
+      "country": "CN",
+      "region": "广东省河源市",
+      "raw_text": "水源类别:深层湖水 水源地址:广东省河源市万绿湖"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "农夫山泉股份有限公司",
+        "address": "浙江省杭州市西湖区葛衙庄181号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "农夫山泉广东万绿湖有限公司",
+        "address": "广东省河源市源城区西环路108号",
+        "plant_code": "G",
+        "license": "SC10644160200149"
+      },
+      {
+        "role": "manufacturer",
+        "name": "农夫山泉广东万绿湖饮料有限公司",
+        "address": "广东省河源市源城区中兴大道11号",
+        "plant_code": "HY",
+        "license": "SC10644160200420"
+      },
+      {
+        "role": "manufacturer",
+        "name": "农夫山泉(广东)万绿湖饮用水有限公司",
+        "address": "广东省河源市源城区绿泉路1号",
+        "plant_code": "HW",
+        "license": "SC10644169700012"
+      }
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "NONGFU SPRING",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "manufacturer_block",
+      "cropped_sha256": "3e1972a285d34d2c92ffe2b9401f079b9d9a5b7779a373e017cbab73e4fdae66",
+      "media_ref": "opf-media://sha256/3e1972a285d34d2c92ffe2b9401f079b9d9a5b7779a373e017cbab73e4fdae66",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nongfu-water-550ml",
+      "evidence_id": "sha256:3e1972a285d34d2c92ffe2b9401f079b9d9a5b7779a373e017cbab73e4fdae66"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "6b3198b02823a7babd03193329effb04e11575f7236ebbb464cae9e4459f1437",
+      "media_ref": "opf-media://sha256/6b3198b02823a7babd03193329effb04e11575f7236ebbb464cae9e4459f1437",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nongfu-water-550ml",
+      "evidence_id": "sha256:6b3198b02823a7babd03193329effb04e11575f7236ebbb464cae9e4459f1437"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "9f02de1c9e1605ad45274a3215af154babd36d27d1c3af22463bf2bdd7fa7ce3",
+      "media_ref": "opf-media://sha256/9f02de1c9e1605ad45274a3215af154babd36d27d1c3af22463bf2bdd7fa7ce3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nongfu-water-550ml",
+      "evidence_id": "sha256:9f02de1c9e1605ad45274a3215af154babd36d27d1c3af22463bf2bdd7fa7ce3"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "fecf926bfa3dfc843630fdf9a6342951b2ad4a9168cfde216587f524a3bbadd9",
+      "media_ref": "opf-media://sha256/fecf926bfa3dfc843630fdf9a6342951b2ad4a9168cfde216587f524a3bbadd9",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nongfu-water-550ml",
+      "evidence_id": "sha256:fecf926bfa3dfc843630fdf9a6342951b2ad4a9168cfde216587f524a3bbadd9"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "95cb45ebe559f94fd2d7aefed8a9f9450b4b65c1fda375012c50791c3a76535c",
+      "media_ref": "opf-media://sha256/95cb45ebe559f94fd2d7aefed8a9f9450b4b65c1fda375012c50791c3a76535c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-nongfu-water-550ml",
+      "evidence_id": "sha256:95cb45ebe559f94fd2d7aefed8a9f9450b4b65c1fda375012c50791c3a76535c"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T17:57:51Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:3e1972a285d34d2c92ffe2b9401f079b9d9a5b7779a373e017cbab73e4fdae66",
+        "sha256:6b3198b02823a7babd03193329effb04e11575f7236ebbb464cae9e4459f1437",
+        "sha256:9f02de1c9e1605ad45274a3215af154babd36d27d1c3af22463bf2bdd7fa7ce3",
+        "sha256:fecf926bfa3dfc843630fdf9a6342951b2ad4a9168cfde216587f524a3bbadd9",
+        "sha256:95cb45ebe559f94fd2d7aefed8a9f9450b4b65c1fda375012c50791c3a76535c"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'packaged_water' (GB 28050-2011 §7 包装饮用水豁免); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:df9b937cd9dd3188b41fce28515c9cee2d21e2fcff1cb125948d792a67e8ab8f",
+  "label_fingerprint": "sha256:d748837376e2e79c1af55826c2446771af3f6ad077e3296c83b0cf6d425fd786"
+}

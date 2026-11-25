@@ -1,0 +1,369 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06972549660097",
+  "edition_id": "01M89XPN2PSDD4YPG18N4ESHAW",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "500",
+        "unit": "ml"
+      }
+    ],
+    "special_indicators": [
+      {
+        "name": "茶多酚",
+        "qualifier": ">=",
+        "value": "400",
+        "unit": "mg/kg"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "0",
+          "unit": "kJ",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "19",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "乌龙茶叶"
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "碳酸氢钠",
+                "ins": "500(ii)",
+                "is_additive": true
+              },
+              {
+                "name": "维生素C",
+                "ins": "300",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "三得利",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乌龙茶 原味茶饮料(无糖)"
+      }
+    ],
+    "net_content_label": "500毫升",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、乌龙茶叶、食品添加剂(碳酸氢钠、维生素C)"
+      }
+    ],
+    "product_standard": [
+      "T/CTSS 86"
+    ],
+    "packaging_code": "S-XNTCXT-011",
+    "lot_code_rule": "具体生产单位详见保质日期后字母代码；生产日期(第一行)/保质日期(第二行):标于瓶肩",
+    "storage_text": "请保存于室温干燥处，避免阳光直晒及高温。瓶中沉淀物为茶成分，并无品质问题，饮用时请先摇匀。请不要加热或冷冻。开瓶后请及时饮用，或于0-6℃冷藏并在12小时内饮用完毕。",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "三得利(中国)投资有限公司",
+        "address": "上海市静安区恒丰路329号2302单元"
+      },
+      {
+        "role": "manufacturer",
+        "name": "今麦郎饮品(咸宁)有限公司",
+        "address": "湖北省咸宁市温泉开发区长江产业园",
+        "plant_code": "XN",
+        "license": "SC10642120100019"
+      },
+      {
+        "role": "manufacturer",
+        "name": "今麦郎饮品股份有限公司天长分公司",
+        "address": "安徽省滁州市天长市汊涧镇天汊线北侧",
+        "plant_code": "TC",
+        "license": "SC10634118105132"
+      },
+      {
+        "role": "manufacturer",
+        "name": "今麦郎饮品股份有限公司隆尧分公司",
+        "address": "河北省邢台市隆尧县东方食品城(今麦郎食品小镇)华龙大街北段东侧",
+        "plant_code": "XT",
+        "license": "SC10613052500163"
+      }
+    ],
+    "claims_text": [
+      "乌龙茶叶添加量≥7g/L，其中特级茶叶-水仙添加量≥1g/L"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "SUNTORY",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "3c52208ce76d2ae460be693a5d85bcc03bebb7af3f9925f609390f8b3e524711",
+      "media_ref": "opf-media://sha256/3c52208ce76d2ae460be693a5d85bcc03bebb7af3f9925f609390f8b3e524711",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-suntory-oolong-500ml",
+      "evidence_id": "sha256:3c52208ce76d2ae460be693a5d85bcc03bebb7af3f9925f609390f8b3e524711"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "70108e503131984895b53c64f47b6e6bc1e3acd190020ff7ac9c28392c478dc1",
+      "media_ref": "opf-media://sha256/70108e503131984895b53c64f47b6e6bc1e3acd190020ff7ac9c28392c478dc1",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-suntory-oolong-500ml",
+      "evidence_id": "sha256:70108e503131984895b53c64f47b6e6bc1e3acd190020ff7ac9c28392c478dc1"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T17:57:50Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:3c52208ce76d2ae460be693a5d85bcc03bebb7af3f9925f609390f8b3e524711",
+        "sha256:70108e503131984895b53c64f47b6e6bc1e3acd190020ff7ac9c28392c478dc1"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "qualifier": "<",
+        "value": "17",
+        "unit": "kJ",
+        "basis": "regulatory_upper_bound"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "19",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "4.06",
+        "unit": "kcal",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      },
+      "salt_equivalent": {
+        "value": "0.05",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "300",
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "500",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "85",
+          "unit": "kJ",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "protein": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sugars_total": {
+          "value": "2.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "95",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "20.3",
+          "unit": "kcal",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "salt_equivalent": {
+          "value": "0.25",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "energy_kj",
+      "detail": "Declared 0 kJ under CN/GB28050-2025 zero-threshold rule implies <17 kJ/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:843c984f30a3d3d1ff24a5eff18778030d158c8bca9aba7609fa85fbffc2d6c1",
+  "label_fingerprint": "sha256:a2c28002054f5b2d3967b80a4bff2012b7298315dff6d389bdc456b5bd2ad54f"
+}
