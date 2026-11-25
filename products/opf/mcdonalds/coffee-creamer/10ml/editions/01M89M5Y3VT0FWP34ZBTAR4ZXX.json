@@ -1,0 +1,202 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:mcdonalds/coffee-creamer/10ml",
+  "edition_id": "01M89M5Y3VT0FWP34ZBTAR4ZXX",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "10",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "small_package_area",
+      "legal_basis": "GB 28050-2011 豁免（10mL单颗奶油球小包装，包装总表面积≤100cm²）"
+    },
+    "special_indicators": [
+      {
+        "name": "蛋白质",
+        "value": "4.1",
+        "unit": "%"
+      }
+    ],
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "精炼植物油"
+          },
+          {
+            "name": "酪蛋白酸钠",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "乳粉",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "磷酸氢二钾",
+            "ins": "340",
+            "is_additive": true
+          },
+          {
+            "name": "单，双甘油脂肪酸酯",
+            "ins": "471",
+            "is_additive": true
+          },
+          {
+            "name": "硬脂酰乳酸钠",
+            "ins": "481(i)",
+            "is_additive": true
+          },
+          {
+            "name": "聚甘油脂肪酸酯",
+            "ins": "475",
+            "is_additive": true
+          },
+          {
+            "name": "刺槐豆胶",
+            "ins": "410",
+            "is_additive": true
+          },
+          {
+            "name": "吐温80",
+            "ins": "433",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸钠",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "卡拉胶",
+            "ins": "407",
+            "is_additive": true
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "食品用香精"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "McDonald's",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "咖啡用奶油球"
+      }
+    ],
+    "declared_category": "含乳饮品",
+    "net_content_label": "10mL",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水，精炼植物油，酪蛋白酸钠，乳粉，磷酸氢二钾，单，双甘油脂肪酸酯，硬脂酰乳酸钠，聚甘油脂肪酸酯，刺槐豆胶，吐温80，柠檬酸钠，卡拉胶，食用盐，食品用香精。"
+      }
+    ],
+    "product_standard": [
+      "GB/T 21732"
+    ],
+    "storage_text": "阴凉干燥处保存（>1℃）",
+    "origin": {
+      "country": "CN",
+      "region": "广东省广州市",
+      "raw_text": "广州经济技术开发区永和经济区田园西路38号、40号"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "广州九龙维记牛奶有限公司",
+        "address": "广州经济技术开发区永和经济区田园西路38号、40号",
+        "license": "SC10544011600068"
+      }
+    ],
+    "translations": [
+      {
+        "lang": "zh-Hans",
+        "field": "brand",
+        "text": "麦当劳",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "f89fdaeae61b54284a44376dd91bb1c83664ce3741ba028656a10b0e3e920c95",
+      "media_ref": "opf-media://sha256/f89fdaeae61b54284a44376dd91bb1c83664ce3741ba028656a10b0e3e920c95",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-mcdonalds-creamer-10ml-202611",
+      "evidence_id": "sha256:f89fdaeae61b54284a44376dd91bb1c83664ce3741ba028656a10b0e3e920c95"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T15:11:25Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:f89fdaeae61b54284a44376dd91bb1c83664ce3741ba028656a10b0e3e920c95"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {},
+    "additives_ins": [
+      "331(iii)",
+      "340",
+      "407",
+      "410",
+      "433",
+      "471",
+      "475",
+      "481(i)"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'small_package_area' (GB 28050-2011 豁免（10mL单颗奶油球小包装，包装总表面积≤100cm²）); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:68e007cd3b76107d7765f2caa972586d9bf6af411f9692208123151fa4cf1305",
+  "label_fingerprint": "sha256:8346f0515d12dd8b4fce28d255fc77e34fa7eaebbdd0330ae1ac910a618e470c"
+}
