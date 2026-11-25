@@ -126,7 +126,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-02",
       "specimen_id": "sp-rainbow-corn-202602",
-      "evidence_id": "sha256:74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00"
+      "evidence_id": "sha256:74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -137,7 +138,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-02",
       "specimen_id": "sp-rainbow-corn-202602",
-      "evidence_id": "sha256:a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e"
+      "evidence_id": "sha256:a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -148,7 +150,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-02",
       "specimen_id": "sp-rainbow-corn-202602",
-      "evidence_id": "sha256:52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4"
+      "evidence_id": "sha256:52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -162,7 +165,8 @@
         "sha256:a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e",
         "sha256:52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {
