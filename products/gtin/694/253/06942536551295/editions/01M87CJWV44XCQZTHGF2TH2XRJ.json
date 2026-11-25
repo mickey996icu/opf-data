@@ -1,0 +1,276 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06942536551295",
+  "edition_id": "01M87CJWV44XCQZTHGF2TH2XRJ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "500",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "354",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "2.5",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.8",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "14.4",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "100%甜玉米粒"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "速冻甜玉米粒(熟制)"
+      }
+    ],
+    "brand": "天虹",
+    "declared_category": "速冻 熟制 非即食",
+    "net_content_label": "500g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "100%甜玉米粒"
+      }
+    ],
+    "allergens_raw_text": "无",
+    "origin": {
+      "country": "CN",
+      "region": "河北省保定市",
+      "raw_text": "河北省保定市"
+    },
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "天虹数科商业股份有限公司",
+        "address": "深圳市南山区中心路(深圳湾段)3019号天虹大厦9-14楼、17-20楼"
+      },
+      {
+        "role": "manufacturer",
+        "name": "河北世际德力食品有限公司",
+        "address": "河北省保定市徐水区教育路北双丰大街",
+        "license": "SC11113060701322"
+      }
+    ],
+    "product_standard": [
+      "Q/HSDL 0001S"
+    ],
+    "shelf_life": {
+      "value": "18",
+      "unit": "month"
+    },
+    "storage_text": "-18℃冷冻保存",
+    "usage_text": "充分加热后食用；解冻后请尽快食用",
+    "claims_text": [
+      "权威检测",
+      "严选品质",
+      "100%无条件退货"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "region": "full_back_label",
+      "cropped_sha256": "74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00",
+      "media_ref": "opf-media://sha256/74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-02",
+      "specimen_id": "sp-rainbow-corn-202602",
+      "evidence_id": "sha256:74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00"
+    },
+    {
+      "type": "label_photo",
+      "region": "nutrition_table",
+      "cropped_sha256": "a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e",
+      "media_ref": "opf-media://sha256/a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-02",
+      "specimen_id": "sp-rainbow-corn-202602",
+      "evidence_id": "sha256:a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e"
+    },
+    {
+      "type": "label_photo",
+      "region": "barcode_net_content",
+      "cropped_sha256": "52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4",
+      "media_ref": "opf-media://sha256/52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-24",
+      "vintage_month": "2026-02",
+      "specimen_id": "sp-rainbow-corn-202602",
+      "evidence_id": "sha256:52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-24T18:20:13Z",
+      "author": "github:mickey996icu",
+      "evidence_refs": [
+        "sha256:74d677dc79d753a676bdfc5894a8131c56ab91861b964047195a12b9c4915c00",
+        "sha256:a862de860f65b319a6ff108a339c85898b2d5688f20468d31ac1cda7eb5f531e",
+        "sha256:52789d8e75f3b94fa4b280656492b64ea2372c4468a5a3d234b5f675e54fa2e4"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "354",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "2.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "14.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "qualifier": "<",
+        "value": "5",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "energy_kcal": {
+        "value": "84.6",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.01",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "500",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1770",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "12.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "72",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "25",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "energy_kcal": {
+          "value": "423",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.05",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sodium",
+      "detail": "Declared 0 mg under CN/GB28050-2011 zero-threshold rule implies <5 mg/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:b9a3dce548141bb6e7f2dcc07bfc07be88f3eb895491853b5f648a4b3ae88e95",
+  "label_fingerprint": "sha256:961ce9348b00652b05401e3f9e99fdd8433523c2218edd67a671920d0e0d596e"
+}
