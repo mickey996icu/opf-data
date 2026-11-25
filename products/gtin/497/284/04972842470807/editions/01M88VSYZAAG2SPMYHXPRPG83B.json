@@ -1,0 +1,328 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:04972842470807",
+  "edition_id": "01M88VSYZAAG2SPMYHXPRPG83B",
+  "rev": 1,
+  "track": "JP/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "JP/CAA-2015",
+    "net_content": [
+      {
+        "value": "240",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "46",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "carbs_total",
+          "value": "11.5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "salt_equivalent",
+          "value": "0.03",
+          "unit": "g"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "ja",
+        "nodes": [
+          {
+            "name": "果糖ぶどう糖液糖",
+            "children": [
+              {
+                "name": "国内製造"
+              }
+            ]
+          },
+          {
+            "name": "メロン果汁",
+            "children": [
+              {
+                "name": "メロン",
+                "children": [
+                  {
+                    "name": "静岡県産"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "炭酸",
+            "ins": "290",
+            "is_additive": true
+          },
+          {
+            "name": "香料",
+            "is_additive": true
+          },
+          {
+            "name": "酸味料",
+            "is_additive": true
+          },
+          {
+            "name": "着色料",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "カラメル",
+                "ins": "150a",
+                "is_additive": true
+              },
+              {
+                "name": "黄4",
+                "is_additive": true
+              },
+              {
+                "name": "青1",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "リン酸塩",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "Na",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "木村飲料",
+    "product_name": [
+      {
+        "lang": "ja",
+        "text": "静岡マスクメロンサイダー"
+      },
+      {
+        "lang": "en",
+        "text": "Kimura Shizouka Muskmelon Cider"
+      }
+    ],
+    "declared_category": "炭酸飲料",
+    "net_content_label": "240ml",
+    "ingredients_text": [
+      {
+        "lang": "ja",
+        "text": "果糖ぶどう糖液糖（国内製造）、メロン果汁（メロン（静岡県産））／炭酸、香料、酸味料、着色料（カラメル、黄4、青1）、リン酸塩（Na）"
+      }
+    ],
+    "origin": {
+      "country": "JP",
+      "region": "静岡県",
+      "raw_text": "PRODUCT OF JAPAN"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "木村飲料株式会社",
+        "address": "静岡県榛原郡吉田町川尻3051-43"
+      }
+    ],
+    "storage_text": "高温・直射日光を避けて保存してください。",
+    "claims_text": [
+      "静岡県産 マスクメロン果汁2%"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "9871cbfda26359b589cabe47620a56af0ece22bcd89d63ef0496ca662929b7ec",
+      "media_ref": "opf-media://sha256/9871cbfda26359b589cabe47620a56af0ece22bcd89d63ef0496ca662929b7ec",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-kimura-muskmelon-20261107",
+      "evidence_id": "sha256:9871cbfda26359b589cabe47620a56af0ece22bcd89d63ef0496ca662929b7ec"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "3e96881a307da1c07921103082a7cd60eeab5aa0aece7c739dc5dd94adac163f",
+      "media_ref": "opf-media://sha256/3e96881a307da1c07921103082a7cd60eeab5aa0aece7c739dc5dd94adac163f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-kimura-muskmelon-20261107",
+      "evidence_id": "sha256:3e96881a307da1c07921103082a7cd60eeab5aa0aece7c739dc5dd94adac163f"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "2ae99f7e9f96a3e5434b602bebe56c3d31cf1445d7f92fdc69d341dd9f641e8c",
+      "media_ref": "opf-media://sha256/2ae99f7e9f96a3e5434b602bebe56c3d31cf1445d7f92fdc69d341dd9f641e8c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-kimura-muskmelon-20261107",
+      "evidence_id": "sha256:2ae99f7e9f96a3e5434b602bebe56c3d31cf1445d7f92fdc69d341dd9f641e8c"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:05:27Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:9871cbfda26359b589cabe47620a56af0ece22bcd89d63ef0496ca662929b7ec",
+        "sha256:3e96881a307da1c07921103082a7cd60eeab5aa0aece7c739dc5dd94adac163f",
+        "sha256:2ae99f7e9f96a3e5434b602bebe56c3d31cf1445d7f92fdc69d341dd9f641e8c"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "46",
+        "unit": "kcal",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_total": {
+        "value": "11.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "salt_equivalent": {
+        "value": "0.03",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "energy_kj": {
+        "value": "192.5",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "11.8",
+        "unit": "mg",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "290"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "240",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "110.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_total": {
+          "value": "27.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.07",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "462",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "28.3",
+          "unit": "mg",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under JP/CAA-2015 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under JP/CAA-2015 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SODIUM_DERIVED_FROM_SALT",
+      "field": "sodium",
+      "detail": "Derived from salt_equivalent using ratio 2.54"
+    },
+    {
+      "code": "CARBS_TOTAL_INCLUDES_FIBER",
+      "field": "carbs_total",
+      "detail": "JP/CAA-2015 declares total carbohydrates including dietary fiber"
+    }
+  ],
+  "core_fingerprint": "sha256:98ef1710d31c58a3fd2e5ab88a2df49253f8cc0dfb69fa87c0e9eb6f5c5fa083",
+  "label_fingerprint": "sha256:b671ee6ee302bbc202e0166f6df7b4c19b17e057dc8399c81caac97d6f4ca9d2"
+}
