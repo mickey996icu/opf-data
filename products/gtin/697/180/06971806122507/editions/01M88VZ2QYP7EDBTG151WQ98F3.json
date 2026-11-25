@@ -1,0 +1,327 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06971806122507",
+  "edition_id": "01M88VZ2QYP7EDBTG151WQ98F3",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "150",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "135",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "7.6",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0.6",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "446",
+          "unit": "mg",
+          "nrv_pct": "22"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "crustaceans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "南美白对虾",
+            "qualifier": "≥90%",
+            "allergens": [
+              "crustaceans"
+            ]
+          },
+          {
+            "name": "饮用水"
+          },
+          {
+            "name": "海藻糖"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "碳酸氢钠",
+            "ins": "500(ii)",
+            "is_additive": true
+          },
+          {
+            "name": "三聚磷酸钠",
+            "ins": "451(i)",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸钠",
+            "ins": "331(iii)",
+            "is_additive": true
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "争天下",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "生制白虾仁"
+      }
+    ],
+    "declared_category": "调味水产制品(速冻生制品)",
+    "net_content_label": "150克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "南美白对虾(≥90%)、饮用水、海藻糖、食用盐、碳酸氢钠、三聚磷酸钠、柠檬酸钠"
+      }
+    ],
+    "allergens_raw_text": "本产品含有虾类",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "上海争天下食品股份有限公司",
+        "address": "上海市普陀区真南路470弄128支弄2号3幢A区"
+      },
+      {
+        "role": "manufacturer",
+        "name": "上海润澄食品有限公司",
+        "plant_code": "A"
+      },
+      {
+        "role": "manufacturer",
+        "name": "江苏海辉食品有限公司",
+        "address": "江苏省盐城市射阳县",
+        "plant_code": "B",
+        "license": "SC11132092402123"
+      }
+    ],
+    "product_standard": [
+      "SB/T 10379"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "-18℃以下冷冻保存"
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "provenance": "maintainer",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-09",
+      "vintage_month": "2026-09",
+      "evidence_id": "ev:01M88VZ2FVB43ZHJHVS7VV5XBR"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:08:15Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "ev:01M88VZ2FVB43ZHJHVS7VV5XBR"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "135",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "7.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "446",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "32.3",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.12",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "331(iii)",
+      "451(i)",
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [
+        "crustaceans"
+      ],
+      "declared_contains": [
+        "crustaceans"
+      ],
+      "inferred_from_ingredients": [
+        "crustaceans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "150",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "202.5",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "11.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.75",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.75",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "0.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.75",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "669",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "48.5",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "1.68",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:6f13aec8860fddda9795c8823e26375aca1de074a217bd2c8d2d11fcd837939b",
+  "label_fingerprint": "sha256:5334d63475c986e6bbf9659b2c85ea1e4ee4885be815da8a548f741651765496"
+}
