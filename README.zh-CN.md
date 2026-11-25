@@ -91,7 +91,7 @@ curl -s https://mickey996icu.github.io/opf-data/v1/gtin/000/000/00000000000017.j
 已安装 `uvx` 且完成 `gh auth login` 的开发者，也可选用 `opf pr` 一键自动化提交双 PR：
 
 ```bash
-uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.0 \
+uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.4 \
   opf pr --input draft.json \
   --photo nutrition_table=crop_nutrition.jpg \
   --photo ingredients_box=crop_ingredients.jpg \

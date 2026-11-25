@@ -215,7 +215,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-09",
       "specimen_id": "sp-hongpai-202609",
-      "evidence_id": "sha256:919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208"
+      "evidence_id": "sha256:919a8247248a4d7b2ee3642d8336d114a4d4e05ca9e65956d3c3347c9fc3c208",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -226,7 +227,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-09",
       "specimen_id": "sp-hongpai-202609",
-      "evidence_id": "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983"
+      "evidence_id": "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -237,7 +239,8 @@
       "reported_at": "2026-11-24",
       "vintage_month": "2026-09",
       "specimen_id": "sp-hongpai-202609",
-      "evidence_id": "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
+      "evidence_id": "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -251,7 +254,8 @@
         "sha256:96fef5efc63f72d8aa6e8cf4c8036b45d4dcff9d0d80f6ea2f2081908ae0a983",
         "sha256:2e35ff089066dafa286dd5db981b761b1811290636f1bce9db8b6babc12d1acc"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     },
     {
       "rev": 2,
@@ -306,7 +310,8 @@
           "op": "remove",
           "path": "/core/ingredients_tree/0/nodes/11/ins"
         }
-      ]
+      ],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {

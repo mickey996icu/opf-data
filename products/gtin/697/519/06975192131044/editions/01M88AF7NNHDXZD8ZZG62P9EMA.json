@@ -141,7 +141,8 @@
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "vintage_month": "2026-09",
-      "evidence_id": "ev:01M88AF7C4FGT4N7HX31HTFZ7Y"
+      "evidence_id": "ev:01M88AF7C4FGT4N7HX31HTFZ7Y",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -152,7 +153,8 @@
       "reported_at": "2026-11-25",
       "vintage_month": "2026-09",
       "specimen_id": "sp-sofine-daily-berry-series-202609",
-      "evidence_id": "sha256:7dc2c9afbded5e7ad3610ee43dfd2b558d6fe9fc17b2388d3bcf4a8209d48f0c"
+      "evidence_id": "sha256:7dc2c9afbded5e7ad3610ee43dfd2b558d6fe9fc17b2388d3bcf4a8209d48f0c",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -163,14 +165,16 @@
       "reported_at": "2026-11-25",
       "vintage_month": "2026-09",
       "specimen_id": "sp-sofine-daily-berry-series-202609",
-      "evidence_id": "sha256:c13a843fd28b743813050b140eddba6411b6d76f73f492107bd72d899f9611c9"
+      "evidence_id": "sha256:c13a843fd28b743813050b140eddba6411b6d76f73f492107bd72d899f9611c9",
+      "provenance": "maintainer"
     },
     {
       "type": "community_report",
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "vintage_month": "2026-09",
-      "evidence_id": "ev:01M88AQ43HPDFGS4WEX6MANDYB"
+      "evidence_id": "ev:01M88AQ43HPDFGS4WEX6MANDYB",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -184,7 +188,8 @@
         "sha256:7dc2c9afbded5e7ad3610ee43dfd2b558d6fe9fc17b2388d3bcf4a8209d48f0c",
         "sha256:c13a843fd28b743813050b140eddba6411b6d76f73f492107bd72d899f9611c9"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {
