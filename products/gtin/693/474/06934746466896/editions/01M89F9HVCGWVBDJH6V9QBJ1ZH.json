@@ -1,0 +1,155 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06934746466896",
+  "edition_id": "01M89F9HVCGWVBDJH6V9QBJ1ZH",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "1.59",
+        "unit": "kg"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "single_ingredient_unprocessed",
+      "legal_basis": "GB 28050-2011 §7",
+      "note": "鲜鸡蛋，单一未加工生鲜农产品，外包装未印营养成分表"
+    },
+    "allergens_declared": {
+      "contains": [
+        "eggs"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鲜鸡蛋",
+            "allergens": [
+              "eggs"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "安心保洁蛋"
+      }
+    ],
+    "declared_category": "鲜鸡蛋",
+    "net_content_label": "1.59千克（30枚）",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鲜鸡蛋"
+      }
+    ],
+    "allergens_raw_text": "致敏物质提醒：鸡蛋",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "杭州益民禽蛋有限公司",
+        "address": "浙江省杭州市拱墅区闸弄口103号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "杭州益民禽蛋有限公司临平分公司",
+        "address": "浙江省杭州市临平区崇贤街道大安村李家浜108号2幢103、104、105室",
+        "plant_code": "Z"
+      },
+      {
+        "role": "manufacturer",
+        "name": "晨科生态农业（安徽）有限公司",
+        "address": "安徽省安庆市岳西县白帽镇白帽村大桥西路058号",
+        "plant_code": "A"
+      },
+      {
+        "role": "manufacturer",
+        "name": "益海晨科（南宁）农业有限公司",
+        "address": "广西壮族自治区南宁市宾阳县洋桥镇东黎村三队",
+        "plant_code": "N"
+      }
+    ],
+    "product_standard": [
+      "GB 2749"
+    ],
+    "storage_text": "存放在阴凉、干燥、清洁卫生、无异味、无有毒有害物品处，0℃-8℃冷藏效果更佳。",
+    "usage_text": "烹饪熟制后食用。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "ed5376339a1c5da29bfa653bda2052efa6cdb767ccf67e2a01198482f2b98600",
+      "media_ref": "opf-media://sha256/ed5376339a1c5da29bfa653bda2052efa6cdb767ccf67e2a01198482f2b98600",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-clean-eggs-202611",
+      "evidence_id": "sha256:ed5376339a1c5da29bfa653bda2052efa6cdb767ccf67e2a01198482f2b98600"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "82ffcda58fd20d755369384901517c439c957d00a7e08351363486b3740d8cb7",
+      "media_ref": "opf-media://sha256/82ffcda58fd20d755369384901517c439c957d00a7e08351363486b3740d8cb7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-clean-eggs-202611",
+      "evidence_id": "sha256:82ffcda58fd20d755369384901517c439c957d00a7e08351363486b3740d8cb7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T13:46:01Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:ed5376339a1c5da29bfa653bda2052efa6cdb767ccf67e2a01198482f2b98600",
+        "sha256:82ffcda58fd20d755369384901517c439c957d00a7e08351363486b3740d8cb7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "eggs"
+      ],
+      "declared_contains": [
+        "eggs"
+      ],
+      "inferred_from_ingredients": [
+        "eggs"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'single_ingredient_unprocessed' (GB 28050-2011 §7); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:3b065841e316e9bb7afc19f8f1257a2f92ad5fb3e6b808d597580e881299968b",
+  "label_fingerprint": "sha256:e9605f5cce4b6bf7eaffa1c43761a093d16adaf96c35302ceda1ca32a0f63251"
+}
