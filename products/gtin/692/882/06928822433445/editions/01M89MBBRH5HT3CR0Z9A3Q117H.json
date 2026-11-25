@@ -1,0 +1,319 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06928822433445",
+  "edition_id": "01M89MBBRH5HT3CR0Z9A3Q117H",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "450",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "204",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "12",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "10",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "special_indicators": [
+      {
+        "name": "葡萄糖酸锌添加量",
+        "value": "3",
+        "unit": "mg/100mL"
+      },
+      {
+        "name": "葡萄糖添加量",
+        "value": "13",
+        "unit": "g/100mL"
+      }
+    ],
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "食用葡萄糖"
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸钠",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          },
+          {
+            "name": "葡萄糖酸锌"
+          },
+          {
+            "name": "食品用香精"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "经口",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "经口葡萄糖饮料加锌（经典版）"
+      }
+    ],
+    "net_content_label": "450ml",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、食用葡萄糖、柠檬酸、柠檬酸钠、山梨酸钾、葡萄糖酸锌、食品用香精。"
+      }
+    ],
+    "product_standard": [
+      "Q/GDZS 0008S"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month"
+    },
+    "storage_text": "常温保存",
+    "usage_text": "开启后请及时饮用，冷藏更佳。",
+    "origin": {
+      "country": "CN",
+      "region": "广东省中山市",
+      "raw_text": "广东省中山市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "广东众参食品有限公司",
+        "address": "中山市黄圃镇食品工业园健富路2号B栋厂房四层之五"
+      },
+      {
+        "role": "manufacturer",
+        "name": "中山市海心食品有限公司",
+        "address": "中山市小榄镇坦背北洲工业区",
+        "plant_code": "HX",
+        "license": "SC10644200003308"
+      },
+      {
+        "role": "manufacturer",
+        "name": "中山市鲜宝食品有限公司",
+        "address": "中山市黄圃镇食品工业园健富路",
+        "plant_code": "XB",
+        "license": "SC10644200001302"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "f0e92f1ac1d41098f486d940304b62e9991ed3ed88331a1e090dff61bf38525a",
+      "media_ref": "opf-media://sha256/f0e92f1ac1d41098f486d940304b62e9991ed3ed88331a1e090dff61bf38525a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-jingkou-glucose-450ml-202611",
+      "evidence_id": "sha256:f0e92f1ac1d41098f486d940304b62e9991ed3ed88331a1e090dff61bf38525a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "barcode_net_content",
+      "cropped_sha256": "bf66ed38c16cd6fcbd2b4d01635dad05e8d8464011fcede940aa39d81025db59",
+      "media_ref": "opf-media://sha256/bf66ed38c16cd6fcbd2b4d01635dad05e8d8464011fcede940aa39d81025db59",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-jingkou-glucose-450ml-202611",
+      "evidence_id": "sha256:bf66ed38c16cd6fcbd2b4d01635dad05e8d8464011fcede940aa39d81025db59"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "bca06725f394d7f51253b02aeffedb31b6986e170aa986503fab81eb38c1f158",
+      "media_ref": "opf-media://sha256/bca06725f394d7f51253b02aeffedb31b6986e170aa986503fab81eb38c1f158",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-25",
+      "specimen_id": "sp-jingkou-glucose-450ml-202611",
+      "evidence_id": "sha256:bca06725f394d7f51253b02aeffedb31b6986e170aa986503fab81eb38c1f158"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T15:14:23Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:f0e92f1ac1d41098f486d940304b62e9991ed3ed88331a1e090dff61bf38525a",
+        "sha256:bf66ed38c16cd6fcbd2b4d01635dad05e8d8464011fcede940aa39d81025db59",
+        "sha256:bca06725f394d7f51253b02aeffedb31b6986e170aa986503fab81eb38c1f158"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "204",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "12",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "10",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "48.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.03",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "202",
+      "330",
+      "331(iii)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "450",
+        "unit": "ml"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "918",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "2.25",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "2.25",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "54",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "45",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "219.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.14",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:b8f0d78a010d0d8f31a65c9ee1de900e9ac15a43f7849f07c5d0fdd261fed443",
+  "label_fingerprint": "sha256:260d736661ab84602872787ba4b50ffb524f12a224b425acd9a6ebfbad5de694"
+}
