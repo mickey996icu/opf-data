@@ -34,4 +34,4 @@ Dieses Repository ist die zentrale offene Datenbank für **OpenPackagedFood (`op
    ```
    > ⚠️ **Zwingende Merge-Reihenfolge**: Nach `git commit -s` & `git push` in beiden Repos **zuerst den `opf-media`-PR mergen**, erst danach den `opf-data`-PR (`opf check-media-refs`).
 2. **Optionale Ein-Schritt-Automatisierung (`uvx` + `gh`)**:
-   `uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.0 opf pr --input draft.json --photo ...` bleibt als optionaler Shortcut verfügbar. Siehe [CONTRIBUTING.md](https://github.com/mickey996icu/open-packaged-food/blob/main/CONTRIBUTING.md).
+   `uvx --from git+https://github.com/mickey996icu/open-packaged-food@v0.2.4 opf pr --input draft.json --photo ...` bleibt als optionaler Shortcut verfügbar (externe PRs setzen `provenance` automatisch auf `"external_contributor"`). Siehe [CONTRIBUTING.md](https://github.com/mickey996icu/open-packaged-food/blob/main/CONTRIBUTING.md) und [ODbL-Leitfaden](https://github.com/mickey996icu/open-packaged-food/blob/main/docs/ODbL-GUIDE.md).

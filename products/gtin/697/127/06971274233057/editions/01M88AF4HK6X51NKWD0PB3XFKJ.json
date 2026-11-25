@@ -151,7 +151,8 @@
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "vintage_month": "2026-11",
-      "evidence_id": "ev:01M88AF484YB8FM75PP5RDT5Q1"
+      "evidence_id": "ev:01M88AF484YB8FM75PP5RDT5Q1",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -162,7 +163,8 @@
       "reported_at": "2026-11-25",
       "vintage_month": "2026-11",
       "specimen_id": "sp-marketside-spiced-beef-202611",
-      "evidence_id": "sha256:bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d"
+      "evidence_id": "sha256:bcd20953cb7940d68063064f928c1843d056c2de31f69a612cf7ff7ca153908d",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -173,7 +175,8 @@
       "reported_at": "2026-11-25",
       "vintage_month": "2026-11",
       "specimen_id": "sp-marketside-spiced-beef-202611",
-      "evidence_id": "sha256:0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b"
+      "evidence_id": "sha256:0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b",
+      "provenance": "maintainer"
     },
     {
       "type": "label_photo",
@@ -184,14 +187,16 @@
       "reported_at": "2026-11-25",
       "vintage_month": "2026-11",
       "specimen_id": "sp-marketside-spiced-beef-202611",
-      "evidence_id": "sha256:8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1"
+      "evidence_id": "sha256:8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1",
+      "provenance": "maintainer"
     },
     {
       "type": "community_report",
       "contributor": "github:mickey996icu",
       "reported_at": "2026-11-25",
       "vintage_month": "2026-11",
-      "evidence_id": "ev:01M88AJ8Z3WBZQVZY3SP330KJ6"
+      "evidence_id": "ev:01M88AJ8Z3WBZQVZY3SP330KJ6",
+      "provenance": "maintainer"
     }
   ],
   "revisions": [
@@ -206,7 +211,8 @@
         "sha256:0e0e67afbfd088e281c00794e8881435f022cd05e9e30e54bfbf0066a137f33b",
         "sha256:8d7080b8859d04921ce6dcea223c73592dc43e5a57da545ecda88495bd7a34c1"
       ],
-      "patch": []
+      "patch": [],
+      "provenance": "maintainer"
     }
   ],
   "normalized": {
