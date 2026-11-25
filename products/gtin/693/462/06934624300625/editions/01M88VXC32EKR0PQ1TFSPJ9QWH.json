@@ -1,0 +1,241 @@
+{
+  "opf_schema": "0.2",
+  "id": "gtin:06934624300625",
+  "edition_id": "01M88VXC32EKR0PQ1TFSPJ9QWH",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "250",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "284",
+          "unit": "kJ",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "protein",
+          "value": "14.3",
+          "unit": "g",
+          "nrv_pct": "24"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.6",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "76",
+          "unit": "mg",
+          "nrv_pct": "4"
+        }
+      ]
+    },
+    "allergens_declared": {
+      "contains": [
+        "crustaceans"
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "南美白对虾",
+            "allergens": [
+              "crustaceans"
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "食用盐"
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "生制白虾仁"
+      }
+    ],
+    "declared_category": "调味水产制品(速冻、生制品、非即食)",
+    "net_content_label": "250克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "南美白对虾、水、食用盐"
+      }
+    ],
+    "allergens_raw_text": "本产品含有虾类",
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "湛江国联水产开发股份有限公司",
+        "address": "广东省湛江市吴川市黄坡镇(吴川)华昱产业转移工业园华昱大道8号",
+        "license": "SC11144081800101"
+      }
+    ],
+    "product_standard": [
+      "SB/T 10379"
+    ],
+    "shelf_life": {
+      "value": "18",
+      "unit": "month"
+    },
+    "storage_text": "-18℃以下冷冻保存"
+  },
+  "evidence": [
+    {
+      "type": "community_report",
+      "provenance": "maintainer",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-09",
+      "vintage_month": "2026-09",
+      "evidence_id": "ev:01M88VXBVECYWVTDYYTR71ETJ3"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-25T08:07:19Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "ev:01M88VXBVECYWVTDYYTR71ETJ3"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "284",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "14.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "1.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "76",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "67.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.19",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "crustaceans"
+      ],
+      "declared_contains": [
+        "crustaceans"
+      ],
+      "inferred_from_ingredients": [
+        "crustaceans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "250",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "710",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "35.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "2.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "190",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "169.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.48",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:48c4adedde2eeae1c4ad94c4c3ce9fcd10536a45d5591fa603e6449cc46504ba",
+  "label_fingerprint": "sha256:02ced9dcab902063392ff748859c6655cce97a0bd212ebc45f7cb958804809d8"
+}
