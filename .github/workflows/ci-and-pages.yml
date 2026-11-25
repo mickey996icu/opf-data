@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  # Pinned open-packaged-food release tag for reproducible schema validation (v0.2)
-  OPF_TOOL_REF: "v0.2.6"
+  # Pinned open-packaged-food release tag for reproducible schema validation (v0.3)
+  OPF_TOOL_REF: "v0.3.0"
   OPF_MEDIA_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository_owner }}/opf-media/main"
 
 permissions:
@@ -73,7 +73,9 @@ jobs:
             "${EXTRA_FLAGS[@]}"
 
       - name: Validate all product records
-        run: ./open-packaged-food/bin/opf validate --allow-empty opf-data/products
+        run: |
+          ./open-packaged-food/bin/opf validate --allow-empty opf-data/products
+          ./open-packaged-food/bin/opf audit opf-data/products
 
       - name: Verify opf-media references exist on opf-media main
         env:

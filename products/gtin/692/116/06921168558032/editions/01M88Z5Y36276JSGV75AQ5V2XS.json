@@ -1,5 +1,5 @@
 {
-  "opf_schema": "0.2",
+  "opf_schema": "0.3",
   "id": "gtin:06921168558032",
   "edition_id": "01M88Z5Y36276JSGV75AQ5V2XS",
   "rev": 1,
@@ -85,6 +85,14 @@
           }
         ]
       }
+    ],
+    "special_indicators": [
+      {
+        "name": "茶多酚",
+        "qualifier": ">=",
+        "value": "260",
+        "unit": "mg/kg"
+      }
     ]
   },
   "attributes": {
@@ -129,15 +137,7 @@
     ],
     "storage_text": "避免阳光直晒或高温，不宜冷冻。若有瓶中有沉淀物，为天然成分，并无品质问题。",
     "usage_text": "本品冷热饮均可。如加热饮用，加热温度不宜超过50℃。",
-    "packaging_code": "DFWL-HYHW-2606",
-    "special_indicators": [
-      {
-        "name": "茶多酚",
-        "qualifier": ">=",
-        "value": "260",
-        "unit": "mg/kg"
-      }
-    ]
+    "packaging_code": "DFWL-HYHW-2606"
   },
   "evidence": [
     {
@@ -352,6 +352,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:35e64043e7e80e6f58744edfb200764fc6deb8dc6264b1a162b66a6b71380552",
-  "label_fingerprint": "sha256:d3cc76442a1916f371c60c55e378b64da342f1f927dc294c5b5d900ab16e4037"
+  "core_fingerprint": "sha256:e4fa1d872a48ba3f73b7175716e411e2c7faa18ef180e5e2345d0ce8a29acda8",
+  "label_fingerprint": "sha256:65014298b6f3145e83514ad1386b89bb9d0796f4c594eb67e35559e11a8ef467"
 }
