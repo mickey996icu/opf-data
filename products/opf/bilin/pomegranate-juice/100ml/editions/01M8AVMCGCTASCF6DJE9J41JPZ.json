@@ -1,0 +1,285 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:bilin/pomegranate-juice/100ml",
+  "edition_id": "01M8AVMCGCTASCF6DJE9J41JPZ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "100",
+        "unit": "ml"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "196",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "11.5",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "10",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "浓缩石榴浆"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "碧林",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "石榴汁"
+      },
+      {
+        "lang": "en",
+        "text": "POMEGRANATE JUICE"
+      }
+    ],
+    "net_content_label": "100ml",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "配料:水、浓缩石榴浆"
+      }
+    ],
+    "product_standard": [
+      "GB/T 31121"
+    ],
+    "shelf_life": {
+      "value": "6",
+      "unit": "month"
+    },
+    "storage_text": "请保存于阴凉干燥处，避光暴晒或雨淋。",
+    "lot_code_rule": "生产日期和保质期到期日:见包装底部",
+    "usage_text": "儿童青少年应避免过量摄入盐油糖。",
+    "claims_text": [
+      "果汁含量:100%"
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "江苏省无锡市",
+      "raw_text": "江苏无锡"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "无锡市碧林稼乐食品有限公司",
+        "address": "江苏无锡惠山经济开发区堰桥配套区堰宏路9号",
+        "license": "SC10632020601220"
+      }
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "Bilin",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "3d7ed4f6d47c867dfd9cc6d4f99a2bdbb297b31e71fdab2dec8f5b67c536ef3b",
+      "media_ref": "opf-media://sha256/3d7ed4f6d47c867dfd9cc6d4f99a2bdbb297b31e71fdab2dec8f5b67c536ef3b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "specimen_id": "sp-bilin-pomegranate-juice-100ml",
+      "evidence_id": "sha256:3d7ed4f6d47c867dfd9cc6d4f99a2bdbb297b31e71fdab2dec8f5b67c536ef3b"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "0fb397e568e95cf9b4a7995bc105158fdd64b8caaca2de94455b31b7b96776da",
+      "media_ref": "opf-media://sha256/0fb397e568e95cf9b4a7995bc105158fdd64b8caaca2de94455b31b7b96776da",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "specimen_id": "sp-bilin-pomegranate-juice-100ml",
+      "evidence_id": "sha256:0fb397e568e95cf9b4a7995bc105158fdd64b8caaca2de94455b31b7b96776da"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "9b312deba2c971af9d20e88312edee7cf19fc71bcdfca9d762e027cb3281ba74",
+      "media_ref": "opf-media://sha256/9b312deba2c971af9d20e88312edee7cf19fc71bcdfca9d762e027cb3281ba74",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "specimen_id": "sp-bilin-pomegranate-juice-100ml",
+      "evidence_id": "sha256:9b312deba2c971af9d20e88312edee7cf19fc71bcdfca9d762e027cb3281ba74"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "manufacturer_block",
+      "cropped_sha256": "d2ffbce65d6c18dfd40d15293b60c8e292fcbdb073bac403b3726b3a34bd8aeb",
+      "media_ref": "opf-media://sha256/d2ffbce65d6c18dfd40d15293b60c8e292fcbdb073bac403b3726b3a34bd8aeb",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "specimen_id": "sp-bilin-pomegranate-juice-100ml",
+      "evidence_id": "sha256:d2ffbce65d6c18dfd40d15293b60c8e292fcbdb073bac403b3726b3a34bd8aeb"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-26T02:40:53Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:3d7ed4f6d47c867dfd9cc6d4f99a2bdbb297b31e71fdab2dec8f5b67c536ef3b",
+        "sha256:0fb397e568e95cf9b4a7995bc105158fdd64b8caaca2de94455b31b7b96776da",
+        "sha256:9b312deba2c971af9d20e88312edee7cf19fc71bcdfca9d762e027cb3281ba74",
+        "sha256:d2ffbce65d6c18dfd40d15293b60c8e292fcbdb073bac403b3726b3a34bd8aeb"
+      ],
+      "patch": [],
+      "reason": "用户确认餐饮/组合拆封单杯外包装确无 GTIN 条形码（杯底仅喷码生产日期），按 opf: 合成 ID 收录"
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "196",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "11.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "10",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "46.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.03",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:509bb399ec81146d314f27442e7a276be26de0f4774e176128e21b6cab3f1db4",
+  "label_fingerprint": "sha256:d37279f725489a4084d6ae9e913c92e70f8e8068da46d0fa48cad48f96194fbd"
+}
