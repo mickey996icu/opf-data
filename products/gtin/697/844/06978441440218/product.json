@@ -1,0 +1,97 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06978441440218",
+  "aliases": [
+    "沃集鲜 NFC*什锦装果肉果冻 540克(12杯)",
+    "MARKETSIDE 沃集鲜 NFC*什锦装果肉果冻",
+    "沃集鲜 NFC*凤梨果肉果冻 180克",
+    "沃集鲜 NFC*黄桃果肉果冻 180克",
+    "沃集鲜 NFC*龙眼果肉果冻 180克"
+  ],
+  "tracks": [
+    {
+      "track": "CN/flavor:pineapple",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "NFC*凤梨果肉果冻（180克）"
+        },
+        {
+          "lang": "en",
+          "text": "NFC Pineapple Pulp Jelly (180 g)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对独立小杯或外袋背面对应口味栏品名：NFC*凤梨果肉果冻（180克）"
+          },
+          {
+            "lang": "en",
+            "text": "Match flavor heading on the cup or back panel: NFC*凤梨果肉果冻 (180 g)"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:yellow_peach",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "NFC*黄桃果肉果冻（180克）"
+        },
+        {
+          "lang": "en",
+          "text": "NFC Yellow Peach Pulp Jelly (180 g)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对独立小杯或外袋背面对应口味栏品名：NFC*黄桃果肉果冻（180克）"
+          },
+          {
+            "lang": "en",
+            "text": "Match flavor heading on the cup or back panel: NFC*黄桃果肉果冻 (180 g)"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:longan",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "NFC*龙眼果肉果冻（180克）"
+        },
+        {
+          "lang": "en",
+          "text": "NFC Longan Pulp Jelly (180 g)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对独立小杯或外袋背面对应口味栏品名：NFC*龙眼果肉果冻（180克）"
+          },
+          {
+            "lang": "en",
+            "text": "Match flavor heading on the cup or back panel: NFC*龙眼果肉果冻 (180 g)"
+          }
+        ]
+      }
+    }
+  ]
+}
