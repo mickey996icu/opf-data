@@ -1,0 +1,450 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:08883000000254",
+  "edition_id": "01M8BH58AEEY6T9RA1Z7MACT9C",
+  "rev": 1,
+  "track": "SG/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "SG/SFA-FR",
+    "net_content": [
+      {
+        "value": "30",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "30",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "30",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "66",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "7.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "cholesterol",
+          "value": "0",
+          "unit": "mg"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "8.6",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "1.3",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "4593",
+          "unit": "mg"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "White Pepper"
+          },
+          {
+            "name": "Salt"
+          },
+          {
+            "name": "Permitted Food Enhancer",
+            "children": [
+              {
+                "name": "E621",
+                "ins": "621",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Spices"
+          }
+        ]
+      },
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "白胡椒"
+          },
+          {
+            "name": "盐"
+          },
+          {
+            "name": "食用調味料",
+            "children": [
+              {
+                "name": "E621",
+                "ins": "621",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "香料"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "SONG FA",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "SINGAPORE Bak Kut Teh Spices"
+      },
+      {
+        "lang": "zh-Hans",
+        "text": "新加坡潮州肉骨茶香料"
+      }
+    ],
+    "net_content_label": "30 grams per packet 每包30克",
+    "serving_size_label": "30g",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "White Pepper, Salt, Permitted Food Enhancer (E621), Spices"
+      },
+      {
+        "lang": "zh-Hans",
+        "text": "白胡椒, 盐, 食用調味料(E621), 香料"
+      }
+    ],
+    "lot_code_rule": "BEST BEFORE / 此日期前最佳",
+    "usage_text": "PREPARATION: Boil 900 grams of pork ribs for 5 minutes and rinse it to remove scum. COOKING METHOD: 1. Boil 1800 ml of water with 25 pieces of garlic and 2 sachets of spices for 15 minutes. (2 sachets in each packet) 2. Add 900 grams of pork ribs. 3. Add ½ teaspoon of dark soya sauce and ½ teaspoon of light soya sauce. 4. Simmer on medium heat for 50 - 60 minutes. 5. Remove sachets after simmering for 50 - 60 minutes or anytime after to suit individual preference on spiciness. RECOMMENDATION: Song Fa spices can be used as a soup base for hot pot. Other types of meat can be used as an alternative to pork ribs.",
+    "origin": {
+      "country": "SG",
+      "raw_text": "PRODUCT OF SINGAPORE 新加坡产品"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "Song Fa Trading Pte. Ltd.",
+        "address": "Blk 1550 Bedok North Avenue 4, #01-08A, JTC Bedok Food City, Singapore 489950"
+      }
+    ],
+    "translations": [
+      {
+        "lang": "zh-Hant",
+        "field": "brand",
+        "text": "松發",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "0c606dea0d6c960331f0b44360f3e14dd9e34b9560749411ac30ef930f610227",
+      "media_ref": "opf-media://sha256/0c606dea0d6c960331f0b44360f3e14dd9e34b9560749411ac30ef930f610227",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-songfa-bkt-spices-30g",
+      "evidence_id": "sha256:0c606dea0d6c960331f0b44360f3e14dd9e34b9560749411ac30ef930f610227"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "barcode_net_content",
+      "cropped_sha256": "bb7ba2a7965917ae56ee2554bc113f3aa0e038a1c054d2cf5effb9661d20206c",
+      "media_ref": "opf-media://sha256/bb7ba2a7965917ae56ee2554bc113f3aa0e038a1c054d2cf5effb9661d20206c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-songfa-bkt-spices-30g",
+      "evidence_id": "sha256:bb7ba2a7965917ae56ee2554bc113f3aa0e038a1c054d2cf5effb9661d20206c"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "manufacturer_block",
+      "cropped_sha256": "8a5dbe6fddb573476e6d4fc1a314cffb5d26ca1cbcf511ded56bdd5a292ed3d6",
+      "media_ref": "opf-media://sha256/8a5dbe6fddb573476e6d4fc1a314cffb5d26ca1cbcf511ded56bdd5a292ed3d6",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-songfa-bkt-spices-30g",
+      "evidence_id": "sha256:8a5dbe6fddb573476e6d4fc1a314cffb5d26ca1cbcf511ded56bdd5a292ed3d6"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "b543334ba31eda028e6f6cfb811877d6a941fb9e566d56d7f70d8bf9111a40f4",
+      "media_ref": "opf-media://sha256/b543334ba31eda028e6f6cfb811877d6a941fb9e566d56d7f70d8bf9111a40f4",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-songfa-bkt-spices-30g",
+      "evidence_id": "sha256:b543334ba31eda028e6f6cfb811877d6a941fb9e566d56d7f70d8bf9111a40f4"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "54ffe2f70cc0c0bf26c6ec21b8e35d18ee57e26d172d3ab8c81dfbf8b996b594",
+      "media_ref": "opf-media://sha256/54ffe2f70cc0c0bf26c6ec21b8e35d18ee57e26d172d3ab8c81dfbf8b996b594",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-songfa-bkt-spices-30g",
+      "evidence_id": "sha256:54ffe2f70cc0c0bf26c6ec21b8e35d18ee57e26d172d3ab8c81dfbf8b996b594"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-26T08:57:06Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:0c606dea0d6c960331f0b44360f3e14dd9e34b9560749411ac30ef930f610227",
+        "sha256:bb7ba2a7965917ae56ee2554bc113f3aa0e038a1c054d2cf5effb9661d20206c",
+        "sha256:8a5dbe6fddb573476e6d4fc1a314cffb5d26ca1cbcf511ded56bdd5a292ed3d6",
+        "sha256:b543334ba31eda028e6f6cfb811877d6a941fb9e566d56d7f70d8bf9111a40f4",
+        "sha256:54ffe2f70cc0c0bf26c6ec21b8e35d18ee57e26d172d3ab8c81dfbf8b996b594"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "220",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "26.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "cholesterol": {
+        "qualifier": "<",
+        "value": "2",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "28.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "dietary_fiber": {
+        "value": "4.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "15310",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kj": {
+        "value": "920.5",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "38.28",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "621"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "30",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "66",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "7.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "0.15",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "0.15",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_trans": {
+          "value": "0.15",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "cholesterol": {
+          "value": "0.6",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "8.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.15",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "dietary_fiber": {
+          "value": "1.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "4593",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "276.2",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "11.48",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 30g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under SG/SFA-FR zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under SG/SFA-FR zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g under SG/SFA-FR zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "cholesterol",
+      "detail": "Declared 0 mg under SG/SFA-FR zero-threshold rule implies <2 mg/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under SG/SFA-FR zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:fb119e8764a654c29f783b0ecaacdb4dfb9d12c55a3a96a647af98b7d0f975dd",
+  "label_fingerprint": "sha256:44768c2b82e0dd9beca410eb2acfb0f0d4696522416296315346c1b077bb0d67"
+}
