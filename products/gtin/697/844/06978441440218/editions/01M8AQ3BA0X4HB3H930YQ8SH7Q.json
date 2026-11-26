@@ -1,0 +1,354 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06978441440218",
+  "edition_id": "01M8AQ3BA0X4HB3H930YQ8SH7Q",
+  "rev": 1,
+  "track": "CN/flavor:pineapple",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "180",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "296",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "17.4",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "38",
+          "unit": "mg",
+          "nrv_pct": "2"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "凤梨果肉"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "NFC菠萝汁"
+          },
+          {
+            "name": "浓缩柠檬汁"
+          },
+          {
+            "name": "魔芋粉"
+          },
+          {
+            "name": "海藻粉",
+            "children": [
+              {
+                "name": "麒麟菜"
+              }
+            ]
+          },
+          {
+            "name": "果胶",
+            "ins": "440",
+            "is_additive": true
+          },
+          {
+            "name": "乳酸钙",
+            "ins": "327",
+            "is_additive": true
+          },
+          {
+            "name": "红花黄"
+          },
+          {
+            "name": "食品用香精"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": [
+        "milk"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "NFC*凤梨果肉果冻"
+      }
+    ],
+    "declared_category": "果肉型",
+    "net_content_label": "180克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "配料:水、凤梨果肉、白砂糖、NFC菠萝汁、浓缩柠檬汁、魔芋粉、海藻粉(麒麟菜)、果胶、乳酸钙、红花黄、食品用香精"
+      }
+    ],
+    "allergens_raw_text": "致敏信息:此生产线还加工含有乳制品的食品。",
+    "product_standard": [
+      "GB/T 19883"
+    ],
+    "storage_text": "常温、避晒",
+    "packaging_code": "YL02030950",
+    "usage_text": "勿一口吞食; 三岁以下儿童不宜食用, 老人儿童须监护下食用",
+    "origin": {
+      "country": "CN",
+      "region": "江苏省宿迁市",
+      "raw_text": "江苏省宿迁市"
+    },
+    "parties": [
+      {
+        "role": "brand_owner",
+        "name": "沃尔玛(中国)投资有限公司"
+      },
+      {
+        "role": "manufacturer",
+        "name": "江苏仙之宝食品有限公司",
+        "address": "江苏省宿迁市泗阳县经济开发区文城东路256号",
+        "license": "SC11332132301043"
+      }
+    ],
+    "claims_text": [
+      "食品名称:NFC*什锦装果肉果冻",
+      "净含量:540克(12杯)",
+      "NFC*凤梨果肉果冻180克，其中凤梨果肉含量≥15%，NFC菠萝汁添加量≥1%",
+      "地标产地水果",
+      "原切/大颗粒果肉",
+      "非浓缩还原 添加NFC*果汁/果浆",
+      "*NFC指产品中添加了NFC非浓缩还原果汁/果浆Not From Concentrate",
+      "本产品甄选非罐头果肉:海南东方凤梨,安徽砀山黄桃,平南石硖龙眼"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "6abecbd616db6935e3371b2ba64cab1f081a16d567a71ca11f2f8e1452f4b4f2",
+      "media_ref": "opf-media://sha256/6abecbd616db6935e3371b2ba64cab1f081a16d567a71ca11f2f8e1452f4b4f2",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-05",
+      "specimen_id": "sp-marketside-nfc-jelly-540g",
+      "evidence_id": "sha256:6abecbd616db6935e3371b2ba64cab1f081a16d567a71ca11f2f8e1452f4b4f2"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "d70cf72443850c7ebcc0ba0d62e5cd5d8a08609d8f7cbb1c1206b35f1da6634a",
+      "media_ref": "opf-media://sha256/d70cf72443850c7ebcc0ba0d62e5cd5d8a08609d8f7cbb1c1206b35f1da6634a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-05",
+      "specimen_id": "sp-marketside-nfc-jelly-540g",
+      "evidence_id": "sha256:d70cf72443850c7ebcc0ba0d62e5cd5d8a08609d8f7cbb1c1206b35f1da6634a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "5c5b7cab5a736f24250ebae1055602ae0f8d62480cfae54a543b6da38627c548",
+      "media_ref": "opf-media://sha256/5c5b7cab5a736f24250ebae1055602ae0f8d62480cfae54a543b6da38627c548",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-05",
+      "specimen_id": "sp-marketside-nfc-jelly-540g",
+      "evidence_id": "sha256:5c5b7cab5a736f24250ebae1055602ae0f8d62480cfae54a543b6da38627c548"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "1b53a3b91ec1902cc63c41dec3b4de683d5853ee055db6ffd74640d3e99603c5",
+      "media_ref": "opf-media://sha256/1b53a3b91ec1902cc63c41dec3b4de683d5853ee055db6ffd74640d3e99603c5",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-26",
+      "vintage_month": "2026-05",
+      "specimen_id": "sp-marketside-nfc-jelly-540g",
+      "evidence_id": "sha256:1b53a3b91ec1902cc63c41dec3b4de683d5853ee055db6ffd74640d3e99603c5"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-26T01:21:41Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:6abecbd616db6935e3371b2ba64cab1f081a16d567a71ca11f2f8e1452f4b4f2",
+        "sha256:d70cf72443850c7ebcc0ba0d62e5cd5d8a08609d8f7cbb1c1206b35f1da6634a",
+        "sha256:5c5b7cab5a736f24250ebae1055602ae0f8d62480cfae54a543b6da38627c548",
+        "sha256:1b53a3b91ec1902cc63c41dec3b4de683d5853ee055db6ffd74640d3e99603c5"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "296",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "17.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "38",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "70.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.1",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "327",
+      "440"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": [
+        "milk"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "180",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "532.8",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "0.9",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "0.9",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "31.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "68.4",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "127.3",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.18",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:b64e8002b9e4d588aac3a83e61b821bd3d4d45473aab1d5976d3f2039440eb50",
+  "label_fingerprint": "sha256:b4a72ab5e2702fd91234cea0eba987657ad9dd6826299f0ea0cfbf19db2f8634"
+}
