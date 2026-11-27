@@ -1,0 +1,125 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06973684226568",
+  "aliases": [
+    "毛肚拼盘 600g",
+    "毛肚拼盘(毛肚片)",
+    "毛肚拼盘(白千层)",
+    "毛肚拼盘(黑千层)",
+    "毛肚拼盘(白玉毛肚)"
+  ],
+  "tracks": [
+    {
+      "track": "CN/flavor:tripe_slice",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "毛肚拼盘(毛肚片)"
+        },
+        {
+          "lang": "en",
+          "text": "Tripe Platter (Tripe Slice)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对背面四宫格对应分区：第一列：毛肚片配料表与毛肚片营养成分表"
+          },
+          {
+            "lang": "en",
+            "text": "Match platter back-panel section: Tripe Slice"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:white_omasum",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "毛肚拼盘(白千层)"
+        },
+        {
+          "lang": "en",
+          "text": "Tripe Platter (White Omasum)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对背面四宫格对应分区：第二列：白千层配料表与白千层营养成分表"
+          },
+          {
+            "lang": "en",
+            "text": "Match platter back-panel section: White Omasum"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:black_omasum",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "毛肚拼盘(黑千层)"
+        },
+        {
+          "lang": "en",
+          "text": "Tripe Platter (Black Omasum)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对背面四宫格对应分区：第三列：黑千层配料表与黑千层营养成分表"
+          },
+          {
+            "lang": "en",
+            "text": "Match platter back-panel section: Black Omasum"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:white_jade_tripe",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "毛肚拼盘(白玉毛肚)"
+        },
+        {
+          "lang": "en",
+          "text": "Tripe Platter (White Jade Tripe)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对背面四宫格对应分区：第四列：白玉毛肚配料表与白玉毛肚营养成分表"
+          },
+          {
+            "lang": "en",
+            "text": "Match platter back-panel section: White Jade Tripe"
+          }
+        ]
+      }
+    }
+  ]
+}

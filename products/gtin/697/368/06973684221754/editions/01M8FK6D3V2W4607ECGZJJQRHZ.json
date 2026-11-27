@@ -1,0 +1,316 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06973684221754",
+  "edition_id": "01M8FK6D3V2W4607ECGZJJQRHZ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "200",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "111",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "6.5",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "90",
+          "unit": "mg",
+          "nrv_pct": "5"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛百叶",
+            "children": [
+              {
+                "name": "牛百叶"
+              },
+              {
+                "name": "食用盐"
+              }
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "木瓜蛋白酶"
+          },
+          {
+            "name": "碳酸钠",
+            "ins": "500(i)",
+            "is_additive": true
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "智琪",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "脆毛肚"
+      }
+    ],
+    "declared_category": "预制调理肉制品(非即食)",
+    "net_content_label": "200g(固形物≥60%)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛百叶(牛百叶、食用盐)、水、木瓜蛋白酶、碳酸钠"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "四川省广元市",
+      "raw_text": "四川省广元市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "四川智琪食品有限公司",
+        "address": "四川省广元市利州区宝轮工业园",
+        "license": "SC11151080200017"
+      }
+    ],
+    "product_standard": [
+      "Q/ZQS0002S"
+    ],
+    "lot_code_rule": "生产日期及保质期至:见正面标签右下角喷码处",
+    "shelf_life": {
+      "value": "60",
+      "unit": "day",
+      "label": "60天"
+    },
+    "storage_text": "0℃~4℃冷藏贮存",
+    "usage_text": "将产品拆袋清洗后煮、烫、炒等熟透后即可食用。温馨提示:请将产品放置在0℃~4℃冷藏环境下贮存,产品拆袋清洗后请尽快食用,如发现破袋、变质请勿食用。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "5b8e323243696d4ebf87a5fa279aee2da797b8536bc946e6994468f4bb863773",
+      "media_ref": "opf-media://sha256/5b8e323243696d4ebf87a5fa279aee2da797b8536bc946e6994468f4bb863773",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-zq-cuimaodu-200g",
+      "evidence_id": "sha256:5b8e323243696d4ebf87a5fa279aee2da797b8536bc946e6994468f4bb863773"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T22:49:39Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:5b8e323243696d4ebf87a5fa279aee2da797b8536bc946e6994468f4bb863773"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "111",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "6.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "90",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "26.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.23",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "500(i)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "200",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "222",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "13",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "1",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "1",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sugars_total": {
+          "value": "1",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "180",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "53",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.46",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:6e3698c9838231991b770a3626d4753dd2148e4b2c2e42e2296e9d59020727a5",
+  "label_fingerprint": "sha256:b8a840a68d2fcc4b881ff9a83369b55fbb553af083627a337d2958d79855ca69"
+}

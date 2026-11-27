@@ -1,0 +1,285 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06973684226568",
+  "edition_id": "01M8FK6DXHHJSBZA73RT5RQ3AR",
+  "rev": 1,
+  "track": "CN/flavor:tripe_slice",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "111",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "6.5",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "90",
+          "unit": "mg",
+          "nrv_pct": "5"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛百叶",
+            "children": [
+              {
+                "name": "牛百叶"
+              },
+              {
+                "name": "食用盐"
+              }
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "木瓜蛋白酶"
+          },
+          {
+            "name": "碳酸钠",
+            "ins": "500(i)",
+            "is_additive": true
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "智琪",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "毛肚拼盘(毛肚片)"
+      }
+    ],
+    "declared_category": "预制调理肉制品(非即食)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛百叶(牛百叶、食用盐)、水、木瓜蛋白酶、碳酸钠"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "四川省广元市",
+      "raw_text": "四川省广元市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "四川智琪食品有限公司",
+        "address": "四川省广元市利州区宝轮工业园",
+        "license": "SC11151080200017"
+      }
+    ],
+    "product_standard": [
+      "Q/ZQS0002S"
+    ],
+    "shelf_life": {
+      "value": "60",
+      "unit": "day",
+      "label": "60天"
+    },
+    "storage_text": "0℃-4℃冷藏贮存",
+    "usage_text": "烫火锅、冒菜、爆炒。温馨提示:产品贮存方式为冷藏保存,如贮存不当可能会导致产品失水、变质。开袋清洗后请尽快食用,若发现破袋、变质请勿食用。",
+    "claims_text": [
+      "8秒推荐涮烫",
+      "0℃-4℃冷藏锁鲜,地道火锅即刻畅享",
+      "净含量:600g",
+      "3-5人份",
+      "固形物含量≥60%"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "2da2c56c9c81a78b9abd64ce6dd6a0af2d1042574f4a4e9f9bf4016e48500e6b",
+      "media_ref": "opf-media://sha256/2da2c56c9c81a78b9abd64ce6dd6a0af2d1042574f4a4e9f9bf4016e48500e6b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-zq-tripe-platter-600g",
+      "evidence_id": "sha256:2da2c56c9c81a78b9abd64ce6dd6a0af2d1042574f4a4e9f9bf4016e48500e6b"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "manufacturer_block",
+      "cropped_sha256": "53471f47867c19623a94a0ec91ebc887348d8a8c090d62b57504408ed8bbb5fd",
+      "media_ref": "opf-media://sha256/53471f47867c19623a94a0ec91ebc887348d8a8c090d62b57504408ed8bbb5fd",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-zq-tripe-platter-600g",
+      "evidence_id": "sha256:53471f47867c19623a94a0ec91ebc887348d8a8c090d62b57504408ed8bbb5fd"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "2e96aee8e56e930a5f450b330ff53bc1bf3a0e0d27c98b6afe8171480ab7289f",
+      "media_ref": "opf-media://sha256/2e96aee8e56e930a5f450b330ff53bc1bf3a0e0d27c98b6afe8171480ab7289f",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-zq-tripe-platter-600g",
+      "evidence_id": "sha256:2e96aee8e56e930a5f450b330ff53bc1bf3a0e0d27c98b6afe8171480ab7289f"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T22:49:40Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:2da2c56c9c81a78b9abd64ce6dd6a0af2d1042574f4a4e9f9bf4016e48500e6b",
+        "sha256:53471f47867c19623a94a0ec91ebc887348d8a8c090d62b57504408ed8bbb5fd",
+        "sha256:2e96aee8e56e930a5f450b330ff53bc1bf3a0e0d27c98b6afe8171480ab7289f"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "111",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "6.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "90",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "26.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.23",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "500(i)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:296aea941ae5ba38299965698bb6bd5b7c00c87e6e2e691580511787acdac1f8",
+  "label_fingerprint": "sha256:ba07fb6193596322582945d095ec17521be0377cd1d43148b8593a5b1f967ec5"
+}

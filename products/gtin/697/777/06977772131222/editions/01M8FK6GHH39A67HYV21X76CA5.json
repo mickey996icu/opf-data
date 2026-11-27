@@ -1,0 +1,294 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06977772131222",
+  "edition_id": "01M8FK6GHH39A67HYV21X76CA5",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "250",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "512",
+          "unit": "kJ",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "protein",
+          "value": "19",
+          "unit": "g",
+          "nrv_pct": "32"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "3",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.8",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.6",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "2.1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "537",
+          "unit": "mg",
+          "nrv_pct": "27"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡翅"
+          },
+          {
+            "name": "新奥尔良腌料",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "金沙腌味酱",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "饮用水"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "喜嘉辉·小厨",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "新奥尔良鸡中翅"
+      }
+    ],
+    "declared_category": "冷藏调制食品(生制品)",
+    "net_content_label": "250g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡翅、新奥尔良腌料（复合调味料）、金沙腌味酱（复合调味料）、饮用水"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市",
+      "raw_text": "广东省东莞市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "广东嘉辉食品供应链有限公司",
+        "address": "广东省东莞市凤岗镇凤观路57号4栋301室",
+        "license": "SC10344190019837"
+      }
+    ],
+    "product_standard": [
+      "Q/JH 0001S-2026"
+    ],
+    "shelf_life": {
+      "value": "4",
+      "unit": "day",
+      "label": "4天"
+    },
+    "storage_text": "0-4℃冷藏保存",
+    "usage_text": "烹调加工方式:煎、烤、炸等",
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "XI JIA HUI XIAO CHU",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "7cd4d8d9df5f5d7c1c0add3b5ab1251b2e0da948609ac1b3320750b20fbcf16c",
+      "media_ref": "opf-media://sha256/7cd4d8d9df5f5d7c1c0add3b5ab1251b2e0da948609ac1b3320750b20fbcf16c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xjh-new-orleans-wings-250g",
+      "evidence_id": "sha256:7cd4d8d9df5f5d7c1c0add3b5ab1251b2e0da948609ac1b3320750b20fbcf16c"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T22:49:42Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:7cd4d8d9df5f5d7c1c0add3b5ab1251b2e0da948609ac1b3320750b20fbcf16c"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "512",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "19",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "0.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "2.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "537",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "122.4",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.34",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "250",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1280",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "47.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "7.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "11.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "5.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "1342.5",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "306",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "3.35",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:50644fd8f4c756162e33652c311d4077677261543483cfe37791ab5b625ad286",
+  "label_fingerprint": "sha256:530fd50a4f6c398e54d3063a20410dbea0cc61cd4d0a7dc3c00fb4008a5b5ed4"
+}
