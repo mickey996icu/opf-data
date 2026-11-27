@@ -93,9 +93,7 @@
       }
     ],
     "allergens_declared": {
-      "contains": [
-        "milk"
-      ],
+      "contains": [],
       "may_contain": []
     }
   },
@@ -177,9 +175,7 @@
       "contains": [
         "milk"
       ],
-      "declared_contains": [
-        "milk"
-      ],
+      "declared_contains": [],
       "inferred_from_ingredients": [
         "milk"
       ],
@@ -193,6 +189,6 @@
       "detail": "Nutrition panel legally exempt under category 'small_package_area' (GB 28050 豁免标识营养成分表的小包装预包装食品（总净含量9g，独立小包装背面无GTIN条码与营养成分表）); normalized.nutrients is intentionally empty."
     }
   ],
-  "core_fingerprint": "sha256:e939dccb5d6bae674e0f018f9451fe65981507aab29cd6a6f6bf5d3a8d6920c5",
-  "label_fingerprint": "sha256:3630a688cd424fbd469550c2bbb725aee982ff5efb96e76eeddfb8bdce9ce58f"
+  "core_fingerprint": "sha256:83f19a5cc113a4c36bdf30d676558afa2b3e9dc0067bc4c917be1dc0d04e048e",
+  "label_fingerprint": "sha256:d70a4f843f750dd754f8caab2bd3411328916d21480f70ac3fab20e3412a442b"
 }
