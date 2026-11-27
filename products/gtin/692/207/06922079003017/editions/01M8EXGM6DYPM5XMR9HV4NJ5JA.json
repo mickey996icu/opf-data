@@ -1,0 +1,308 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06922079003017",
+  "edition_id": "01M8EXGM6DYPM5XMR9HV4NJ5JA",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "300",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "344",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "12.4",
+          "unit": "g",
+          "nrv_pct": "21"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.4",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.5",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.8",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "349",
+          "unit": "mg",
+          "nrv_pct": "17"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "杂色蛤肉",
+            "qualifier": "≥94%"
+          },
+          {
+            "name": "饮用水"
+          },
+          {
+            "name": "食用盐"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": [
+        "crustaceans",
+        "fish"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "花蛤肉"
+      }
+    ],
+    "declared_category": "预制动物性水产制品(生制品 非即食)",
+    "net_content_label": "300克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "杂色蛤肉≥94%、饮用水、食用盐"
+      }
+    ],
+    "allergens_raw_text": "致(过)敏物质(提示):本产品可能含有甲壳纲类动物及其制品、鱼类及其制品",
+    "origin": {
+      "country": "CN",
+      "region": "广东省深圳市",
+      "raw_text": "广东省深圳市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "深圳市鲜百汇食品有限公司",
+        "address": "深圳市龙岗区平湖街道辅城坳社区凤岐路20号A栋401、A栋501",
+        "license": "SC11144030704829"
+      }
+    ],
+    "product_standard": [
+      "GB 10136"
+    ],
+    "shelf_life": {
+      "value": "4",
+      "unit": "day",
+      "label": "4天"
+    },
+    "storage_text": "0-4℃冷藏保存",
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "42e7925de8309eb6afce4faef5697655659810b983b434d69fe40d1d6f51b085",
+      "media_ref": "opf-media://sha256/42e7925de8309eb6afce4faef5697655659810b983b434d69fe40d1d6f51b085",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-huaharou-300g",
+      "evidence_id": "sha256:42e7925de8309eb6afce4faef5697655659810b983b434d69fe40d1d6f51b085"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "746dc9381a01686b85231e4c097fb8429c68b122fc85eec31cd928af5ed626cc",
+      "media_ref": "opf-media://sha256/746dc9381a01686b85231e4c097fb8429c68b122fc85eec31cd928af5ed626cc",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-huaharou-300g",
+      "evidence_id": "sha256:746dc9381a01686b85231e4c097fb8429c68b122fc85eec31cd928af5ed626cc"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:45Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:42e7925de8309eb6afce4faef5697655659810b983b434d69fe40d1d6f51b085",
+        "sha256:746dc9381a01686b85231e4c097fb8429c68b122fc85eec31cd928af5ed626cc"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "344",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "12.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "0.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "349",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "82.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.87",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": [
+        "crustaceans",
+        "fish"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "300",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1032",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "37.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "4.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "14.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "1047",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "246.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "2.61",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:fcff81a6bca29db86c4ac76f98512708765ed562599ef5fd8a7a606c13a15ca2",
+  "label_fingerprint": "sha256:1e2e8fac64129dadf4bacee91a5fc3b3292a6d9f4e60a7f71844aa490e671d58"
+}

@@ -1,0 +1,332 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06922079000603",
+  "edition_id": "01M8EXGKPY7VS4WXAMMY2568TV",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "120",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "348",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "14.6",
+          "unit": "g",
+          "nrv_pct": "24"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.8",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.2",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.1",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "379",
+          "unit": "mg",
+          "nrv_pct": "19"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "墨鱼",
+            "qualifier": "≥80%"
+          },
+          {
+            "name": "海鱼糜",
+            "allergens": [
+              "fish"
+            ]
+          },
+          {
+            "name": "饮用水"
+          },
+          {
+            "name": "食用马铃薯淀粉"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "鸡精调味料",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "白胡椒粉"
+          },
+          {
+            "name": "大蒜粉"
+          },
+          {
+            "name": "大豆油",
+            "allergens": [
+              "soybeans"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "eggs",
+        "fish",
+        "soybeans"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "鲜百汇",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "冰鲜墨鱼滑"
+      }
+    ],
+    "declared_category": "预制动物性水产制品(生制品 非即食)",
+    "net_content_label": "120g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "墨鱼≥80%、海鱼糜、饮用水、食用马铃薯淀粉、食用盐、味精、鸡精调味料、白胡椒粉、大蒜粉、大豆油"
+      }
+    ],
+    "allergens_raw_text": "致敏物质提示:本产品含有鱼类、蛋类、大豆及其制品。",
+    "origin": {
+      "country": "CN",
+      "region": "广东省深圳市",
+      "raw_text": "广东省深圳市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "深圳市鲜百汇食品有限公司",
+        "address": "深圳市龙岗区平湖街道辅城坳社区凤岐路20号A栋401、A栋501",
+        "license": "SC11144030704829"
+      }
+    ],
+    "product_standard": [
+      "GB 10136"
+    ],
+    "lot_code_rule": "生产日期:见包装喷码",
+    "shelf_life": {
+      "value": "4",
+      "unit": "day",
+      "label": "4天"
+    },
+    "storage_text": "0-4℃冷藏保存",
+    "usage_text": "加工熟制后食用"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "2e3fc2248f193d17008c4f12b1662327c97ab8c6008005b583d6e134843ac5a7",
+      "media_ref": "opf-media://sha256/2e3fc2248f193d17008c4f12b1662327c97ab8c6008005b583d6e134843ac5a7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-xbh-moyuhua-120g",
+      "evidence_id": "sha256:2e3fc2248f193d17008c4f12b1662327c97ab8c6008005b583d6e134843ac5a7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:44Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:2e3fc2248f193d17008c4f12b1662327c97ab8c6008005b583d6e134843ac5a7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "348",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "14.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "0.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "379",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "83.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.95",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "chicken",
+        "eggs",
+        "fish",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "eggs",
+        "fish",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "chicken",
+        "fish",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "120",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "417.6",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "17.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "4.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.6",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "454.8",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "99.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "1.14",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:158b818997e376587d25133df7676aa9058e4e04e321373c1b5ae03a7d940d37",
+  "label_fingerprint": "sha256:9910b9274265cb083a592b28d2fab05925400d9921864a4b267cb20ab9a3b744"
+}

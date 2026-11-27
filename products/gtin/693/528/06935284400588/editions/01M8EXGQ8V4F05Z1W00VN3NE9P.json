@@ -1,0 +1,406 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06935284400588",
+  "edition_id": "01M8EXGQ8V4F05Z1W00VN3NE9P",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "51",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "18",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "18",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "73",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0.2",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.1",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "1.2",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0.6",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "222",
+          "unit": "mg",
+          "nrv_pct": "11"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "魔芋胚",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "魔芋粉"
+              },
+              {
+                "name": "淀粉"
+              },
+              {
+                "name": "大豆膳食纤维粉",
+                "allergens": [
+                  "soybeans"
+                ]
+              },
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "咸鲜味复合调味料",
+            "children": [
+              {
+                "name": "含呈味核苷酸二钠"
+              }
+            ]
+          },
+          {
+            "name": "香辣味复合调味料",
+            "children": [
+              {
+                "name": "含食用香精"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "peanuts"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "卫龙",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "魔芋爽香辣素毛肚(魔芋即食食品)"
+      }
+    ],
+    "declared_category": "魔芋即食食品",
+    "net_content_label": "(42+9)克",
+    "serving_size_label": "每份18克(g)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "魔芋胚(水、魔芋粉、淀粉、大豆膳食纤维粉、柠檬酸)、咸鲜味复合调味料(含呈味核苷酸二钠)、香辣味复合调味料(含食用香精)"
+      }
+    ],
+    "allergens_raw_text": "致敏物质:含有大豆、小麦成分,可能含有花生、虾成分",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "漯河市平平食品有限责任公司",
+        "address": "漯河经济开发区燕山路南段民营工业园"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漯河卫到食品科技有限公司",
+        "address": "漯河经济技术开发区东方红路南侧中山路西侧",
+        "plant_code": "F",
+        "license": "SC10741119100888"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漯河杏林食品有限公司",
+        "address": "河南省漯河经济技术开发区金山路与发展路交叉口东南角",
+        "plant_code": "B",
+        "license": "SC10741119101127"
+      }
+    ],
+    "product_standard": [
+      "T/LFSA 004"
+    ],
+    "packaging_code": "26-03N",
+    "lot_code_rule": "生产日期/保质期至:见包装背面顶部；生产日期喷码字符中首位字母为生产者代码",
+    "shelf_life": {
+      "value": "8",
+      "unit": "month",
+      "label": "8个月"
+    },
+    "storage_text": "请置于阴凉干燥处,避免阳光直射",
+    "usage_text": "开袋即食。温馨提示:(1)如发现有胀袋、漏气,请勿开启食用;(2)产品如有少量黑色物质,系天然魔芋成分,请放心食用。",
+    "claims_text": [
+      "高纤维",
+      "低脂肪",
+      "低糖分",
+      "魔芋富含可溶性膳食纤维(葡甘露聚糖)，成年人膳食纤维推荐摄入量约25克/天*，魔芋是补充膳食纤维的优质选择。",
+      "*数据来源《中国居民膳食营养素参考摄入量(2023版)》",
+      "魔芋——低脂肪食材，其脂肪含量几乎为0，可作为低脂饮食的优质选择。",
+      "魔芋——低糖分食材，其可被吸收糖分几乎为0，适合关注糖分摄入的人群。",
+      "本产品中魔芋粉添加量≥6.0%",
+      "香辣味复合调味料中带入香辛料经辐照处理"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "WEI-LONG",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "4c6618276eeb0cba402e472ddf4cbd17145c0e039d44a6812818684c2c68fb0a",
+      "media_ref": "opf-media://sha256/4c6618276eeb0cba402e472ddf4cbd17145c0e039d44a6812818684c2c68fb0a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-spicy-51g",
+      "evidence_id": "sha256:4c6618276eeb0cba402e472ddf4cbd17145c0e039d44a6812818684c2c68fb0a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "93cc995462eb6f174aa395a72f469647a935fb4a725b62f984b258dfe3c205ac",
+      "media_ref": "opf-media://sha256/93cc995462eb6f174aa395a72f469647a935fb4a725b62f984b258dfe3c205ac",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-spicy-51g",
+      "evidence_id": "sha256:93cc995462eb6f174aa395a72f469647a935fb4a725b62f984b258dfe3c205ac"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "b46a4894c0e46e47831b0629fbb4bd3ca969bd5bc379ddb5a5eb07442ad0d930",
+      "media_ref": "opf-media://sha256/b46a4894c0e46e47831b0629fbb4bd3ca969bd5bc379ddb5a5eb07442ad0d930",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-spicy-51g",
+      "evidence_id": "sha256:b46a4894c0e46e47831b0629fbb4bd3ca969bd5bc379ddb5a5eb07442ad0d930"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:48Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:4c6618276eeb0cba402e472ddf4cbd17145c0e039d44a6812818684c2c68fb0a",
+        "sha256:93cc995462eb6f174aa395a72f469647a935fb4a725b62f984b258dfe3c205ac",
+        "sha256:b46a4894c0e46e47831b0629fbb4bd3ca969bd5bc379ddb5a5eb07442ad0d930"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "405.6",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "1.1",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "value": "6.1",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_saturated": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "carbs_available": {
+        "value": "6.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "3.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "dietary_fiber": {
+        "value": "6.1",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "1233.3",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kcal": {
+        "value": "96.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "3.08",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "330"
+    ],
+    "allergens": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "soybeans"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "peanuts"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "18",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "73",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "0.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "1.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "222",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "17.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.55",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 18g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:e70a22f1c7ef8542fd8445990eebb7a5abe30b4a0cf8eb3682f7237fd8eaa030",
+  "label_fingerprint": "sha256:6246f55086c8249d4a626cd9b3689ccaafd3f3f8e792ab7892d8a35a1a2d04cd"
+}

@@ -1,0 +1,297 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06935429800440",
+  "edition_id": "01M8EXGKB1PYGRDXFF8MXMDFW7",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "360",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "724",
+          "unit": "kJ",
+          "nrv_pct": "9"
+        },
+        {
+          "nutrient": "protein",
+          "value": "13.2",
+          "unit": "g",
+          "nrv_pct": "22"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "12.3",
+          "unit": "g",
+          "nrv_pct": "21"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "2.6",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "2000",
+          "unit": "mg",
+          "nrv_pct": "100"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鲜鸭蛋",
+            "allergens": [
+              "eggs"
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "食用盐"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "eggs"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "咸鸭蛋"
+      }
+    ],
+    "declared_category": "咸鸭蛋(熟)",
+    "net_content_label": "360克(6枚)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鲜鸭蛋、水、食用盐"
+      }
+    ],
+    "allergens_raw_text": "过敏原信息:含有鸭蛋成分",
+    "origin": {
+      "country": "CN",
+      "region": "广东省江门市",
+      "raw_text": "广东省江门市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "福州仁达绿色食品有限公司",
+        "address": "福州市晋安区金鸡山路59号鼎鑫建筑设计创意园D区208"
+      },
+      {
+        "role": "manufacturer",
+        "name": "开平市旭日蛋品有限公司",
+        "address": "开平市长沙街道办事处金章大道8号7、8幢",
+        "license": "SC11944078300196"
+      }
+    ],
+    "product_standard": [
+      "GB 2749"
+    ],
+    "lot_code_rule": "生产日期:见包装喷码处",
+    "shelf_life": {
+      "value": "6",
+      "unit": "month",
+      "label": "6个月"
+    },
+    "storage_text": "请置于清洁、常温、阴凉、干燥、通风良好的场所。",
+    "usage_text": "开袋剥壳即食,加热后食用色香味更佳。温馨提示:包装袋破损或膨胀请勿食用。",
+    "claims_text": [
+      "配料干净 吃得放心 起沙流油 咸淡适宜"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "6a74712f394204b303724b9bd8de6ca23a8c53be13705626c8f6d6e5592d1f6d",
+      "media_ref": "opf-media://sha256/6a74712f394204b303724b9bd8de6ca23a8c53be13705626c8f6d6e5592d1f6d",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-xianyadan-360g",
+      "evidence_id": "sha256:6a74712f394204b303724b9bd8de6ca23a8c53be13705626c8f6d6e5592d1f6d"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "manufacturer_block",
+      "cropped_sha256": "85447ea212dccc16411615f2da7addb1c4f76e02d424c60fcb2e90c590954b73",
+      "media_ref": "opf-media://sha256/85447ea212dccc16411615f2da7addb1c4f76e02d424c60fcb2e90c590954b73",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-xianyadan-360g",
+      "evidence_id": "sha256:85447ea212dccc16411615f2da7addb1c4f76e02d424c60fcb2e90c590954b73"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "ec48379709e88d376b8891c279a5bb9b9ea61d2fe7e11a09bfe66171dc9232f0",
+      "media_ref": "opf-media://sha256/ec48379709e88d376b8891c279a5bb9b9ea61d2fe7e11a09bfe66171dc9232f0",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-marketside-xianyadan-360g",
+      "evidence_id": "sha256:ec48379709e88d376b8891c279a5bb9b9ea61d2fe7e11a09bfe66171dc9232f0"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:44Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:6a74712f394204b303724b9bd8de6ca23a8c53be13705626c8f6d6e5592d1f6d",
+        "sha256:85447ea212dccc16411615f2da7addb1c4f76e02d424c60fcb2e90c590954b73",
+        "sha256:ec48379709e88d376b8891c279a5bb9b9ea61d2fe7e11a09bfe66171dc9232f0"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "724",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "13.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "12.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "2.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "2000",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "173",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "5",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "eggs"
+      ],
+      "declared_contains": [
+        "eggs"
+      ],
+      "inferred_from_ingredients": [
+        "eggs"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "360",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "2606.4",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "47.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "44.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "9.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "7200",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "622.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "18",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:d64be0c4334118c7a97c82f060170628a152a0b2405c35bf0b63ed3c185e45d6",
+  "label_fingerprint": "sha256:17692896112875483fc5ec8149a907079ef7b8893eeb57b6c9c8671f69b5f274"
+}

@@ -1,0 +1,431 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06935284400595",
+  "edition_id": "01M8EXGPREFZEJ95AFRH0DRVZC",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "51",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "18",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "18",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "90",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0.1",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.6",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0.2",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "1.2",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0.4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "234",
+          "unit": "mg",
+          "nrv_pct": "12"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "魔芋胚",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "魔芋粉"
+              },
+              {
+                "name": "淀粉"
+              },
+              {
+                "name": "大豆膳食纤维粉",
+                "allergens": [
+                  "soybeans"
+                ]
+              },
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "酸辣味复合调味料",
+            "children": [
+              {
+                "name": "含食用香精"
+              }
+            ]
+          },
+          {
+            "name": "咸鲜味复合调味料",
+            "children": [
+              {
+                "name": "含呈味核苷酸二钠"
+              }
+            ]
+          },
+          {
+            "name": "酱腌菜",
+            "children": [
+              {
+                "name": "泡椒"
+              },
+              {
+                "name": "泡姜"
+              },
+              {
+                "name": "冰醋酸"
+              },
+              {
+                "name": "乳酸",
+                "ins": "270",
+                "is_additive": true
+              },
+              {
+                "name": "乳酸钠",
+                "ins": "325",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "soybeans"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "gluten_cereals",
+        "peanuts"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "卫龙",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "魔芋爽酸辣素毛肚(魔芋即食食品)"
+      }
+    ],
+    "declared_category": "魔芋即食食品",
+    "net_content_label": "(42+9)克",
+    "serving_size_label": "每份18克(g)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "魔芋胚(水、魔芋粉、淀粉、大豆膳食纤维粉、柠檬酸)、酸辣味复合调味料(含食用香精)、咸鲜味复合调味料(含呈味核苷酸二钠)、酱腌菜(泡椒、泡姜、冰醋酸、乳酸、乳酸钠)"
+      }
+    ],
+    "allergens_raw_text": "致敏物质:含有大豆成分,可能含有花生、小麦、虾成分",
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "漯河市平平食品有限责任公司",
+        "address": "漯河经济开发区燕山路南段民营工业园"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漯河卫到食品科技有限公司",
+        "address": "漯河经济技术开发区东方红路南侧中山路西侧",
+        "plant_code": "F",
+        "license": "SC10741119100888"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漯河杏林食品有限公司",
+        "address": "河南省漯河经济技术开发区金山路与发展路交叉口东南角",
+        "plant_code": "B",
+        "license": "SC10741119101127"
+      }
+    ],
+    "product_standard": [
+      "T/LFSA 004"
+    ],
+    "packaging_code": "26-03N",
+    "lot_code_rule": "生产日期/保质期至:见包装背面顶部；生产日期喷码字符中首位字母为生产者代码",
+    "shelf_life": {
+      "value": "8",
+      "unit": "month",
+      "label": "8个月"
+    },
+    "storage_text": "请置于阴凉干燥处,避免阳光直射",
+    "usage_text": "开袋即食。温馨提示:(1)如发现有胀袋、漏气,请勿开启食用;(2)产品如有少量黑色物质,系天然魔芋成分,请放心食用。",
+    "claims_text": [
+      "高纤维",
+      "低脂肪",
+      "低糖分",
+      "魔芋富含可溶性膳食纤维(葡甘露聚糖)，成年人膳食纤维推荐摄入量约25克/天*，魔芋是补充膳食纤维的优质选择。",
+      "*数据来源《中国居民膳食营养素参考摄入量(2023版)》",
+      "魔芋——低脂肪食材，其脂肪含量几乎为0，可作为低脂饮食的优质选择。",
+      "魔芋——低糖分食材，其可被吸收糖分几乎为0，适合关注糖分摄入的人群。",
+      "本产品中魔芋粉添加量≥6.0%",
+      "酸辣味复合调味料中带入香辛料经辐照处理"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "WEI-LONG",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "b8a82e94e63036ec583a1578effbcd3ab3809fd744c754b0b6c6820a345070f7",
+      "media_ref": "opf-media://sha256/b8a82e94e63036ec583a1578effbcd3ab3809fd744c754b0b6c6820a345070f7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-sour-51g",
+      "evidence_id": "sha256:b8a82e94e63036ec583a1578effbcd3ab3809fd744c754b0b6c6820a345070f7"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "35afd92d5864b2f2fc6aed12f7294cbc3102bf91eb75e42d378d8eef5baf11d2",
+      "media_ref": "opf-media://sha256/35afd92d5864b2f2fc6aed12f7294cbc3102bf91eb75e42d378d8eef5baf11d2",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-sour-51g",
+      "evidence_id": "sha256:35afd92d5864b2f2fc6aed12f7294cbc3102bf91eb75e42d378d8eef5baf11d2"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "be41ad2a24414f91422460a12e51194d85bf84cf7704572d25f861d6d43a7278",
+      "media_ref": "opf-media://sha256/be41ad2a24414f91422460a12e51194d85bf84cf7704572d25f861d6d43a7278",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-weilong-konjac-sour-51g",
+      "evidence_id": "sha256:be41ad2a24414f91422460a12e51194d85bf84cf7704572d25f861d6d43a7278"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:48Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:b8a82e94e63036ec583a1578effbcd3ab3809fd744c754b0b6c6820a345070f7",
+        "sha256:35afd92d5864b2f2fc6aed12f7294cbc3102bf91eb75e42d378d8eef5baf11d2",
+        "sha256:be41ad2a24414f91422460a12e51194d85bf84cf7704572d25f861d6d43a7278"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "500",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "value": "8.9",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_saturated": {
+        "value": "1.1",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "carbs_available": {
+        "value": "6.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "2.2",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "dietary_fiber": {
+        "value": "6.1",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "1300",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kcal": {
+        "value": "119.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "3.25",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "270",
+      "325",
+      "330"
+    ],
+    "allergens": {
+      "contains": [
+        "soybeans"
+      ],
+      "declared_contains": [
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "soybeans"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "gluten_cereals",
+        "peanuts"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "18",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "90",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "0.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "1.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "234",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "21.5",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.59",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 18g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:1aaf92626d4cbef5a9524c655976649be63ca1787e27c564acfcf4b2e0d30731",
+  "label_fingerprint": "sha256:36a977f9f9428c87bc119b938186fc31ed1e2f0532450dbf49e777463ce76475"
+}
