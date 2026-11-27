@@ -1,0 +1,198 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:biobor/daily-nutrition-gummy/9g",
+  "edition_id": "01M8EQDE49JDNTAV8P7QBZRP6X",
+  "rev": 1,
+  "track": "CN/flavor:high_calcium_orange_yogurt",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "9",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "small_package_area",
+      "legal_basis": "GB 28050 豁免标识营养成分表的小包装预包装食品（总净含量9g，独立小包装背面无GTIN条码与营养成分表）"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "麦芽糖醇液",
+            "ins": "965",
+            "is_additive": true
+          },
+          {
+            "name": "赤藓糖醇",
+            "ins": "968",
+            "is_additive": true
+          },
+          {
+            "name": "明胶"
+          },
+          {
+            "name": "乳酸菌发酵原液",
+            "children": [
+              {
+                "name": "含乳饮料",
+                "allergens": [
+                  "milk"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "乳矿物盐",
+            "qualifier": "添加量≥3.0%",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "菊粉",
+            "qualifier": "添加量≥2.0%"
+          },
+          {
+            "name": "胡萝卜汁",
+            "children": [
+              {
+                "name": "饮料"
+              }
+            ]
+          },
+          {
+            "name": "辛，癸酸甘油酯"
+          },
+          {
+            "name": "巴西棕榈蜡"
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "DL-苹果酸",
+            "ins": "296",
+            "is_additive": true
+          },
+          {
+            "name": "果胶",
+            "ins": "440",
+            "is_additive": true
+          },
+          {
+            "name": "食用香精"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "贝欧宝",
+    "declared_category": "混合胶型凝胶糖果",
+    "net_content_label": "9g",
+    "origin": {
+      "country": "CN",
+      "region": "广东省江门市",
+      "raw_text": "广东省江门市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "贝欧宝(广东)健康科技有限公司",
+        "address": "广东省江门市江海区胜利南路180号2栋3楼",
+        "license": "SC11344070402297"
+      }
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month",
+      "label": "12个月"
+    },
+    "storage_text": "阴凉干燥处保存,避免阳光直射。",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "贝欧宝每日甜养营养软糖 高钙软糖(甜橙酸奶味)(无糖型)"
+      }
+    ],
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "麦芽糖醇液、赤藓糖醇、明胶、乳酸菌发酵原液(含乳饮料)、乳矿物盐(添加量≥3.0%)、菊粉(添加量≥2.0%)、胡萝卜汁(饮料)、辛，癸酸甘油酯、巴西棕榈蜡、柠檬酸、DL-苹果酸、果胶、食用香精。"
+      }
+    ],
+    "usage_text": "开袋即食。乳矿物盐食用量≤5克/天;菊粉食用量≤15克/天"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "3e7e17f0926b152e98cb583cacae725cbe9a922dd2bff9ef91e7bee429a42c4b",
+      "media_ref": "opf-media://sha256/3e7e17f0926b152e98cb583cacae725cbe9a922dd2bff9ef91e7bee429a42c4b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-01",
+      "specimen_id": "sp-biobor-daily-nutrition-gummy-9g",
+      "evidence_id": "sha256:3e7e17f0926b152e98cb583cacae725cbe9a922dd2bff9ef91e7bee429a42c4b"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T14:44:09Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:3e7e17f0926b152e98cb583cacae725cbe9a922dd2bff9ef91e7bee429a42c4b"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {},
+    "additives_ins": [
+      "296",
+      "330",
+      "440",
+      "965",
+      "968"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'small_package_area' (GB 28050 豁免标识营养成分表的小包装预包装食品（总净含量9g，独立小包装背面无GTIN条码与营养成分表）); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:e939dccb5d6bae674e0f018f9451fe65981507aab29cd6a6f6bf5d3a8d6920c5",
+  "label_fingerprint": "sha256:3630a688cd424fbd469550c2bbb725aee982ff5efb96e76eeddfb8bdce9ce58f"
+}

@@ -1,0 +1,400 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:04987240631422",
+  "edition_id": "01M8EQAFBAPSTGQWM2ZDB9XHXG",
+  "rev": 1,
+  "track": "JP/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "JP/CAA-2015",
+    "net_content": [
+      {
+        "value": "75",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "18",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "18",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "48",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "carbs_total",
+          "value": "17.5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "salt_equivalent",
+          "value": "0.01",
+          "unit": "g"
+        },
+        {
+          "nutrient": "vitamin_c",
+          "value": "250",
+          "unit": "mg"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "ja",
+        "nodes": [
+          {
+            "name": "還元水飴",
+            "children": [
+              {
+                "name": "国内製造"
+              }
+            ]
+          },
+          {
+            "name": "還元パラチノース"
+          },
+          {
+            "name": "ハーブパウダー"
+          },
+          {
+            "name": "ブルーベリー濃縮果汁"
+          },
+          {
+            "name": "カシス濃縮果汁"
+          },
+          {
+            "name": "ハーブエキス"
+          },
+          {
+            "name": "カシス抽出物"
+          },
+          {
+            "name": "ビタミンC",
+            "ins": "300",
+            "is_additive": true
+          },
+          {
+            "name": "クエン酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "香料",
+            "is_additive": true
+          },
+          {
+            "name": "着色料",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "アントシアニン",
+                "is_additive": true
+              },
+              {
+                "name": "クチナシ",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "甘味料",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "アスパルテーム・L-フェニルアラニン化合物",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "重曹",
+            "ins": "500(ii)",
+            "is_additive": true
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": [
+        "egg",
+        "milk",
+        "wheat"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "龍角散",
+    "product_name": [
+      {
+        "lang": "ja",
+        "text": "龍角散ののどすっきり飴 カシス&ブルーベリー"
+      }
+    ],
+    "declared_category": "ビタミンC含有食品",
+    "net_content_label": "75g(個包装込み)",
+    "serving_size_label": "6粒(18g)",
+    "ingredients_text": [
+      {
+        "lang": "ja",
+        "text": "還元水飴(国内製造)、還元パラチノース、ハーブパウダー、ブルーベリー濃縮果汁、カシス濃縮果汁、ハーブエキス、カシス抽出物／ビタミンC、クエン酸、香料、着色料(アントシアニン、クチナシ)、甘味料(アスパルテーム・L-フェニルアラニン化合物)、重曹"
+      }
+    ],
+    "allergens_raw_text": "アレルギー物質(特定原材料とそれに準ずるもの): 使用していません。小麦・卵・乳成分を含む製品と共通の設備で製造しています。",
+    "origin": {
+      "country": "JP",
+      "region": "東京都千代田区"
+    },
+    "parties": [
+      {
+        "role": "brand_owner",
+        "name": "株式会社龍角散",
+        "address": "〒101-0031 東京都千代田区東神田2-5-12"
+      }
+    ],
+    "storage_text": "直射日光、高温多湿を避けて保存してください。",
+    "usage_text": "1日あたりの摂取目安量は6粒です。噛まずにそのままお召し上がりください。",
+    "claims_text": [
+      "シュガーレス",
+      "栄養機能食品(ビタミンC)",
+      "19種類のハーブエキス、龍角散のハーブパウダー配合",
+      "カシスポリフェノール・アントシアニン入り",
+      "ブルーベリー濃縮果汁入り"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "98f865693417514a7da6e9942ecab078e0db9343dada58bcc58f607fc92c1ef4",
+      "media_ref": "opf-media://sha256/98f865693417514a7da6e9942ecab078e0db9343dada58bcc58f607fc92c1ef4",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-ryukakusan-cassis-blueberry-75g",
+      "evidence_id": "sha256:98f865693417514a7da6e9942ecab078e0db9343dada58bcc58f607fc92c1ef4"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "69df7be333edcc88851c6fb8030f2e1cdd5cc33972a0a37ce02c0ffef8880830",
+      "media_ref": "opf-media://sha256/69df7be333edcc88851c6fb8030f2e1cdd5cc33972a0a37ce02c0ffef8880830",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-ryukakusan-cassis-blueberry-75g",
+      "evidence_id": "sha256:69df7be333edcc88851c6fb8030f2e1cdd5cc33972a0a37ce02c0ffef8880830"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "60204b0e226124b4d315b430c6dd2b17813284c79d6c8203015533316a2fc0d8",
+      "media_ref": "opf-media://sha256/60204b0e226124b4d315b430c6dd2b17813284c79d6c8203015533316a2fc0d8",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-ryukakusan-cassis-blueberry-75g",
+      "evidence_id": "sha256:60204b0e226124b4d315b430c6dd2b17813284c79d6c8203015533316a2fc0d8"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "2921b4dd8de177c5a4080c5610867a87b24b89138da60b77d8b157d8119180f3",
+      "media_ref": "opf-media://sha256/2921b4dd8de177c5a4080c5610867a87b24b89138da60b77d8b157d8119180f3",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-ryukakusan-cassis-blueberry-75g",
+      "evidence_id": "sha256:2921b4dd8de177c5a4080c5610867a87b24b89138da60b77d8b157d8119180f3"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T14:42:32Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:98f865693417514a7da6e9942ecab078e0db9343dada58bcc58f607fc92c1ef4",
+        "sha256:69df7be333edcc88851c6fb8030f2e1cdd5cc33972a0a37ce02c0ffef8880830",
+        "sha256:60204b0e226124b4d315b430c6dd2b17813284c79d6c8203015533316a2fc0d8",
+        "sha256:2921b4dd8de177c5a4080c5610867a87b24b89138da60b77d8b157d8119180f3"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "266.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_total": {
+        "value": "97.2",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "0",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.06",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "vitamin_c": {
+        "value": "1388.9",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kj": {
+        "value": "1115.9",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "23.6",
+        "unit": "mg",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "300",
+      "330",
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": [
+        "egg",
+        "milk",
+        "wheat"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "18",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "48",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "0.09",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "0.09",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_total": {
+          "value": "17.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.01",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "vitamin_c": {
+          "value": "250",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "200.9",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "4.2",
+          "unit": "mg",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 18g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under JP/CAA-2015 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under JP/CAA-2015 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SODIUM_DERIVED_FROM_SALT",
+      "field": "sodium",
+      "detail": "Derived from salt_equivalent using ratio 2.54"
+    },
+    {
+      "code": "CARBS_TOTAL_INCLUDES_FIBER",
+      "field": "carbs_total",
+      "detail": "JP/CAA-2015 declares total carbohydrates including dietary fiber"
+    }
+  ],
+  "core_fingerprint": "sha256:6a41590adf6ebff16e1f60b3ca80ef55ec265bc0f48cad4583a47acaaf15f0ec",
+  "label_fingerprint": "sha256:2a345a59ecb749f4735c06fceaf059e345a3d7a0604506fde06e5dd6596c119d"
+}

@@ -1,0 +1,96 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:biobor/daily-nutrition-gummy/9g",
+  "aliases": [
+    "贝欧宝每日甜养营养软糖 9g",
+    "叶黄素酯软糖(酸甜蓝莓味)(无糖型)",
+    "高钙软糖(甜橙酸奶味)(无糖型)",
+    "接骨木莓维生素C软糖(缤纷莓果味)(无糖型)"
+  ],
+  "tracks": [
+    {
+      "track": "CN/flavor:lutein_blueberry",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "叶黄素酯软糖(酸甜蓝莓味)(无糖型)"
+        },
+        {
+          "lang": "en",
+          "text": "Lutein Ester Gummy (Blueberry Flavor, Sugar-Free)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对小袋背面第一栏子品名：叶黄素酯软糖(酸甜蓝莓味)(无糖型)"
+          },
+          {
+            "lang": "en",
+            "text": "Match sub-product heading 1 on back label: 叶黄素酯软糖(酸甜蓝莓味)(无糖型)"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:high_calcium_orange_yogurt",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "高钙软糖(甜橙酸奶味)(无糖型)"
+        },
+        {
+          "lang": "en",
+          "text": "High Calcium Gummy (Sweet Orange Yogurt Flavor, Sugar-Free)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对小袋背面第二栏子品名：高钙软糖(甜橙酸奶味)(无糖型)"
+          },
+          {
+            "lang": "en",
+            "text": "Match sub-product heading 2 on back label: 高钙软糖(甜橙酸奶味)(无糖型)"
+          }
+        ]
+      }
+    },
+    {
+      "track": "CN/flavor:elderberry_vc_berry",
+      "market": "CN",
+      "label": [
+        {
+          "lang": "zh-Hans",
+          "text": "接骨木莓维生素C软糖(缤纷莓果味)(无糖型)"
+        },
+        {
+          "lang": "en",
+          "text": "Elderberry Vitamin C Gummy (Mixed Berry Flavor, Sugar-Free)"
+        }
+      ],
+      "discriminator": {
+        "method": "other",
+        "field": "attributes.product_name",
+        "instructions": [
+          {
+            "lang": "zh-Hans",
+            "text": "核对小袋背面第三栏子品名：接骨木莓维生素C软糖(缤纷莓果味)(无糖型)"
+          },
+          {
+            "lang": "en",
+            "text": "Match sub-product heading 3 on back label: 接骨木莓维生素C软糖(缤纷莓果味)(无糖型)"
+          }
+        ]
+      }
+    }
+  ]
+}
