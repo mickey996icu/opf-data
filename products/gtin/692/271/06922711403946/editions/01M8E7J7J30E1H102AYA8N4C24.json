@@ -1,0 +1,366 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06922711403946",
+  "edition_id": "01M8E7J7J30E1H102AYA8N4C24",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "100",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "538",
+          "unit": "kJ",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "protein",
+          "value": "22.9",
+          "unit": "g",
+          "nrv_pct": "38"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.8",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.8",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "684",
+          "unit": "mg",
+          "nrv_pct": "34"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡胸肉",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "饮用水"
+          },
+          {
+            "name": "复合调味料",
+            "qualifier": "含",
+            "children": [
+              {
+                "name": "三聚磷酸钠",
+                "ins": "451(i)",
+                "is_additive": true
+              },
+              {
+                "name": "焦磷酸钠",
+                "ins": "450",
+                "is_additive": true
+              },
+              {
+                "name": "碳酸氢钠",
+                "ins": "500(ii)",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "乳酸钠",
+            "ins": "325",
+            "is_additive": true
+          },
+          {
+            "name": "食用香精香料"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "eggs",
+        "fish",
+        "milk"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "优形",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "沙拉鸡胸肉(新奥尔良味)"
+      }
+    ],
+    "declared_category": "熟肉制品",
+    "net_content_label": "100克",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡胸肉、饮用水、复合调味料(含三聚磷酸钠、焦磷酸钠、碳酸氢钠)、乳酸钠、食用香精香料"
+      }
+    ],
+    "allergens_raw_text": "本产品含有麸质的谷物及其制品、大豆及其制品,此生产线也加工含有甲壳纲类动物及其制品、鱼类及其制品、蛋类及其制品、乳及乳制品成分的产品。",
+    "product_standard": [
+      "GB 2726"
+    ],
+    "shelf_life": {
+      "value": "3",
+      "unit": "month"
+    },
+    "storage_text": "0-10℃冷藏保存",
+    "lot_code_rule": "生产日期:见包装袋背面",
+    "usage_text": "食用方法:喜凉食 开袋即食; 喜热食 包装袋开口后高火微波约40秒 或 未开口包装热水中浸泡至适宜温度。注意事项:●少量出水可正常食用 ●胀包勿食",
+    "origin": {
+      "country": "CN",
+      "region": "山东省聊城市",
+      "raw_text": "山东 聊城"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "山东凤祥食品发展有限公司",
+        "address": "山东省阳谷县刘庙",
+        "license": "SC10437152115405"
+      }
+    ],
+    "claims_text": [
+      "低脂肪",
+      "高蛋白",
+      "≈128 kcal/袋",
+      "体育·训练局国家队运动员备战保障产品",
+      "本产品复合调味料中的香辛料采用国际惯用辐照杀菌技术处理"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "97e3244ba7e6f64b558a55c9df847b23db01ca443fc716cd19ea48a85dc8f9cf",
+      "media_ref": "opf-media://sha256/97e3244ba7e6f64b558a55c9df847b23db01ca443fc716cd19ea48a85dc8f9cf",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:97e3244ba7e6f64b558a55c9df847b23db01ca443fc716cd19ea48a85dc8f9cf"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "23d97144268ce8e5e07dc8c2ea78ae07a1c5aa49ae4505ae58f9b5beb7373020",
+      "media_ref": "opf-media://sha256/23d97144268ce8e5e07dc8c2ea78ae07a1c5aa49ae4505ae58f9b5beb7373020",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:23d97144268ce8e5e07dc8c2ea78ae07a1c5aa49ae4505ae58f9b5beb7373020"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "ef7988ac94f1f7eaff2ce322a0fa038ba8696aab34c26a40741e5dfa4321debe",
+      "media_ref": "opf-media://sha256/ef7988ac94f1f7eaff2ce322a0fa038ba8696aab34c26a40741e5dfa4321debe",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:ef7988ac94f1f7eaff2ce322a0fa038ba8696aab34c26a40741e5dfa4321debe"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "858a774a4a34dcbf7ee6740f3c86fbf7fd7a74d0cab189bec1ff3db4b3e0c414",
+      "media_ref": "opf-media://sha256/858a774a4a34dcbf7ee6740f3c86fbf7fd7a74d0cab189bec1ff3db4b3e0c414",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:858a774a4a34dcbf7ee6740f3c86fbf7fd7a74d0cab189bec1ff3db4b3e0c414"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "e0af5973df0d84c444b222d66137eb20e6e86c2f0e26499439c17f52addf620a",
+      "media_ref": "opf-media://sha256/e0af5973df0d84c444b222d66137eb20e6e86c2f0e26499439c17f52addf620a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:e0af5973df0d84c444b222d66137eb20e6e86c2f0e26499439c17f52addf620a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "allergen_statement",
+      "cropped_sha256": "f0828c09efa84aec3450a7060c63fcedcf46ca5f86d141cf16dd6243401a66bb",
+      "media_ref": "opf-media://sha256/f0828c09efa84aec3450a7060c63fcedcf46ca5f86d141cf16dd6243401a66bb",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:f0828c09efa84aec3450a7060c63fcedcf46ca5f86d141cf16dd6243401a66bb"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "88081ee0751a77a745b323f86e5aae96e9e1d705142c70057aafa8a3f4465d75",
+      "media_ref": "opf-media://sha256/88081ee0751a77a745b323f86e5aae96e9e1d705142c70057aafa8a3f4465d75",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:88081ee0751a77a745b323f86e5aae96e9e1d705142c70057aafa8a3f4465d75"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "734db9c5bcc9e1e52e9e6d4c90374eeb0a23bf7338dd7350f7bfe1c245132c6b",
+      "media_ref": "opf-media://sha256/734db9c5bcc9e1e52e9e6d4c90374eeb0a23bf7338dd7350f7bfe1c245132c6b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:734db9c5bcc9e1e52e9e6d4c90374eeb0a23bf7338dd7350f7bfe1c245132c6b"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "4ded0db88856c7a76c5370e0ebe730b02b67f7ddb7db25ff775165fb259cfbb5",
+      "media_ref": "opf-media://sha256/4ded0db88856c7a76c5370e0ebe730b02b67f7ddb7db25ff775165fb259cfbb5",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-youxing-chicken-breast-orleans-100g",
+      "evidence_id": "sha256:4ded0db88856c7a76c5370e0ebe730b02b67f7ddb7db25ff775165fb259cfbb5"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T10:07:09Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:97e3244ba7e6f64b558a55c9df847b23db01ca443fc716cd19ea48a85dc8f9cf",
+        "sha256:23d97144268ce8e5e07dc8c2ea78ae07a1c5aa49ae4505ae58f9b5beb7373020",
+        "sha256:ef7988ac94f1f7eaff2ce322a0fa038ba8696aab34c26a40741e5dfa4321debe",
+        "sha256:858a774a4a34dcbf7ee6740f3c86fbf7fd7a74d0cab189bec1ff3db4b3e0c414",
+        "sha256:e0af5973df0d84c444b222d66137eb20e6e86c2f0e26499439c17f52addf620a",
+        "sha256:f0828c09efa84aec3450a7060c63fcedcf46ca5f86d141cf16dd6243401a66bb",
+        "sha256:88081ee0751a77a745b323f86e5aae96e9e1d705142c70057aafa8a3f4465d75",
+        "sha256:734db9c5bcc9e1e52e9e6d4c90374eeb0a23bf7338dd7350f7bfe1c245132c6b",
+        "sha256:4ded0db88856c7a76c5370e0ebe730b02b67f7ddb7db25ff775165fb259cfbb5"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "538",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "22.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "684",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "128.6",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.71",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "325",
+      "450",
+      "451(i)",
+      "500(ii)"
+    ],
+    "allergens": {
+      "contains": [
+        "chicken",
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "chicken"
+      ],
+      "may_contain": [
+        "crustaceans",
+        "eggs",
+        "fish",
+        "milk"
+      ]
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:04c68d91710e058543ef5996a87a9ceb473f82aca4f53273a8e36541fd58e904",
+  "label_fingerprint": "sha256:bbfca77c84929aed469fea10310b816ac9d0af0c53f6798431a57a85a37ca1e5"
+}
