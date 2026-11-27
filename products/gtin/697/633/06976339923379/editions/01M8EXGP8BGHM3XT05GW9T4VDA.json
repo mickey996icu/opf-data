@@ -1,0 +1,582 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06976339923379",
+  "edition_id": "01M8EXGP8BGHM3XT05GW9T4VDA",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "198",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1105",
+          "unit": "kJ",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "protein",
+          "value": "9.6",
+          "unit": "g",
+          "nrv_pct": "16"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "10.3",
+          "unit": "g",
+          "nrv_pct": "17"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "2.3",
+          "unit": "g",
+          "nrv_pct": "12"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "33",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "5.3",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "523",
+          "unit": "mg",
+          "nrv_pct": "26"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "硬质颗粒小麦粉",
+            "functional_class": "面配料",
+            "qualifier": "100%",
+            "allergens": [
+              "gluten_cereals"
+            ]
+          },
+          {
+            "name": "水",
+            "functional_class": "蒜香干白葡萄酒蛤蜊酱包配料"
+          },
+          {
+            "name": "大蒜",
+            "qualifier": "≥18%"
+          },
+          {
+            "name": "玉米油",
+            "qualifier": "≥15%"
+          },
+          {
+            "name": "干白葡萄酒",
+            "qualifier": "≥9%"
+          },
+          {
+            "name": "蛤蜊",
+            "qualifier": "≥2%",
+            "allergens": [
+              "molluscs"
+            ]
+          },
+          {
+            "name": "酿造酱油",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "鸡骨原汤",
+            "allergens": [
+              "chicken"
+            ],
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "冰糖"
+          },
+          {
+            "name": "食用马铃薯淀粉"
+          },
+          {
+            "name": "海鲜调味粉"
+          },
+          {
+            "name": "辣椒"
+          },
+          {
+            "name": "橄榄油"
+          },
+          {
+            "name": "海带调味液"
+          },
+          {
+            "name": "葡萄浓缩汁"
+          },
+          {
+            "name": "酵母抽提物"
+          },
+          {
+            "name": "昆布粉"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "香辛料"
+          },
+          {
+            "name": "罗勒",
+            "functional_class": "青酱包配料",
+            "qualifier": "≥35%"
+          },
+          {
+            "name": "特级初榨橄榄油",
+            "qualifier": "≥30%"
+          },
+          {
+            "name": "葵花籽油"
+          },
+          {
+            "name": "松籽仁",
+            "allergens": [
+              "tree_nuts"
+            ]
+          },
+          {
+            "name": "干酪",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "大蒜"
+          },
+          {
+            "name": "小青柠汁"
+          },
+          {
+            "name": "非活性食用酵母粉"
+          },
+          {
+            "name": "乳酸链球菌素",
+            "qualifier": "≤0.02%",
+            "ins": "234",
+            "is_additive": true
+          },
+          {
+            "name": "扇贝肉",
+            "functional_class": "扇贝口蘑双鲜料包(罐头制品)配料",
+            "qualifier": "≥50%",
+            "allergens": [
+              "molluscs"
+            ]
+          },
+          {
+            "name": "白蘑菇",
+            "qualifier": "≥25%"
+          },
+          {
+            "name": "非转基因大豆油",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "大蒜"
+          },
+          {
+            "name": "蒜香调味料",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "面包用小麦粉",
+            "functional_class": "蒜香黄油风味面包干配料",
+            "allergens": [
+              "gluten_cereals"
+            ],
+            "children": [
+              {
+                "name": "小麦",
+                "allergens": [
+                  "gluten_cereals"
+                ]
+              },
+              {
+                "name": "维生素C",
+                "ins": "300",
+                "is_additive": true
+              },
+              {
+                "name": "木聚糖酶"
+              },
+              {
+                "name": "葡萄糖氧化酶"
+              },
+              {
+                "name": "磷酸三钙",
+                "ins": "341",
+                "is_additive": true
+              },
+              {
+                "name": "硬脂酰乳酸钙"
+              },
+              {
+                "name": "α-淀粉酶"
+              }
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "人造黄油",
+            "qualifier": "≥24%",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "大蒜",
+            "qualifier": "≥2%"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "欧芹叶"
+          },
+          {
+            "name": "高活性干酵母",
+            "children": [
+              {
+                "name": "经灭活"
+              }
+            ]
+          },
+          {
+            "name": "食用盐"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "crustaceans",
+        "gluten_cereals",
+        "milk",
+        "soybeans",
+        "tree_nuts"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "蒜香罗勒干白葡萄酒蛤蜊拌面"
+      }
+    ],
+    "declared_category": "方便面制品",
+    "net_content_label": "198克(面70g+蒜香干白葡萄酒蛤蜊酱包80g+青酱包8g+蒜香黄油风味面包干10g+扇贝口蘑双鲜料包(罐头制品)30g)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "面配料:硬质颗粒小麦粉(100%)；蒜香干白葡萄酒蛤蜊酱包配料:水、大蒜(≥18%)、玉米油(≥15%)、干白葡萄酒(≥9%)、蛤蜊(≥2%)、酿造酱油、鸡骨原汤(复合调味料)、冰糖、食用马铃薯淀粉、海鲜调味粉、辣椒、橄榄油、海带调味液、葡萄浓缩汁、酵母抽提物、昆布粉、味精、食用盐、香辛料；青酱包配料:罗勒(≥35%)、特级初榨橄榄油(≥30%)、葵花籽油、松籽仁、干酪、食用盐、大蒜、小青柠汁、非活性食用酵母粉、乳酸链球菌素(≤0.02%)；扇贝口蘑双鲜料包(罐头制品)配料:扇贝肉(≥50%)、白蘑菇(≥25%)、非转基因大豆油、大蒜、蒜香调味料(复合调味料)、食用盐、白砂糖、味精；蒜香黄油风味面包干配料:面包用小麦粉(小麦、维生素C、木聚糖酶、葡萄糖氧化酶、磷酸三钙、硬脂酰乳酸钙、α-淀粉酶)、水、人造黄油(≥24%)、大蒜(≥2%)、白砂糖、欧芹叶、高活性干酵母(经灭活)、食用盐"
+      }
+    ],
+    "allergens_raw_text": "致敏物质:含有含麸质的谷物、大豆、甲壳纲类动物、坚果和乳成分",
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "深圳市尚古堂食品发展有限公司",
+        "address": "深圳市南山区沙河街道香山街社区侨城东路99号产业楼216"
+      },
+      {
+        "role": "manufacturer",
+        "name": "尚古堂(惠州)食品科技有限公司",
+        "address": "广东省惠州市惠阳区三和开发区中建电讯科技园厂房A1栋,A3栋1-2楼",
+        "license": "SC11644130301356"
+      }
+    ],
+    "product_standard": [
+      "Q/SGT 0019S"
+    ],
+    "lot_code_rule": "生产日期及保质期至:请见袋装背面喷码处",
+    "storage_text": "请置于阴凉干燥处,密封避光保存。",
+    "usage_text": "01 煮面:水沸下面,煮5分钟捞出沥干; 02 拌面:热锅先放酱包预热,下入面条小火翻炒1分钟,再加入酱料包拌匀; 03 享用:撒上配菜包,搭配蒜香黄油风味面包干即可享用",
+    "claims_text": [
+      "黄金产区干白*+鲜美蛤蜊入酱",
+      "扇贝口蘑双鲜料包30克",
+      "HPP*锁鲜青酱",
+      "添加蒜香黄油风味面包干",
+      "四叶草面体 5分钟快熟超挂汁",
+      "*配料中含乳酸链球菌素,为天然发酵来源提取的防腐剂",
+      "*干白指干白葡萄酒",
+      "*HPP指超高压灭菌工艺"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "8462d3983f0d64cc8676dd8b3c9b0c453f4440b153dcd38876019d9bbc719fb9",
+      "media_ref": "opf-media://sha256/8462d3983f0d64cc8676dd8b3c9b0c453f4440b153dcd38876019d9bbc719fb9",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-marketside-clam-pasta-198g",
+      "evidence_id": "sha256:8462d3983f0d64cc8676dd8b3c9b0c453f4440b153dcd38876019d9bbc719fb9"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "3f021e39c5dfe738430e163f56bd20a771251fdcd35af0fdf0de26531023fa9b",
+      "media_ref": "opf-media://sha256/3f021e39c5dfe738430e163f56bd20a771251fdcd35af0fdf0de26531023fa9b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-marketside-clam-pasta-198g",
+      "evidence_id": "sha256:3f021e39c5dfe738430e163f56bd20a771251fdcd35af0fdf0de26531023fa9b"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "29f3f580b26a6646541c8e3dd80a4f580cda8a7808fb4a7d5919362ab2a474c7",
+      "media_ref": "opf-media://sha256/29f3f580b26a6646541c8e3dd80a4f580cda8a7808fb4a7d5919362ab2a474c7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-marketside-clam-pasta-198g",
+      "evidence_id": "sha256:29f3f580b26a6646541c8e3dd80a4f580cda8a7808fb4a7d5919362ab2a474c7"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "98366bb5228f4aae5e69f4ec32ef3038dedccd20291da1c5681db63e3e0961b7",
+      "media_ref": "opf-media://sha256/98366bb5228f4aae5e69f4ec32ef3038dedccd20291da1c5681db63e3e0961b7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-marketside-clam-pasta-198g",
+      "evidence_id": "sha256:98366bb5228f4aae5e69f4ec32ef3038dedccd20291da1c5681db63e3e0961b7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:47Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:8462d3983f0d64cc8676dd8b3c9b0c453f4440b153dcd38876019d9bbc719fb9",
+        "sha256:3f021e39c5dfe738430e163f56bd20a771251fdcd35af0fdf0de26531023fa9b",
+        "sha256:29f3f580b26a6646541c8e3dd80a4f580cda8a7808fb4a7d5919362ab2a474c7",
+        "sha256:98366bb5228f4aae5e69f4ec32ef3038dedccd20291da1c5681db63e3e0961b7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1105",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "9.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "10.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "2.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "33",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "5.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "523",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "264.1",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.31",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "234",
+      "300",
+      "341",
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "chicken",
+        "crustaceans",
+        "gluten_cereals",
+        "milk",
+        "molluscs",
+        "soybeans",
+        "tree_nuts"
+      ],
+      "declared_contains": [
+        "crustaceans",
+        "gluten_cereals",
+        "milk",
+        "soybeans",
+        "tree_nuts"
+      ],
+      "inferred_from_ingredients": [
+        "chicken",
+        "gluten_cereals",
+        "milk",
+        "molluscs",
+        "soybeans",
+        "tree_nuts"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "198",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "2187.9",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "19",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "20.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "4.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "65.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "10.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "1035.5",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "522.9",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "2.59",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:f720dde2df39722aaea5beab6a4b22135282416ca981899d5977d60b352bcddb",
+  "label_fingerprint": "sha256:4ea0171998bfd5e069aa2526aaa43c8de7ef8edc28892871048e8db6d4ac3f0e"
+}

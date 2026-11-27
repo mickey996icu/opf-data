@@ -1,0 +1,441 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06920143510768",
+  "edition_id": "01M8EXGMWJ6Z1H55MS8WYJFQJB",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "220",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1861",
+          "unit": "kJ",
+          "nrv_pct": "22"
+        },
+        {
+          "nutrient": "protein",
+          "value": "7.8",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "37.7",
+          "unit": "g",
+          "nrv_pct": "63"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "19.6",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "5480",
+          "unit": "mg",
+          "nrv_pct": "274"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "菜籽油"
+          },
+          {
+            "name": "红油郫县豆瓣"
+          },
+          {
+            "name": "辣椒"
+          },
+          {
+            "name": "黄豆酱",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "食用猪油",
+            "allergens": [
+              "pork"
+            ]
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "豆豉",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "鸡精调味料",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "盐渍姜"
+          },
+          {
+            "name": "盐渍辣椒"
+          },
+          {
+            "name": "酿造酱"
+          },
+          {
+            "name": "醪糟"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "小茴香"
+          },
+          {
+            "name": "八角"
+          },
+          {
+            "name": "山奈"
+          },
+          {
+            "name": "草果"
+          },
+          {
+            "name": "桂皮"
+          },
+          {
+            "name": "月桂叶"
+          },
+          {
+            "name": "甘草"
+          },
+          {
+            "name": "荜拨"
+          },
+          {
+            "name": "丁香"
+          },
+          {
+            "name": "枯茗"
+          },
+          {
+            "name": "高良姜"
+          },
+          {
+            "name": "白芷"
+          },
+          {
+            "name": "橘皮"
+          },
+          {
+            "name": "花椒"
+          },
+          {
+            "name": "芝麻酱",
+            "allergens": [
+              "sesame"
+            ]
+          },
+          {
+            "name": "芝麻",
+            "allergens": [
+              "sesame"
+            ]
+          },
+          {
+            "name": "清香型白酒"
+          },
+          {
+            "name": "酵母抽提物"
+          },
+          {
+            "name": "蚝汁"
+          },
+          {
+            "name": "鸡肉复合调味料",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "牛肉原汤复合调味料",
+            "allergens": [
+              "beef"
+            ]
+          },
+          {
+            "name": "花椒提取物"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "eggs",
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "麻辣香锅复合调味料"
+      }
+    ],
+    "net_content_label": "220克(110克x2)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "菜籽油,红油郫县豆瓣,辣椒,黄豆酱,食用猪油,味精,豆豉,鸡精调味料,水,盐渍姜,盐渍辣椒,酿造酱,醪糟,食用盐,白砂糖,小茴香,八角,山奈,草果,桂皮,月桂叶,甘草,荜拨,丁香,枯茗,高良姜,白芷,橘皮,花椒,芝麻酱,芝麻,清香型白酒,酵母抽提物,蚝汁,鸡肉复合调味料,牛肉原汤复合调味料,花椒提取物。"
+      }
+    ],
+    "allergens_raw_text": "致敏物质提示:本产品中含有大豆、小麦、蛋成分。",
+    "origin": {
+      "country": "CN",
+      "region": "四川省成都市",
+      "raw_text": "四川省成都市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "四川天味食品集团股份有限公司",
+        "address": "成都市双流区西航港街道腾飞一路333号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "四川天味家园食品有限公司",
+        "address": "成都市郫都区中国川菜产业化园区永安路555号",
+        "license": "SC10351012400025"
+      }
+    ],
+    "product_standard": [
+      "Q/TWS0002S"
+    ],
+    "lot_code_rule": "生产日期:见背面封口处喷码",
+    "shelf_life": {
+      "value": "18",
+      "unit": "month",
+      "label": "18个月"
+    },
+    "storage_text": "置于阴凉干燥处保存。开袋后需密封冷藏。",
+    "usage_text": "将450克-550克肉类菜品及150克-200克蔬菜焯水/油炸备用；热油加入肉菜炒匀，开小火加入麻辣香锅复合调味料110克炒匀，加入小葱、香菜起锅食用。",
+    "claims_text": [
+      "11种香辛料秘制",
+      "自然晾晒豆瓣酱",
+      "基地直供辣椒花椒,麻辣鲜香",
+      "本产品中豆瓣酱(红油郫县豆瓣)添加量≥10%、辣椒添加量≥5%、11种香辛料(小茴香、八角、山奈、草果、桂皮、月桂叶、甘草、荜拨、丁香、枯茗、高良姜)添加量≥2%、花椒添加量≥1%。",
+      "基地直供辣椒、花椒，保证辣椒自然红亮、椒形规整、花椒颜色纯正、油腺饱满。"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "fbd17685a94f2b3a5c0cde6fb1a27361e09899f0fc1fca22042ec1d79fc2b791",
+      "media_ref": "opf-media://sha256/fbd17685a94f2b3a5c0cde6fb1a27361e09899f0fc1fca22042ec1d79fc2b791",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-malaxiangguo-220g",
+      "evidence_id": "sha256:fbd17685a94f2b3a5c0cde6fb1a27361e09899f0fc1fca22042ec1d79fc2b791"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "619d9f724baeb46ab12cab170fc884697522e109b556cbcbbcd6f39a56c4cadf",
+      "media_ref": "opf-media://sha256/619d9f724baeb46ab12cab170fc884697522e109b556cbcbbcd6f39a56c4cadf",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-malaxiangguo-220g",
+      "evidence_id": "sha256:619d9f724baeb46ab12cab170fc884697522e109b556cbcbbcd6f39a56c4cadf"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "7701725e841b631f3f76150316a7743ae8e68ac1fdf2346b6f81043f037ebd6d",
+      "media_ref": "opf-media://sha256/7701725e841b631f3f76150316a7743ae8e68ac1fdf2346b6f81043f037ebd6d",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-09",
+      "specimen_id": "sp-marketside-malaxiangguo-220g",
+      "evidence_id": "sha256:7701725e841b631f3f76150316a7743ae8e68ac1fdf2346b6f81043f037ebd6d"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T16:30:46Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:fbd17685a94f2b3a5c0cde6fb1a27361e09899f0fc1fca22042ec1d79fc2b791",
+        "sha256:619d9f724baeb46ab12cab170fc884697522e109b556cbcbbcd6f39a56c4cadf",
+        "sha256:7701725e841b631f3f76150316a7743ae8e68ac1fdf2346b6f81043f037ebd6d"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1861",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "7.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "37.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "19.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "5480",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "444.8",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "13.7",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "beef",
+        "chicken",
+        "eggs",
+        "gluten_cereals",
+        "pork",
+        "sesame",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "eggs",
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "beef",
+        "chicken",
+        "pork",
+        "sesame",
+        "soybeans"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "220",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "4094.2",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "17.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "82.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "43.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "12056",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "978.6",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "30.14",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:b799eafe2164f5d07bd0856168d0b66fdadbb9302c5745004e9c77ebd5cdda3d",
+  "label_fingerprint": "sha256:8b7851ed8538c57aacd478557a8cc212ea172993e6a0cce8f21c384485c5e46d"
+}
