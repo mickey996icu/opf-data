@@ -1,0 +1,286 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06977772131246",
+  "edition_id": "01M8FK6GXFRWFE7HS01VRMAT7B",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "200",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1827",
+          "unit": "kJ",
+          "nrv_pct": "22"
+        },
+        {
+          "nutrient": "protein",
+          "value": "9.8",
+          "unit": "g",
+          "nrv_pct": "16"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "43",
+          "unit": "g",
+          "nrv_pct": "72"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "14.5",
+          "unit": "g",
+          "nrv_pct": "73"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "4.1",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "1.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "433",
+          "unit": "mg",
+          "nrv_pct": "22"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "五花肉"
+          },
+          {
+            "name": "孜然酱",
+            "children": [
+              {
+                "name": "复合调味料"
+              }
+            ]
+          },
+          {
+            "name": "饮用水"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "喜嘉辉·小厨",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "孜然五花肉"
+      }
+    ],
+    "declared_category": "冷藏调制食品(生制品)",
+    "net_content_label": "200g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "五花肉、孜然酱(复合调味料)、饮用水"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市",
+      "raw_text": "广东省东莞市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "广东嘉辉食品供应链有限公司",
+        "address": "广东省东莞市凤岗镇凤观路57号4栋301室",
+        "license": "SC10344190019837"
+      }
+    ],
+    "product_standard": [
+      "Q/JH 0001S-2026"
+    ],
+    "shelf_life": {
+      "value": "4",
+      "unit": "day",
+      "label": "4天"
+    },
+    "storage_text": "0-4℃冷藏保存",
+    "usage_text": "烹调加工方式:煎、烤、炸等",
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "XI JIA HUI XIAO CHU",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "0c87353210935cbcc363977051a4d0a00beba0f528c4ad5f36d7fdfb9d7a62e7",
+      "media_ref": "opf-media://sha256/0c87353210935cbcc363977051a4d0a00beba0f528c4ad5f36d7fdfb9d7a62e7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-xjh-cumin-pork-belly-200g",
+      "evidence_id": "sha256:0c87353210935cbcc363977051a4d0a00beba0f528c4ad5f36d7fdfb9d7a62e7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T22:49:43Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:0c87353210935cbcc363977051a4d0a00beba0f528c4ad5f36d7fdfb9d7a62e7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1827",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "9.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "43",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "14.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "4.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "1.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "433",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "436.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.08",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "200",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "3654",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "19.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "86",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "29",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "8.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "3.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "866",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "873.4",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "2.16",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:1fef137f0e594c694a18f61bf8c8cd67b002e4a10d62f6997b4d79ca8ddec94f",
+  "label_fingerprint": "sha256:918fd44d091ae9a45476cfb7298ec5bbb2da55442cd8a8f86d478719f984aa33"
+}
