@@ -103,17 +103,21 @@
           },
           {
             "name": "酸辣味复合调味料",
+            "qualifier": "含",
             "children": [
               {
-                "name": "含食用香精"
+                "name": "食用香精"
               }
             ]
           },
           {
             "name": "咸鲜味复合调味料",
+            "qualifier": "含",
             "children": [
               {
-                "name": "含呈味核苷酸二钠"
+                "name": "呈味核苷酸二钠",
+                "ins": "635",
+                "is_additive": true
               }
             ]
           },
@@ -127,7 +131,9 @@
                 "name": "泡姜"
               },
               {
-                "name": "冰醋酸"
+                "name": "冰醋酸",
+                "ins": "260",
+                "is_additive": true
               },
               {
                 "name": "乳酸",
@@ -335,9 +341,11 @@
       }
     },
     "additives_ins": [
+      "260",
       "270",
       "325",
-      "330"
+      "330",
+      "635"
     ],
     "allergens": {
       "contains": [
@@ -426,6 +434,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:1aaf92626d4cbef5a9524c655976649be63ca1787e27c564acfcf4b2e0d30731",
-  "label_fingerprint": "sha256:36a977f9f9428c87bc119b938186fc31ed1e2f0532450dbf49e777463ce76475"
+  "core_fingerprint": "sha256:7b2e92f6402e270b775aaa77aaadb55f23c31bbd7a94794a8b60151dab5adf68",
+  "label_fingerprint": "sha256:953ba555085318fe84d1085a1501b2fedef0bdbd398dc4306018ae0986cacb72"
 }

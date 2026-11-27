@@ -165,7 +165,10 @@
             "name": "葵花籽油"
           },
           {
-            "name": "松籽仁"
+            "name": "松籽仁",
+            "allergens": [
+              "tree_nuts"
+            ]
           },
           {
             "name": "干酪",
@@ -508,7 +511,8 @@
         "gluten_cereals",
         "milk",
         "molluscs",
-        "soybeans"
+        "soybeans",
+        "tree_nuts"
       ],
       "may_contain": []
     },
@@ -573,6 +577,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:351683e0073c284aefb8ccb2af0e1b5abcfe3774fa482d3e00ec42c3792e7403",
-  "label_fingerprint": "sha256:cfbc6c2acd3220c15bbac104bf2f5d05ab0ae76deaa726ebc260dad499e30c5a"
+  "core_fingerprint": "sha256:f720dde2df39722aaea5beab6a4b22135282416ca981899d5977d60b352bcddb",
+  "label_fingerprint": "sha256:4ea0171998bfd5e069aa2526aaa43c8de7ef8edc28892871048e8db6d4ac3f0e"
 }

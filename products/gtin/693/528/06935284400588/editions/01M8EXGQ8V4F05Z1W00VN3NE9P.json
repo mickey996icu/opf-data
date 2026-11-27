@@ -103,17 +103,21 @@
           },
           {
             "name": "咸鲜味复合调味料",
+            "qualifier": "含",
             "children": [
               {
-                "name": "含呈味核苷酸二钠"
+                "name": "呈味核苷酸二钠",
+                "ins": "635",
+                "is_additive": true
               }
             ]
           },
           {
             "name": "香辣味复合调味料",
+            "qualifier": "含",
             "children": [
               {
-                "name": "含食用香精"
+                "name": "食用香精"
               }
             ]
           }
@@ -311,7 +315,8 @@
       }
     },
     "additives_ins": [
-      "330"
+      "330",
+      "635"
     ],
     "allergens": {
       "contains": [
@@ -401,6 +406,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:e70a22f1c7ef8542fd8445990eebb7a5abe30b4a0cf8eb3682f7237fd8eaa030",
-  "label_fingerprint": "sha256:6246f55086c8249d4a626cd9b3689ccaafd3f3f8e792ab7892d8a35a1a2d04cd"
+  "core_fingerprint": "sha256:44e4f60bee1e6228308df90c6b1086429c2261ba114d21333d74635552b2b955",
+  "label_fingerprint": "sha256:29266d966a69781edb152a2ad8e1d2a25c4afa646a2e7ee5014b57b479ddc8ec"
 }

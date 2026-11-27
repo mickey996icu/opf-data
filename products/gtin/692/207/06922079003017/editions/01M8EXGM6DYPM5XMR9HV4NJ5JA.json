@@ -68,7 +68,10 @@
         "nodes": [
           {
             "name": "杂色蛤肉",
-            "qualifier": "≥94%"
+            "qualifier": "≥94%",
+            "allergens": [
+              "molluscs"
+            ]
           },
           {
             "name": "饮用水"
@@ -120,11 +123,6 @@
     "product_standard": [
       "GB 10136"
     ],
-    "shelf_life": {
-      "value": "4",
-      "unit": "day",
-      "label": "4天"
-    },
     "storage_text": "0-4℃冷藏保存",
     "translations": [
       {
@@ -228,9 +226,13 @@
     },
     "additives_ins": [],
     "allergens": {
-      "contains": [],
+      "contains": [
+        "molluscs"
+      ],
       "declared_contains": [],
-      "inferred_from_ingredients": [],
+      "inferred_from_ingredients": [
+        "molluscs"
+      ],
       "may_contain": [
         "crustaceans",
         "fish"
@@ -303,6 +305,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:fcff81a6bca29db86c4ac76f98512708765ed562599ef5fd8a7a606c13a15ca2",
-  "label_fingerprint": "sha256:1e2e8fac64129dadf4bacee91a5fc3b3292a6d9f4e60a7f71844aa490e671d58"
+  "core_fingerprint": "sha256:9ed19c9cb448550f494c54624f2d307fac10e550eaa74bc23ccfd4196a85f57e",
+  "label_fingerprint": "sha256:6fcf771c2cf6a5900b036f2930d82e4aee62cbd4f4f05cd28582a70b08593c3d"
 }

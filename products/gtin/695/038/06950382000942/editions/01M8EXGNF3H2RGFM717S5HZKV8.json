@@ -92,7 +92,8 @@
             "qualifier": "≥3%",
             "children": [
               {
-                "name": "含南姜",
+                "name": "南姜",
+                "functional_class": "含",
                 "qualifier": "75%"
               }
             ]
@@ -438,6 +439,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:e4cd9f6edb8f4c0f566d4a7c2a767f3c70634ace1d23074e117c7ed08447da9e",
-  "label_fingerprint": "sha256:6b19645a39b5dd65c294186738d9c7e53e1a9b6ff924a8c727a634d7e35e32e5"
+  "core_fingerprint": "sha256:b7412f8861324bfbd55d9a8d764fe540daeff57fd4377a8236085a91a1501a5e",
+  "label_fingerprint": "sha256:c76a79dab5217fb3d9288a9a1f8c365cdf060f8886cd6337beba85dc69c5c2b1"
 }
