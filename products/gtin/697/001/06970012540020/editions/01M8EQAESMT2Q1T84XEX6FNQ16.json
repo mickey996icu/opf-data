@@ -1,0 +1,303 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06970012540020",
+  "edition_id": "01M8EQAESMT2Q1T84XEX6FNQ16",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "2",
+        "unit": "kg"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1577",
+          "unit": "kJ",
+          "nrv_pct": "19"
+        },
+        {
+          "nutrient": "protein",
+          "value": "10.8",
+          "unit": "g",
+          "nrv_pct": "18"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "5.4",
+          "unit": "g",
+          "nrv_pct": "9"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "70.2",
+          "unit": "g",
+          "nrv_pct": "23"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "粟",
+            "children": [
+              {
+                "name": "优质沁州黄谷子"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "玖品",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "玖品沁州黄小米"
+      }
+    ],
+    "declared_category": "粳性小米",
+    "quality_grade": "一级",
+    "net_content_label": "2千克(100克×20袋)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "粟（优质沁州黄谷子）"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "山西省长治市",
+      "raw_text": "山西·长治"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "沁县田园香土产开发有限公司",
+        "address": "沁县沁州黄镇杨家庄村",
+        "license": "SC10114043010564"
+      }
+    ],
+    "product_standard": [
+      "GB/T19503"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month",
+      "label": "12个月"
+    },
+    "storage_text": "保存于阴凉干燥处",
+    "usage_text": "熬粥或做小米饭时 建议最好使用矿泉水; ①米水比例 熬粥时:1:18-20 做米饭时:1:5-8; ②水温达到80-90℃ 将米加入; ③大火熬制 熬粥时:大火熬制30-40分钟 做米饭时:大火熬制10分钟后中火20分钟",
+    "claims_text": [
+      "绿色食品",
+      "GF140430183442",
+      "经中国绿色食品发展中心许可使用绿色食品标志",
+      "中华人民共和国地理标志"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "4263b930094144708d3c16a3fbddbb48e99ea362b53e8bbbae29640fcb121551",
+      "media_ref": "opf-media://sha256/4263b930094144708d3c16a3fbddbb48e99ea362b53e8bbbae29640fcb121551",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-jiupin-qinzhou-millet-2kg",
+      "evidence_id": "sha256:4263b930094144708d3c16a3fbddbb48e99ea362b53e8bbbae29640fcb121551"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "15729638db7bbdf3009460899eed0e3fbb1bd8db10240c12d8c7f0304bc85c0a",
+      "media_ref": "opf-media://sha256/15729638db7bbdf3009460899eed0e3fbb1bd8db10240c12d8c7f0304bc85c0a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-jiupin-qinzhou-millet-2kg",
+      "evidence_id": "sha256:15729638db7bbdf3009460899eed0e3fbb1bd8db10240c12d8c7f0304bc85c0a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "e5e71dceb9f8fd4bb308c00abd05055a10ba334f99a5313e25259fc535af9709",
+      "media_ref": "opf-media://sha256/e5e71dceb9f8fd4bb308c00abd05055a10ba334f99a5313e25259fc535af9709",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-jiupin-qinzhou-millet-2kg",
+      "evidence_id": "sha256:e5e71dceb9f8fd4bb308c00abd05055a10ba334f99a5313e25259fc535af9709"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "e4faca54fc35dfe3fbc982a267d8597780c1a41503123d6f870b0145c5c974fa",
+      "media_ref": "opf-media://sha256/e4faca54fc35dfe3fbc982a267d8597780c1a41503123d6f870b0145c5c974fa",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-jiupin-qinzhou-millet-2kg",
+      "evidence_id": "sha256:e4faca54fc35dfe3fbc982a267d8597780c1a41503123d6f870b0145c5c974fa"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "d5500822f51c10ce713786dc31db1c5eee32b961a68a43fe5adedbdfbbc49c09",
+      "media_ref": "opf-media://sha256/d5500822f51c10ce713786dc31db1c5eee32b961a68a43fe5adedbdfbbc49c09",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "specimen_id": "sp-jiupin-qinzhou-millet-2kg",
+      "evidence_id": "sha256:d5500822f51c10ce713786dc31db1c5eee32b961a68a43fe5adedbdfbbc49c09"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T14:42:31Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:4263b930094144708d3c16a3fbddbb48e99ea362b53e8bbbae29640fcb121551",
+        "sha256:15729638db7bbdf3009460899eed0e3fbb1bd8db10240c12d8c7f0304bc85c0a",
+        "sha256:e5e71dceb9f8fd4bb308c00abd05055a10ba334f99a5313e25259fc535af9709",
+        "sha256:e4faca54fc35dfe3fbc982a267d8597780c1a41503123d6f870b0145c5c974fa",
+        "sha256:d5500822f51c10ce713786dc31db1c5eee32b961a68a43fe5adedbdfbbc49c09"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1577",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "10.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "5.4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "70.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "qualifier": "<",
+        "value": "5",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "energy_kcal": {
+        "value": "376.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.01",
+        "unit": "g",
+        "basis": "regulatory_upper_bound",
+        "qualifier": "<"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "2",
+        "unit": "kg"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "31540",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "216",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "108",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "1404",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "100",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "energy_kcal": {
+          "value": "7538",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sodium",
+      "detail": "Declared 0 mg under CN/GB28050-2011 zero-threshold rule implies <5 mg/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:9dfc4bdd72fa9c3ff46c7442d973f1ef02df5cfee83043b36990fd3b9868c7ca",
+  "label_fingerprint": "sha256:810e6bfb184d04d3360d248ed430e36c4ead16666a0892cd933a9e51a623b0e0"
+}

@@ -1,0 +1,453 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06941308823974",
+  "edition_id": "01M8EQJH8PKEJQDPF1K83ZVMJV",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [
+      {
+        "value": "225",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1365",
+          "unit": "kJ",
+          "nrv_pct": "16"
+        },
+        {
+          "nutrient": "protein",
+          "value": "5.8",
+          "unit": "g",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.6",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "73.2",
+          "unit": "g",
+          "nrv_pct": "24"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "30",
+          "unit": "mg",
+          "nrv_pct": "2"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "葡萄糖浆"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "高浓缩乳酸菌发酵饮料原液",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "白砂糖"
+              },
+              {
+                "name": "脱脂乳粉",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "乳酸菌",
+                "children": [
+                  {
+                    "name": "鼠李糖乳酪杆菌",
+                    "allergens": [
+                      "milk"
+                    ]
+                  },
+                  {
+                    "name": "发酵粘液乳杆菌",
+                    "allergens": [
+                      "milk"
+                    ]
+                  },
+                  {
+                    "name": "副干酪乳酪杆菌",
+                    "allergens": [
+                      "milk"
+                    ]
+                  },
+                  {
+                    "name": "瑞士乳杆菌",
+                    "allergens": [
+                      "milk"
+                    ]
+                  },
+                  {
+                    "name": "唾液链球菌嗜热亚种"
+                  },
+                  {
+                    "name": "乳酸乳球菌乳亚种",
+                    "allergens": [
+                      "milk"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "柠檬酸钠",
+                "ins": "331(iii)",
+                "is_additive": true
+              },
+              {
+                "name": "果胶",
+                "ins": "440",
+                "is_additive": true
+              },
+              {
+                "name": "食用香精"
+              }
+            ]
+          },
+          {
+            "name": "明胶"
+          },
+          {
+            "name": "山梨糖醇",
+            "ins": "420",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "食用香精"
+          },
+          {
+            "name": "琼脂",
+            "ins": "406",
+            "is_additive": true
+          },
+          {
+            "name": "果胶",
+            "ins": "440",
+            "is_additive": true
+          },
+          {
+            "name": "DL- 苹果酸",
+            "ins": "296",
+            "is_additive": true
+          },
+          {
+            "name": "复配被膜剂",
+            "children": [
+              {
+                "name": "辛，癸酸甘油酯"
+              },
+              {
+                "name": "巴西棕榈蜡"
+              },
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "维生素C",
+            "ins": "300",
+            "is_additive": true
+          },
+          {
+            "name": "凝结魏茨曼氏菌粉",
+            "qualifier": "添加量0.22%",
+            "children": [
+              {
+                "name": "菊粉",
+                "qualifier": "80%"
+              },
+              {
+                "name": "凝结魏茨曼氏菌BC30",
+                "qualifier": "20%"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "贝欧宝",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "贝欧宝活性益生菌软糖(酸奶味)(活菌型)"
+      }
+    ],
+    "declared_category": "混合胶型凝胶糖果",
+    "net_content_label": "225g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "葡萄糖浆、白砂糖、水、高浓缩乳酸菌发酵饮料原液[水、白砂糖、脱脂乳粉、乳酸菌(鼠李糖乳酪杆菌、发酵粘液乳杆菌、副干酪乳酪杆菌、瑞士乳杆菌、唾液链球菌嗜热亚种、乳酸乳球菌乳亚种)、柠檬酸钠、果胶、食用香精]、明胶、山梨糖醇、柠檬酸、食用香精、琼脂、果胶、DL- 苹果酸、复配被膜剂(辛，癸酸甘油酯、巴西棕榈蜡、柠檬酸)、维生素C、凝结魏茨曼氏菌粉(菊粉80%，凝结魏茨曼氏菌BC30 20%)(添加量0.22%)。"
+      }
+    ],
+    "allergens_raw_text": "过敏原:含有乳及乳制品(包括乳糖),可能含有大豆及其制品。",
+    "origin": {
+      "country": "CN",
+      "region": "广东省江门市",
+      "raw_text": "广东省江门市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "深圳市阿麦斯食品科技有限公司",
+        "address": "深圳市宝安区燕罗街道燕川社区景业路1、3号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "贝欧宝(广东)健康科技有限公司",
+        "address": "广东省江门市江海区胜利南路180号2栋3楼",
+        "license": "SC11344070402297"
+      },
+      {
+        "role": "distributor",
+        "name": "深圳市金多多食品营销有限公司",
+        "address": "深圳市福田区福保街道福田保税区鑫瑞科大楼六楼 B、D区"
+      }
+    ],
+    "product_standard": [
+      "Q/AMOS 0006S"
+    ],
+    "shelf_life": {
+      "value": "15",
+      "unit": "month",
+      "label": "15个月"
+    },
+    "storage_text": "阴凉干燥处保存,避免阳光直射; 温馨提示:温度超过35℃会导致糖内胶体融化,但不影响食用",
+    "usage_text": "开袋即食 菊粉食用量≤15克/天; 注意事项:不适合3岁以下儿童食用",
+    "claims_text": [
+      "加营养，减负担 活力舒畅好简单",
+      "活性益生菌BC30",
+      "每225g软糖含50亿CFU活性益生菌(出厂时)",
+      "无添加人工合成色素(柠檬黄、日落黄)*",
+      "*本产品的人工合成色素(柠檬黄、日落黄)含量均为0",
+      "纯纯酸奶味"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "f6744daf51906a9e4318a6c86edac999982c4e83ca85b906d186af88f9a88e70",
+      "media_ref": "opf-media://sha256/f6744daf51906a9e4318a6c86edac999982c4e83ca85b906d186af88f9a88e70",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-01",
+      "specimen_id": "sp-biobor-probiotic-yogurt-225g",
+      "evidence_id": "sha256:f6744daf51906a9e4318a6c86edac999982c4e83ca85b906d186af88f9a88e70"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "578174fa0e07c55e1692c0b94d6f3748d736398c950ec81a444eda88f17b612a",
+      "media_ref": "opf-media://sha256/578174fa0e07c55e1692c0b94d6f3748d736398c950ec81a444eda88f17b612a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-01",
+      "specimen_id": "sp-biobor-probiotic-yogurt-225g",
+      "evidence_id": "sha256:578174fa0e07c55e1692c0b94d6f3748d736398c950ec81a444eda88f17b612a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "348fe4ac8795dfe08cc27c16f99d31a3601db511f7fd33730c1a6c344874c31e",
+      "media_ref": "opf-media://sha256/348fe4ac8795dfe08cc27c16f99d31a3601db511f7fd33730c1a6c344874c31e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-01",
+      "specimen_id": "sp-biobor-probiotic-yogurt-225g",
+      "evidence_id": "sha256:348fe4ac8795dfe08cc27c16f99d31a3601db511f7fd33730c1a6c344874c31e"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "5ac9669f11ac8ac736c177ebf56e5701835b4f439dc823bf1850209f74aa25b7",
+      "media_ref": "opf-media://sha256/5ac9669f11ac8ac736c177ebf56e5701835b4f439dc823bf1850209f74aa25b7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-27",
+      "vintage_month": "2026-01",
+      "specimen_id": "sp-biobor-probiotic-yogurt-225g",
+      "evidence_id": "sha256:5ac9669f11ac8ac736c177ebf56e5701835b4f439dc823bf1850209f74aa25b7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-27T14:46:56Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:f6744daf51906a9e4318a6c86edac999982c4e83ca85b906d186af88f9a88e70",
+        "sha256:578174fa0e07c55e1692c0b94d6f3748d736398c950ec81a444eda88f17b612a",
+        "sha256:348fe4ac8795dfe08cc27c16f99d31a3601db511f7fd33730c1a6c344874c31e",
+        "sha256:5ac9669f11ac8ac736c177ebf56e5701835b4f439dc823bf1850209f74aa25b7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1365",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "5.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "73.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "30",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "326.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.08",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "296",
+      "300",
+      "330",
+      "331(iii)",
+      "406",
+      "420",
+      "440"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": [
+        "soy"
+      ]
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "225",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "3071.3",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "13.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "164.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "67.5",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "734",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.18",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:5b230d4690a5871f8aa4861e0c922367e13f08f788c3a7b45bd331cd37b4b702",
+  "label_fingerprint": "sha256:30eafd5d95269228f95cb4bd1b148fcc4fd24ae2ab3ce09aa713d960122c6557"
+}
