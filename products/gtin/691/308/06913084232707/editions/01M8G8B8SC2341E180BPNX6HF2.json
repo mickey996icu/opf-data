@@ -1,0 +1,314 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06913084232707",
+  "edition_id": "01M8G8B8SC2341E180BPNX6HF2",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "240",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "690",
+          "unit": "kJ",
+          "nrv_pct": "8"
+        },
+        {
+          "nutrient": "protein",
+          "value": "11.8",
+          "unit": "g",
+          "nrv_pct": "20"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "12.5",
+          "unit": "g",
+          "nrv_pct": "21"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "3.8",
+          "unit": "g",
+          "nrv_pct": "19"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "1.6",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "128",
+          "unit": "mg",
+          "nrv_pct": "6"
+        }
+      ]
+    },
+    "special_indicators": [
+      {
+        "name": "叶黄素",
+        "qualifier": ">=",
+        "value": "1500",
+        "unit": "μg/100g"
+      }
+    ],
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鲜鹌鹑蛋",
+            "allergens": [
+              "eggs"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "eggs"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "叶黄素鲜鹌鹑蛋"
+      }
+    ],
+    "declared_category": "鲜鹌鹑蛋",
+    "quality_grade": "一级",
+    "net_content_label": "240克(24枚)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鲜鹌鹑蛋"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "湖北省孝感市安陆市",
+      "raw_text": "湖北省孝感市安陆市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "湖北神丹健康食品有限公司",
+        "address": "湖北省孝感市安陆市解放大道东3号"
+      }
+    ],
+    "product_standard": [
+      "Q/HSD0004S"
+    ],
+    "storage_text": "存放在阴凉、干燥、清洁卫生、无异味、无有毒有害物品处，0℃-8℃冷藏保存更佳。",
+    "usage_text": "烹饪熟制后食用。温馨提示: 鲜鹌鹑蛋属鲜货易碎产品，破损变质请勿食用。",
+    "claims_text": [
+      "谷物喂养，适合盐焗卤煮",
+      "叶黄素含量1500μg/100g*",
+      "*根据GB 5009.248-2016《食品安全国家标准 食品中叶黄素的测定》检测结果叶黄素含量≥1500μg/100g"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "292fd0cad6c170ee475fa424ea4c4dc57fbdac80e8e06454c365730ee21e2cf8",
+      "media_ref": "opf-media://sha256/292fd0cad6c170ee475fa424ea4c4dc57fbdac80e8e06454c365730ee21e2cf8",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-ms-quail-eggs-240g",
+      "evidence_id": "sha256:292fd0cad6c170ee475fa424ea4c4dc57fbdac80e8e06454c365730ee21e2cf8"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "e931980bcaa933526571ac6130fbe26e47634215b8a71c611ca440aadd4cedaf",
+      "media_ref": "opf-media://sha256/e931980bcaa933526571ac6130fbe26e47634215b8a71c611ca440aadd4cedaf",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-ms-quail-eggs-240g",
+      "evidence_id": "sha256:e931980bcaa933526571ac6130fbe26e47634215b8a71c611ca440aadd4cedaf"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:18Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:292fd0cad6c170ee475fa424ea4c4dc57fbdac80e8e06454c365730ee21e2cf8",
+        "sha256:e931980bcaa933526571ac6130fbe26e47634215b8a71c611ca440aadd4cedaf"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "690",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "11.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "12.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "3.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "1.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "128",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "164.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.32",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "eggs"
+      ],
+      "declared_contains": [
+        "eggs"
+      ],
+      "inferred_from_ingredients": [
+        "eggs"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "240",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1656",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "28.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "30",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "9.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "3.8",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "1.2",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "307.2",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "395.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.77",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7aa370e0540a99e67e88b396a8253f1dfbdae1d0b190d8f65ff83c8edbb55eb9",
+  "label_fingerprint": "sha256:40016784ab42588af0ed5f70e4e8e24ac9b766bc81ab721bb9b59a355d66c2c9"
+}

@@ -1,0 +1,321 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06947330709941",
+  "edition_id": "01M8G8B93TFWQ6ARKSW9WDS1SD",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "260",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "60",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0.6",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "2.9",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "8150",
+          "unit": "mg",
+          "nrv_pct": "408"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "有机海带",
+            "qualifier": "≥50%"
+          },
+          {
+            "name": "饮用水",
+            "qualifier": "20%-25%"
+          },
+          {
+            "name": "食用盐",
+            "qualifier": "18%-22%"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "有机海带结"
+      }
+    ],
+    "declared_category": "盐渍型(盐渍藻类产品)",
+    "net_content_label": "260克(固形物含量≥65%)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "有机海带(≥50%)、饮用水(20%-25%)、食用盐(18%-22%)"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "山东省威海市",
+      "raw_text": "山东省威海市"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "山东海之宝海洋科技有限公司",
+        "address": "山东省威海市荣成市凭海东路259号",
+        "license": "SC12237108200767"
+      }
+    ],
+    "product_standard": [
+      "Q/SHK 0013S"
+    ],
+    "shelf_life": {
+      "value": "9",
+      "unit": "month",
+      "label": "9个月"
+    },
+    "storage_text": "0℃-10℃避光保存",
+    "usage_text": "清水冲洗一遍，换水泡至咸淡适宜，沥干水分，烹制后食用(火锅、炖煮等)",
+    "claims_text": [
+      "NOP organic certified by ECOCERT"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "aa4c6c845faecb1fe0280cb20f3673e29e02e6f139bdb1a9c79237c4c74b6b7a",
+      "media_ref": "opf-media://sha256/aa4c6c845faecb1fe0280cb20f3673e29e02e6f139bdb1a9c79237c4c74b6b7a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-ms-kelp-260g",
+      "evidence_id": "sha256:aa4c6c845faecb1fe0280cb20f3673e29e02e6f139bdb1a9c79237c4c74b6b7a"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "61edf1ca51809a07e1843d3fa106d8913f46191eaf0b9d786f97a900151a2075",
+      "media_ref": "opf-media://sha256/61edf1ca51809a07e1843d3fa106d8913f46191eaf0b9d786f97a900151a2075",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-ms-kelp-260g",
+      "evidence_id": "sha256:61edf1ca51809a07e1843d3fa106d8913f46191eaf0b9d786f97a900151a2075"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:19Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:aa4c6c845faecb1fe0280cb20f3673e29e02e6f139bdb1a9c79237c4c74b6b7a",
+        "sha256:61edf1ca51809a07e1843d3fa106d8913f46191eaf0b9d786f97a900151a2075"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "60",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "0.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "2.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "8150",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "14.3",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "20.38",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "260",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "156",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.3",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "1.3",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_available": {
+          "value": "7.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "1.3",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "21190",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "37.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "52.99",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "sugars_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:86e7a295009e6507f0e6e65f3b864e1adec425bf01dcebea9b1330b4cf3e275a",
+  "label_fingerprint": "sha256:d6bbb2e73dfa50f120059774aa8debde49611db5d03caa99b9062b1340a9348f"
+}

@@ -1,0 +1,357 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06924743929302",
+  "edition_id": "01M8G8B80R3CHTRGXFEAWZ4PK0",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "serving_size": {
+      "value": "56",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "56",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1281",
+          "unit": "kJ",
+          "nrv_pct": "15"
+        },
+        {
+          "nutrient": "protein",
+          "value": "3.2",
+          "unit": "g",
+          "nrv_pct": "5"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "19.6",
+          "unit": "g",
+          "nrv_pct": "33"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "3.1",
+          "unit": "g",
+          "nrv_pct": "16"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "29.5",
+          "unit": "g",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "0.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "316",
+          "unit": "mg",
+          "nrv_pct": "16"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "马铃薯"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "经典原味调味料",
+            "children": [
+              {
+                "functional_class": "含",
+                "name": "5'-呈味核苷酸二钠",
+                "ins": "635",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "TBHQ",
+            "ins": "319",
+            "is_additive": true
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "乐事",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乐事经典原味马铃薯片"
+      }
+    ],
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "马铃薯、植物油、经典原味调味料(含5'-呈味核苷酸二钠)、TBHQ。"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "raw_text": "中国"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "百事食品(中国)有限公司",
+        "address": "上海市松江工业区东兴路99号",
+        "plant_code": "SJ",
+        "license": "SC11231011700309"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(中国)有限公司",
+        "address": "上海市松江工业区东兴路99号",
+        "plant_code": "SJ",
+        "license": "SC11231011700309"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(中国)有限公司北京分厂",
+        "address": "北京市大兴区青云店镇联华路8号",
+        "plant_code": "QY",
+        "license": "SC10111151410047"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(中国)有限公司武汉分厂",
+        "address": "湖北省武汉市东西湖区走马岭汇通大道10号",
+        "plant_code": "WH",
+        "license": "SC11242011202405"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(四川)有限公司",
+        "address": "四川省德阳市泰山南路三段110号",
+        "plant_code": "DY",
+        "license": "SC11251060100019"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(广东)有限公司",
+        "address": "广东省佛山市南海区丹灶镇利众路5号",
+        "plant_code": "FS",
+        "license": "SC11244060510057"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(山东)有限公司",
+        "address": "山东省临沂市临沭县经济开发区正持大道1号",
+        "plant_code": "SD",
+        "license": "SC11237132901929"
+      },
+      {
+        "role": "manufacturer",
+        "name": "百事食品(陕西)有限公司",
+        "address": "陕西省西安市经济技术开发区渭北新城秦王东路3889号",
+        "plant_code": "XA",
+        "license": "SC11261019710084"
+      }
+    ],
+    "product_standard": [
+      "QB/T 2686"
+    ],
+    "lot_code_rule": "具体生产商请以保质期至旁的字母代号为准",
+    "storage_text": "请置于干燥凉爽处，避免阳光直射。开口后请即食，以免受潮。",
+    "claims_text": [
+      "每100克产品中马铃薯平均使用量为265克"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "Lay's",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "93366e4f54afd905238f60e3b659df4d2af5a60d91bdfc1b7a0819e655d5bc18",
+      "media_ref": "opf-media://sha256/93366e4f54afd905238f60e3b659df4d2af5a60d91bdfc1b7a0819e655d5bc18",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-lays-classic-56g-serving",
+      "evidence_id": "sha256:93366e4f54afd905238f60e3b659df4d2af5a60d91bdfc1b7a0819e655d5bc18"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "3ad64c6114e06560305ca272648a162f29b4aa5d8678169c3b58d274e369a9dd",
+      "media_ref": "opf-media://sha256/3ad64c6114e06560305ca272648a162f29b4aa5d8678169c3b58d274e369a9dd",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-lays-classic-56g-serving",
+      "evidence_id": "sha256:3ad64c6114e06560305ca272648a162f29b4aa5d8678169c3b58d274e369a9dd"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:17Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:93366e4f54afd905238f60e3b659df4d2af5a60d91bdfc1b7a0819e655d5bc18",
+        "sha256:3ad64c6114e06560305ca272648a162f29b4aa5d8678169c3b58d274e369a9dd"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "2287.5",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "protein": {
+        "value": "5.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_total": {
+        "value": "35",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "fat_saturated": {
+        "value": "5.5",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "carbs_available": {
+        "value": "52.7",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "1.3",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sodium": {
+        "value": "564.3",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "energy_kcal": {
+        "value": "546.7",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.41",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "319",
+      "635"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "56",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "1281",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "3.2",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "19.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "3.1",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "29.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "0.7",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "316",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "306.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.79",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 56g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:70f278ba8375cba3a4cbfa3a81c51929a3ac066f791dc703bad9a84e5ab81955",
+  "label_fingerprint": "sha256:e04088d4756be017b6aefa7e5531e4d0a22bbba2b7ad3942aa5eb98997b6f772"
+}
