@@ -1,0 +1,334 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06901010127845",
+  "edition_id": "01M8G98GDND38S9RN18SMWAAW6",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "139",
+          "unit": "kJ",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "8.2",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "7.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "20",
+          "unit": "mg",
+          "nrv_pct": "1"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "果葡糖浆"
+          },
+          {
+            "name": "酸梅汤浓缩液",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "乌梅"
+              },
+              {
+                "name": "山楂"
+              },
+              {
+                "name": "橘皮",
+                "children": [
+                  {
+                    "name": "陈皮"
+                  }
+                ]
+              },
+              {
+                "name": "甘草"
+              },
+              {
+                "name": "桂花"
+              }
+            ]
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "二氧化碳",
+            "ins": "290",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸钠",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "焦糖色",
+            "ins": "150a",
+            "is_additive": true
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          },
+          {
+            "name": "甜菊糖苷",
+            "ins": "960a",
+            "is_additive": true
+          },
+          {
+            "name": "蔗糖素",
+            "ins": "955",
+            "is_additive": true
+          },
+          {
+            "name": "食用香精"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "健力宝",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乌梅爽爽乌梅味汽水"
+      }
+    ],
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、果葡糖浆、酸梅汤浓缩液(水、乌梅、山楂、橘皮(陈皮)、甘草、桂花)、食用盐、二氧化碳、柠檬酸、柠檬酸钠、焦糖色、山梨酸钾、甜菊糖苷、蔗糖素、食用香精。"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "raw_text": "中国"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "广东健力宝股份有限公司",
+        "address": "广东省佛山市三水区西南街道金港路58号",
+        "plant_code": "SS",
+        "license": "SC10644060700170"
+      },
+      {
+        "role": "manufacturer",
+        "name": "广东健力宝股份有限公司",
+        "address": "广东省佛山市三水区西南街道金港路58号",
+        "plant_code": "SS",
+        "license": "SC10644060700170"
+      },
+      {
+        "role": "manufacturer",
+        "name": "北京广东健力宝饮料有限公司",
+        "address": "北京市怀柔区雁栖镇下庄432号",
+        "plant_code": "BJ",
+        "license": "SC10611160412107"
+      },
+      {
+        "role": "manufacturer",
+        "name": "陕西健力宝饮料有限公司",
+        "address": "陕西省咸阳市三原县清河食品工业园区一路",
+        "plant_code": "SX",
+        "license": "SC10661042200304"
+      },
+      {
+        "role": "manufacturer",
+        "name": "健力宝(镇江)饮料有限公司",
+        "address": "江苏省镇江市丹徒区恒园路18号",
+        "plant_code": "ZJ",
+        "license": "SC10632111200061"
+      }
+    ],
+    "product_standard": [
+      "GB/T 10792"
+    ],
+    "lot_code_rule": "保质期到期日、产地代码:见罐底",
+    "shelf_life": {
+      "value": "18",
+      "unit": "month",
+      "label": "18个月"
+    },
+    "storage_text": "在阴凉、干燥、通风处贮存，防止冻结，禁止加热，避免日光直接照射。开启后请及时饮用。冷藏后饮用风味更佳。",
+    "claims_text": [
+      "乌梅添加量≥10毫克/升"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "255b89e8044cdb91c58eff4c09e8fc5b82733aadd247bf34cada343ec8e14db2",
+      "media_ref": "opf-media://sha256/255b89e8044cdb91c58eff4c09e8fc5b82733aadd247bf34cada343ec8e14db2",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-jianlibao-plum-soda",
+      "evidence_id": "sha256:255b89e8044cdb91c58eff4c09e8fc5b82733aadd247bf34cada343ec8e14db2"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:16Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:255b89e8044cdb91c58eff4c09e8fc5b82733aadd247bf34cada343ec8e14db2"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "139",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "8.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "7.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "20",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "33.2",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.05",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "202",
+      "290",
+      "330",
+      "331(iii)",
+      "955",
+      "960a"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:9ea6e47bfaa229e63fff5b84cb7c6944c8db99271e63624ac7e1ca9af9e498f9",
+  "label_fingerprint": "sha256:13e754b4bf2592142488185b5705578385f0e982fec114bdcb9ea0550c8fc451"
+}

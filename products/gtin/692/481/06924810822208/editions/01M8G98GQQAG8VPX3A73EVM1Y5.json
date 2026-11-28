@@ -1,0 +1,252 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06924810822208",
+  "edition_id": "01M8G98GQQAG8VPX3A73EVM1Y5",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "352",
+          "unit": "kJ",
+          "nrv_pct": "4"
+        },
+        {
+          "nutrient": "protein",
+          "value": "4.2",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "5",
+          "unit": "g",
+          "nrv_pct": "8"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "5.6",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "50",
+          "unit": "mg",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "calcium",
+          "value": "130",
+          "unit": "mg",
+          "nrv_pct": "16"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "生牛乳",
+            "qualifier": "≥99%",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "德氏乳杆菌保加利亚亚种",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "唾液链球菌嗜热亚种"
+          },
+          {
+            "name": "乳脂乳球菌",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "乳酸乳球菌乳亚种",
+            "allergens": [
+              "milk"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "卡士",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "卡士断糖日记无蔗糖发酵乳(原味)"
+      }
+    ],
+    "declared_category": "发酵乳",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "生牛乳(≥99%)、德氏乳杆菌保加利亚亚种、唾液链球菌嗜热亚种、乳脂乳球菌、乳酸乳球菌乳亚种"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "江苏省苏州市",
+      "raw_text": "江苏省苏州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "卡士乳业(深圳)有限公司",
+        "address": "深圳市宝安区松岗街道潭头社区洋康路1号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "卡士酸奶(苏州)有限公司",
+        "address": "江苏省苏州市漕湖街道汤浜路57号",
+        "plant_code": "C",
+        "license": "SC10532050701297"
+      }
+    ],
+    "product_standard": [
+      "GB 19302"
+    ],
+    "lot_code_rule": "生产日期:见杯身下部",
+    "shelf_life": {
+      "value": "25",
+      "unit": "day",
+      "label": "25天"
+    },
+    "storage_text": "2-6℃冷藏",
+    "claims_text": [
+      "低GI食物 GI=21",
+      "低GL食物 GL=1",
+      "*断糖指断蔗糖 蔗糖含量:未检出(依据GB 5009.8第一法)"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "3c1ec4e397c94eae683f0742357dc6b84576b32c64b320f33c9c4d70e2ad5674",
+      "media_ref": "opf-media://sha256/3c1ec4e397c94eae683f0742357dc6b84576b32c64b320f33c9c4d70e2ad5674",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-classykiss-zero-sucrose",
+      "evidence_id": "sha256:3c1ec4e397c94eae683f0742357dc6b84576b32c64b320f33c9c4d70e2ad5674"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "barcode_net_content",
+      "cropped_sha256": "3e2150585206a2576efb710130aed71745c9da3852110a6c6531e65eb6818373",
+      "media_ref": "opf-media://sha256/3e2150585206a2576efb710130aed71745c9da3852110a6c6531e65eb6818373",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-classykiss-zero-sucrose",
+      "evidence_id": "sha256:3e2150585206a2576efb710130aed71745c9da3852110a6c6531e65eb6818373"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:17Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:3c1ec4e397c94eae683f0742357dc6b84576b32c64b320f33c9c4d70e2ad5674",
+        "sha256:3e2150585206a2576efb710130aed71745c9da3852110a6c6531e65eb6818373"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "352",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "4.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "5.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "50",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "calcium": {
+        "value": "130",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "84.1",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.13",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:dc29dab61e9e15dd7c967459cc32280bb513da48db380be6beab3c410eaf0329",
+  "label_fingerprint": "sha256:62ecee7f1cdd729d1d413f3db2202fe23c16ff5aa22d18263f06b7d2d6988f1e"
+}

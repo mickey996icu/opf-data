@@ -1,0 +1,248 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06934624380115",
+  "edition_id": "01M8G98FRKWFNB1GX8K72GA6BJ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2011",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "230",
+          "unit": "kJ",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "protein",
+          "value": "12",
+          "unit": "g",
+          "nrv_pct": "20"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0.7",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "605",
+          "unit": "mg",
+          "nrv_pct": "30"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "南美白对虾",
+            "allergens": [
+              "crustaceans"
+            ]
+          },
+          {
+            "name": "水"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "复配水分保持剂",
+            "children": [
+              {
+                "name": "三聚磷酸钠",
+                "ins": "451(i)",
+                "is_additive": true
+              },
+              {
+                "name": "焦磷酸钠",
+                "ins": "450",
+                "is_additive": true
+              },
+              {
+                "name": "焦磷酸二氢二钠",
+                "ins": "450",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "crustaceans"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "龙霸",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "精选虾仁"
+      }
+    ],
+    "declared_category": "速冻生制品，非即食",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "南美白对虾、水、食用盐、复配水分保持剂(三聚磷酸钠、焦磷酸钠、焦磷酸二氢二钠)"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省湛江市",
+      "raw_text": "广东省湛江市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "湛江国联水产开发股份有限公司",
+        "address": "广东湛江吴川市黄坡镇(吴川)华昱产业转移工业园工业大道6号",
+        "plant_code": "GL",
+        "license": "SC11144081800101"
+      },
+      {
+        "role": "manufacturer",
+        "name": "湛江国联水产开发股份有限公司",
+        "address": "广东湛江吴川市黄坡镇(吴川)华昱产业转移工业园工业大道6号",
+        "plant_code": "GL",
+        "license": "SC11144081800101"
+      },
+      {
+        "role": "manufacturer",
+        "name": "广东国美水产食品有限公司",
+        "address": "广东省湛江市吴川市覃巴镇工业园",
+        "plant_code": "GM",
+        "license": "SC11144088300262"
+      }
+    ],
+    "product_standard": [
+      "GB 10136"
+    ],
+    "lot_code_rule": "具体生产商详见打码代码",
+    "shelf_life": {
+      "value": "18",
+      "unit": "month",
+      "label": "18个月"
+    },
+    "storage_text": "请于-18℃以下冷冻保存",
+    "usage_text": "充分加热至熟后食用"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36",
+      "media_ref": "opf-media://sha256/75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-longba-shrimp",
+      "evidence_id": "sha256:75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:16Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "230",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "12",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "0.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "605",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "55",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "1.51",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "450",
+      "451(i)"
+    ],
+    "allergens": {
+      "contains": [
+        "crustaceans"
+      ],
+      "declared_contains": [
+        "crustaceans"
+      ],
+      "inferred_from_ingredients": [
+        "crustaceans"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "carbs_available",
+      "detail": "Declared 0 g under CN/GB28050-2011 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:59c0fd867c78c76ac87c76a3a65804a7bd056e60c03cfa9b09ed004e9fc6a33d",
+  "label_fingerprint": "sha256:c02caa7f23b3977b5cd6a548c87b129e633cf5ed042e613697b0d5d457f06ac5"
+}

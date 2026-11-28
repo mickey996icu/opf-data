@@ -1,0 +1,335 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:04898989931677",
+  "edition_id": "01M8G98F7KMZVRTTN2QV6TPH8S",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1644",
+          "unit": "kJ",
+          "nrv_pct": "20"
+        },
+        {
+          "nutrient": "protein",
+          "value": "33.7",
+          "unit": "g",
+          "nrv_pct": "56"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "9.2",
+          "unit": "g",
+          "nrv_pct": "15"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1.8",
+          "unit": "g",
+          "nrv_pct": "9"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "43",
+          "unit": "g",
+          "nrv_pct": "14"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "23",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "1600",
+          "unit": "mg",
+          "nrv_pct": "80"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "牛肉",
+            "qualifier": "≥65%",
+            "allergens": [
+              "beef"
+            ]
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "白酒",
+            "children": [
+              {
+                "name": "水"
+              },
+              {
+                "name": "糙米"
+              },
+              {
+                "name": "高粱"
+              },
+              {
+                "name": "特种饼曲"
+              }
+            ]
+          },
+          {
+            "name": "酱油",
+            "allergens": [
+              "soybeans"
+            ]
+          },
+          {
+            "name": "豌豆粉",
+            "qualifier": "≤1.5%"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "五香粉",
+            "qualifier": "≥0.5%",
+            "children": [
+              {
+                "name": "八角"
+              },
+              {
+                "name": "小茴香粉"
+              },
+              {
+                "name": "芫荽籽粉"
+              },
+              {
+                "name": "桂皮"
+              },
+              {
+                "name": "姜黄粉"
+              },
+              {
+                "name": "辣椒粉"
+              }
+            ]
+          },
+          {
+            "name": "鱼露",
+            "allergens": [
+              "fish"
+            ]
+          },
+          {
+            "name": "鸡粉调味料",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "食用猪油",
+            "allergens": [
+              "pork"
+            ]
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "谷氨酸钠",
+                "ins": "621",
+                "is_additive": true
+              },
+              {
+                "name": "双乙酸钠",
+                "is_additive": true
+              },
+              {
+                "name": "红曲红",
+                "is_additive": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "fish",
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "乐高",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "五香牛肉条"
+      }
+    ],
+    "declared_category": "牛肉干(蒸烤类肉干)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "牛肉(≥65%)、白砂糖、植物油、白酒(水、糙米、高粱、特种饼曲)、酱油、豌豆粉(≤1.5%)、食用盐、五香粉(≥0.5%)(八角、小茴香粉、芫荽籽粉、桂皮、姜黄粉、辣椒粉)、鱼露、鸡粉调味料、食用猪油、食品添加剂(谷氨酸钠、双乙酸钠、红曲红)。"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "河南省漯河市",
+      "raw_text": "河南省漯河市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "中山华园食品有限公司",
+        "address": "中山市火炬开发区东镇大道38号创富商务大厦110"
+      },
+      {
+        "role": "manufacturer",
+        "name": "河南鲜造局食品有限公司",
+        "address": "河南省漯河市郾城区五台山路与嫩江路交叉口肉制品加工产业园1#厂房066号",
+        "license": "SC12441110312637"
+      }
+    ],
+    "product_standard": [
+      "GB/T 23969"
+    ],
+    "shelf_life": {
+      "value": "12",
+      "unit": "month",
+      "label": "12个月(未开封)"
+    },
+    "storage_text": "存放于阴凉干燥处，避免受阳光直接照射。",
+    "usage_text": "开袋即食。生产提示:生产本产品的厂房亦处理猪肉、鸡肉、鱼类等产品，可能存在微量交叉接触。"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "4a99dbe703704ab7f273ab415cdbbfbf80333d939319ab2719fea75dda7619ff",
+      "media_ref": "opf-media://sha256/4a99dbe703704ab7f273ab415cdbbfbf80333d939319ab2719fea75dda7619ff",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-legao-fivespice-beef",
+      "evidence_id": "sha256:4a99dbe703704ab7f273ab415cdbbfbf80333d939319ab2719fea75dda7619ff"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:15Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:4a99dbe703704ab7f273ab415cdbbfbf80333d939319ab2719fea75dda7619ff"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1644",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "33.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "9.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "43",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "23",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "1600",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "392.9",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "4",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "621"
+    ],
+    "allergens": {
+      "contains": [
+        "beef",
+        "chicken",
+        "fish",
+        "gluten_cereals",
+        "pork",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "fish",
+        "gluten_cereals",
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "beef",
+        "chicken",
+        "fish",
+        "pork",
+        "soybeans"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:be26c39c177cb4c35e983cd5c8b028990c486f5480012fbcb2c09f563dcebdc1",
+  "label_fingerprint": "sha256:84e81870894463536da087bdd7fe8b153407d67ba102eaa1ce0411b7a8d73cf2"
+}

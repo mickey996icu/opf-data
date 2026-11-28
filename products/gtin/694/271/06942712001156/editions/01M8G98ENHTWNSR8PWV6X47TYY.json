@@ -1,0 +1,516 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06942712001156",
+  "edition_id": "01M8G98ENHTWNSR8PWV6X47TYY",
+  "rev": 1,
+  "track": "US/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "US/FDA-NLEA",
+    "net_content": [
+      {
+        "value": "56",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "40",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "1",
+        "unit": "serving"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "120",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "cholesterol",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_total",
+          "value": "31",
+          "unit": "g",
+          "nrv_pct": "11"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "26",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_added",
+          "value": "25",
+          "unit": "g",
+          "nrv_pct": "50"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "150",
+          "unit": "mg",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "calcium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "iron",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "potassium",
+          "value": "0",
+          "unit": "mg",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "vitamin_d",
+          "value": "0",
+          "unit": "ug",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "SUGAR"
+          },
+          {
+            "name": "GLUCOSE SYRUP",
+            "children": [
+              {
+                "name": "FROM CORN"
+              }
+            ]
+          },
+          {
+            "name": "WATER"
+          },
+          {
+            "name": "CONCENTRATED LEMON JUICE"
+          },
+          {
+            "name": "GLYCEROL",
+            "ins": "422",
+            "is_additive": true
+          },
+          {
+            "name": "AGAR",
+            "ins": "406",
+            "is_additive": true
+          },
+          {
+            "name": "CITRIC ACID",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "SODIUM CITRATE",
+            "ins": "331(iii)",
+            "is_additive": true
+          },
+          {
+            "name": "SALT"
+          },
+          {
+            "name": "MALIC ACID",
+            "ins": "296",
+            "is_additive": true
+          },
+          {
+            "name": "ARTIFICIAL FLAVOR"
+          },
+          {
+            "name": "COCONUT OIL"
+          },
+          {
+            "name": "TITANIUM DIOXIDE"
+          },
+          {
+            "name": "CARRAGEENAN",
+            "ins": "407",
+            "is_additive": true
+          },
+          {
+            "name": "CARNAUBA WAX"
+          },
+          {
+            "name": "FD & C YELLOW NO.5"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "AMOS",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "4D Sour Shock Gummies"
+      }
+    ],
+    "net_content_label": "NET WEIGHT:56g",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "SUGAR, GLUCOSE SYRUP (FROM CORN), WATER, CONCENTRATED LEMON JUICE, GLYCEROL, AGAR, CITRIC ACID, SODIUM CITRATE, SALT, MALIC ACID, ARTIFICIAL FLAVOR, COCONUT OIL, TITANIUM DIOXIDE, CARRAGEENAN, CARNAUBA WAX, FD & C YELLOW NO.5"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "raw_text": "MADE IN CHINA / Origin: China"
+    },
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "AMOS SWEETS INC.",
+        "address": "475 S GRAND CENTRAL PKWY, LAS VEGAS, NV 89106, USA"
+      }
+    ],
+    "storage_text": "STORE IN A COOL, DRY PLACE. AWAY FROM DIRECT SUNLIGHT."
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "7459578796b521dbc9413d002d2afb3075611fd15435448d72d651df1940235c",
+      "media_ref": "opf-media://sha256/7459578796b521dbc9413d002d2afb3075611fd15435448d72d651df1940235c",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-us-amos-sour-shock-56g",
+      "evidence_id": "sha256:7459578796b521dbc9413d002d2afb3075611fd15435448d72d651df1940235c"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "7e58f293d7686660bf1d613af1bc510a0499039d015d9cd2647a98b9429195c6",
+      "media_ref": "opf-media://sha256/7e58f293d7686660bf1d613af1bc510a0499039d015d9cd2647a98b9429195c6",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-us-amos-sour-shock-56g",
+      "evidence_id": "sha256:7e58f293d7686660bf1d613af1bc510a0499039d015d9cd2647a98b9429195c6"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:15Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:7459578796b521dbc9413d002d2afb3075611fd15435448d72d651df1940235c",
+        "sha256:7e58f293d7686660bf1d613af1bc510a0499039d015d9cd2647a98b9429195c6"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "12000",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "50",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "50",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "50",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "50",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "cholesterol": {
+        "qualifier": "<",
+        "value": "200",
+        "unit": "mg",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_total": {
+        "value": "3100",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_total": {
+        "value": "2600",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "sugars_added": {
+        "value": "2500",
+        "unit": "g",
+        "basis": "derived"
+      },
+      "dietary_fiber": {
+        "qualifier": "<",
+        "value": "50",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "sodium": {
+        "value": "15000",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "calcium": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "iron": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "potassium": {
+        "value": "0",
+        "unit": "mg",
+        "basis": "derived"
+      },
+      "vitamin_d": {
+        "value": "0",
+        "unit": "ug",
+        "basis": "derived"
+      },
+      "energy_kj": {
+        "value": "50208",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "37.5",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "296",
+      "330",
+      "331(iii)",
+      "406",
+      "407",
+      "422"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "40",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "4800",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_total": {
+          "value": "20",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_saturated": {
+          "value": "20",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_trans": {
+          "value": "20",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "cholesterol": {
+          "value": "80",
+          "unit": "mg",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "carbs_total": {
+          "value": "1240",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "1040",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_added": {
+          "value": "1000",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "20",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "sodium": {
+          "value": "6000",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "calcium": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "iron": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "potassium": {
+          "value": "0",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "vitamin_d": {
+          "value": "0",
+          "unit": "ug",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "20083.2",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "15",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "DERIVED_FROM_SERVING_BASIS",
+      "field": "nutrition_declared.basis",
+      "detail": "Normalized to 100g from declared basis 1serving"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g per 1serving under US/FDA-NLEA implies <0.5 g/serving (<50 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g per 1serving under US/FDA-NLEA implies <0.5 g/serving (<50 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g per 1serving under US/FDA-NLEA implies <0.5 g/serving (<50 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g per 1serving under US/FDA-NLEA implies <0.5 g/serving (<50 g/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "cholesterol",
+      "detail": "Declared 0 mg per 1serving under US/FDA-NLEA implies <2 mg/serving (<200 mg/100g)"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "dietary_fiber",
+      "detail": "Declared 0 g per 1serving under US/FDA-NLEA implies <0.5 g/serving (<50 g/100g)"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    },
+    {
+      "code": "CARBS_TOTAL_INCLUDES_FIBER",
+      "field": "carbs_total",
+      "detail": "US/FDA-NLEA declares total carbohydrates including dietary fiber"
+    }
+  ],
+  "core_fingerprint": "sha256:dcb26d0d1d3b41235f251081a6c483e32631b6075a36b41426de8f2ce875fbca",
+  "label_fingerprint": "sha256:5039d573ec3869188a7111f0732f2cda6a40f1a9a8316cceb07b282de424185d"
+}

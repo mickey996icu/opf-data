@@ -1,0 +1,713 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:09551016530001",
+  "edition_id": "01M8G98E033241VVRZ2JY4F12Q",
+  "rev": 1,
+  "track": "MY/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "MY/MOH-R18B",
+    "net_content": [
+      {
+        "value": "380",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "38",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1929",
+          "unit": "kJ"
+        },
+        {
+          "nutrient": "protein",
+          "value": "4",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "16.8",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "16.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_monounsaturated",
+          "value": "0.1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_polyunsaturated",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "cholesterol",
+          "value": "1",
+          "unit": "mg"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "67",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "15.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "6.1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "164",
+          "unit": "mg"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "Non Dairy Creamer",
+            "allergens": [
+              "milk"
+            ],
+            "children": [
+              {
+                "name": "Contains Milk",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Glucose Syrup Solids"
+              },
+              {
+                "name": "Fully Hydrogenated Palm Kernel Oil"
+              },
+              {
+                "name": "Milk Powder",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Emulsifiers",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 471",
+                    "ins": "471",
+                    "is_additive": true
+                  },
+                  {
+                    "name": "INS 481",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "i",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Stabiliser",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 340",
+                    "ins": "340",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "ii",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Anticaking Agent",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 551",
+                    "ins": "551",
+                    "is_additive": true
+                  }
+                ]
+              },
+              {
+                "name": "Colourants",
+                "children": [
+                  {
+                    "name": "INS 160b",
+                    "children": [
+                      {
+                        "name": "ii"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maltodextrin"
+          },
+          {
+            "name": "Instant Coffee",
+            "qualifier": "11%"
+          },
+          {
+            "name": "Sugar"
+          },
+          {
+            "name": "Foaming Creamer",
+            "children": [
+              {
+                "name": "Contains Milk",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Glucose Syrup Solids"
+              },
+              {
+                "name": "Skim Milk Powder",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Fully Hydrogenated Coconut Fat"
+              },
+              {
+                "name": "Stabiliser",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 340",
+                    "ins": "340",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "ii",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Anticaking Agent",
+                "functional_class": "and",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 551",
+                    "ins": "551",
+                    "is_additive": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Stabiliser",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "INS 466",
+                "ins": "466",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Flavouring Substances"
+          },
+          {
+            "name": "Salt and Contains Acesulfame Potassium As Permitted Non-Nutritive Sweetening Substance"
+          }
+        ]
+      },
+      {
+        "lang": "ms",
+        "nodes": [
+          {
+            "name": "Krimer Tanpa Tenusu",
+            "allergens": [
+              "milk"
+            ],
+            "children": [
+              {
+                "name": "Mengandungi Susu",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Pepejal Sirap Glukosa"
+              },
+              {
+                "name": "Lemak Isirong Sawit Terhidrogen Sepenuhnya"
+              },
+              {
+                "name": "Serbuk Susu",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Pengemulsi",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 471",
+                    "ins": "471",
+                    "is_additive": true
+                  },
+                  {
+                    "name": "INS 481",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "i",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Penstabil",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 340",
+                    "ins": "340",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "ii",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agen Antipengerakan",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 551",
+                    "ins": "551",
+                    "is_additive": true
+                  }
+                ]
+              },
+              {
+                "name": "Pewarna",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 160b",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "ii",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Maltodekstrin"
+          },
+          {
+            "name": "Kopi Segera",
+            "qualifier": "11%"
+          },
+          {
+            "name": "Gula"
+          },
+          {
+            "name": "Krimer Pembusa",
+            "children": [
+              {
+                "name": "Mengandungi Susu",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Pepejal Sirap Glukosa"
+              },
+              {
+                "name": "Susu Tepung Skim",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Lemak Kelapa Terhidrogen Sepenuhnya"
+              },
+              {
+                "name": "Penstabil",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 340",
+                    "ins": "340",
+                    "is_additive": true,
+                    "children": [
+                      {
+                        "name": "ii",
+                        "is_additive": true
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Agen Antipengerakan",
+                "functional_class": "dan",
+                "is_additive": true,
+                "children": [
+                  {
+                    "name": "INS 551",
+                    "ins": "551",
+                    "is_additive": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Penstabil",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "INS 466",
+                "ins": "466",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Bahan Perisa",
+            "is_additive": true
+          },
+          {
+            "name": "Garam dan Mengandungi Acesulfame Potassium Sebagai Bahan Pemanis Tanpa Zat Yang Dibenarkan"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "ORIENTAL KOPI",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "ORIENTAL KOPI"
+      },
+      {
+        "lang": "ms",
+        "text": "ORIENTAL KOPI"
+      }
+    ],
+    "net_content_label": "380g (38g X 10 sachets/ paket kecil)",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "Non Dairy Creamer (Contains Milk) [Glucose Syrup Solids, Fully Hydrogenated Palm Kernel Oil, Milk Powder, Emulsifiers (INS 471, INS 481(i)), Stabiliser (INS 340(ii)), Anticaking Agent (INS 551), Colourants (INS 160b(ii))], Maltodextrin, Instant Coffee (11%), Sugar, Foaming Creamer (Contains Milk) [Glucose Syrup Solids, Skim Milk Powder, Fully Hydrogenated Coconut Fat, Stabiliser (INS 340(ii)) and Anticaking Agent (INS 551)], Stabiliser (INS 466), Flavouring Substances, Salt and Contains Acesulfame Potassium As Permitted Non-Nutritive Sweetening Substance."
+      },
+      {
+        "lang": "ms",
+        "text": "Krimer Tanpa Tenusu (Mengandungi Susu) [Pepejal Sirap Glukosa, Lemak Isirong Sawit Terhidrogen Sepenuhnya, Serbuk Susu, Pengemulsi (INS 471, INS 481(i)), Penstabil (INS 340(ii)), Agen Antipengerakan (INS 551), Pewarna (INS 160b(ii))], Maltodekstrin, Kopi Segera (11%), Gula, Krimer Pembusa (Mengandungi Susu) [Pepejal Sirap Glukosa, Susu Tepung Skim, Lemak Kelapa Terhidrogen Sepenuhnya, Penstabil (INS 340(ii)) dan Agen Antipengerakan (INS 551)], Penstabil (INS 466), Bahan Perisa, Garam dan Mengandungi Acesulfame Potassium Sebagai Bahan Pemanis Tanpa Zat Yang Dibenarkan."
+      }
+    ],
+    "origin": {
+      "country": "MY",
+      "region": "Selangor",
+      "raw_text": "Puchong, Selangor, Malaysia"
+    },
+    "parties": [
+      {
+        "role": "manufacturer",
+        "name": "ORIENTAL COFFEE INTERNATIONAL SDN. BHD.",
+        "address": "No. 39, Jalan TPP3, Taman Perindustrian Putra, 47130 Puchong, Selangor",
+        "license": "1415058-W"
+      }
+    ],
+    "storage_text": "Store at cool and dry place. / Simpan di tempat yang dingin dan kering.",
+    "usage_text": "Pour content into cup. Add 200ml hot water. Stir and serve. / Tuangkan kandungan ke dalam cawan. Tambahkan 200ml air panas. Kacau dan hidangkan.",
+    "translations": [
+      {
+        "lang": "zh-Hans",
+        "field": "brand",
+        "text": "华阳",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      },
+      {
+        "lang": "zh-Hans",
+        "field": "product_name",
+        "text": "华阳咖啡",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "ed47d5ca5e60205d624dd297d29bcc5550906b2dba28d5b3b01861439c43093a",
+      "media_ref": "opf-media://sha256/ed47d5ca5e60205d624dd297d29bcc5550906b2dba28d5b3b01861439c43093a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-my-oriental-kopi-380g",
+      "evidence_id": "sha256:ed47d5ca5e60205d624dd297d29bcc5550906b2dba28d5b3b01861439c43093a"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:14Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:ed47d5ca5e60205d624dd297d29bcc5550906b2dba28d5b3b01861439c43093a"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1929",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "4",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "16.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "16.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "0.1",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_monounsaturated": {
+        "value": "0.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_polyunsaturated": {
+        "value": "0",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "cholesterol": {
+        "value": "1",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "67",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "15.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "dietary_fiber": {
+        "value": "6.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "164",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "461",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.41",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "340",
+      "466",
+      "471",
+      "551"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "38",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kj": {
+          "value": "733",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "1.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "6.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "6.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_trans": {
+          "value": "0.04",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "fat_monounsaturated": {
+          "value": "0",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_polyunsaturated": {
+          "value": "0",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "cholesterol": {
+          "value": "0.4",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "25.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "2.3",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "62.3",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kcal": {
+          "value": "175.2",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.16",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g under MY/MOH-R18B zero-threshold rule implies <0.1 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:31afb4bb7da0cf64a81902c6eb9513c9d79b39019e272b9c5904c819243c3db6",
+  "label_fingerprint": "sha256:a8c3380e27d3994f5c6047181b32da19d0d38f5a91f83bc195c5919a3e1f1cf4"
+}
