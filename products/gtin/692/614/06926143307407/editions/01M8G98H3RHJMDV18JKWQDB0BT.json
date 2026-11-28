@@ -92,17 +92,16 @@
             ],
             "children": [
               {
-                "name": "含焦糖色"
+                "functional_class": "含",
+                "name": "焦糖色",
+                "ins": "150a",
+                "is_additive": true
               }
             ]
           },
           {
             "name": "香辛料",
-            "children": [
-              {
-                "name": "辐照"
-              }
-            ]
+            "qualifier": "辐照"
           },
           {
             "name": "食品添加剂",
@@ -142,7 +141,11 @@
       "contains": [
         "soybeans"
       ],
-      "may_contain": []
+      "may_contain": [
+        "beef",
+        "chicken",
+        "pork"
+      ]
     }
   },
   "attributes": {
@@ -188,7 +191,8 @@
       "label": "10个月"
     },
     "storage_text": "请置于阴凉干燥处，避免阳光直射",
-    "usage_text": "食用方法:开封即食"
+    "usage_text": "食用方法:开封即食；本车间生产牛肉、猪肉、鸡肉、鸭肉等产品",
+    "allergens_raw_text": "过敏原信息:含大豆及其制品；本车间生产牛肉、猪肉、鸡肉、鸭肉等产品"
   },
   "evidence": [
     {
@@ -280,6 +284,7 @@
       }
     },
     "additives_ins": [
+      "150a",
       "160c",
       "316",
       "621"
@@ -296,7 +301,11 @@
         "chicken",
         "soybeans"
       ],
-      "may_contain": []
+      "may_contain": [
+        "beef",
+        "chicken",
+        "pork"
+      ]
     }
   },
   "quality_flags": [
@@ -306,6 +315,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:429b98879cdea04722cc5604fbc3285d87e73d72895e44c0294a28a429dfbd6f",
-  "label_fingerprint": "sha256:5fa14e31b5ef6fc5c263d1226e30de7b2ab61a557fd26e4f18d7059e39dfc3f5"
+  "core_fingerprint": "sha256:f3b1081ebd4d7414e3c638f1d21c5065fa34e75864977c43325cee2edc9c1a7e",
+  "label_fingerprint": "sha256:1922e80fc40f6197fa87057453f62d05bc9a36fd7424e5b3e386c56b5e7c5e27"
 }

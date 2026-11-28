@@ -159,6 +159,18 @@
       "vintage_month": "2026-10",
       "specimen_id": "sp-longba-shrimp",
       "evidence_id": "sha256:75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "531a7ac25fa9d0704eb706f89567de3ab7ca4af8a8810c03f66a9b2be1ce2143",
+      "media_ref": "opf-media://sha256/531a7ac25fa9d0704eb706f89567de3ab7ca4af8a8810c03f66a9b2be1ce2143",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-longba-shrimp",
+      "evidence_id": "sha256:531a7ac25fa9d0704eb706f89567de3ab7ca4af8a8810c03f66a9b2be1ce2143"
     }
   ],
   "revisions": [
@@ -169,7 +181,8 @@
       "author": "github:mickey996icu",
       "provenance": "maintainer",
       "evidence_refs": [
-        "sha256:75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36"
+        "sha256:75076177798927cb28e5f86da10015ab6bf5912dec6233be27047e966c608d36",
+        "sha256:531a7ac25fa9d0704eb706f89567de3ab7ca4af8a8810c03f66a9b2be1ce2143"
       ],
       "patch": []
     }

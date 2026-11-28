@@ -177,12 +177,9 @@
                 "name": "E 211",
                 "ins": "211",
                 "is_additive": true
-              },
-              {
-                "name": "carry over from fruit syrup",
-                "is_additive": true
               }
-            ]
+            ],
+            "qualifier": "carry over from fruit syrup"
           },
           {
             "name": "Acidity Regulator",
@@ -199,9 +196,11 @@
             "name": "Colouring",
             "children": [
               {
-                "name": "E 124"
+                "name": "E 124",
+                "is_additive": true
               }
-            ]
+            ],
+            "is_additive": true
           }
         ]
       }
@@ -261,7 +260,7 @@
     ],
     "storage_text": "REFRIGERATE AT 2-8℃",
     "claims_text": [
-      "Lower in Sugar 25% and Saturated Fat as compared to regular yoghurt",
+      "Lower in Sugar",
       "Healthier Choice Lower in Sugar Lower in Saturated Fat"
     ]
   },
@@ -490,6 +489,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:cd4f530e7eb41ec5d05ba279e4422c43bd1d7ca5be9b49697b2fa3444f1b6d7b",
-  "label_fingerprint": "sha256:33eaa7c1e7f5d3f1a2b5ad85deb54d079411e4b3786429f3530becbcebdd64e2"
+  "core_fingerprint": "sha256:250d31b0229ddfe1f925a7a0bb4631723a21b356ce8296a4de56ba29e8476c0a",
+  "label_fingerprint": "sha256:2772f13dfc82b2a00f443738182afa35abffd7cced6e59fd9d999179d2fb14b8"
 }

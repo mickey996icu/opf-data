@@ -88,10 +88,9 @@
             "is_additive": true
           },
           {
-            "name": "单"
-          },
-          {
-            "name": "双甘油脂肪酸酯"
+            "name": "单,双甘油脂肪酸酯",
+            "ins": "471",
+            "is_additive": true
           },
           {
             "name": "三聚磷酸钠",
@@ -281,6 +280,7 @@
       "330",
       "451(i)",
       "466",
+      "471",
       "955"
     ],
     "allergens": {
@@ -303,6 +303,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:32502f163a3162d612e4601759935e3ec9f6e05c0fd078c941a90d1de45be605",
-  "label_fingerprint": "sha256:315bec11062bcac72027da87233310566425f18fded135a2f1453942dc2c6249"
+  "core_fingerprint": "sha256:7a544a9a1a010907938a4a085dd91817632ccfe8e6589b745329864efec8b0e1",
+  "label_fingerprint": "sha256:752aabf1efdf453037ea38c5cbbc0cd7bb2011db549bd923f3b1546ef8f4f9e0"
 }

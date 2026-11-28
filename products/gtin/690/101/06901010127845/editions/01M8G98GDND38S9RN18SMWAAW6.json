@@ -81,11 +81,7 @@
               },
               {
                 "name": "橘皮",
-                "children": [
-                  {
-                    "name": "陈皮"
-                  }
-                ]
+                "qualifier": "陈皮"
               },
               {
                 "name": "甘草"
@@ -329,6 +325,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:9ea6e47bfaa229e63fff5b84cb7c6944c8db99271e63624ac7e1ca9af9e498f9",
-  "label_fingerprint": "sha256:13e754b4bf2592142488185b5705578385f0e982fec114bdcb9ea0550c8fc451"
+  "core_fingerprint": "sha256:bd1d126083a79165e624f1f22697a514fd7932082c7ccdab4d55053a8bae71b3",
+  "label_fingerprint": "sha256:2f073aa20154b8fc39af07f04caaa33d3c65eef1ef3e4487c715a78e8cf8c572"
 }

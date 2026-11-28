@@ -63,12 +63,7 @@
         "nodes": [
           {
             "name": "李梅",
-            "qualifier": "添加量≥60%",
-            "children": [
-              {
-                "name": "嫁接"
-              }
-            ]
+            "qualifier": "嫁接)(添加量≥60%"
           },
           {
             "name": "白砂糖"
@@ -210,7 +205,8 @@
       "label": "12个月"
     },
     "storage_text": "置于阴凉干燥处，密封存放",
-    "usage_text": "开封即食。3岁以下婴幼儿不宜直接食用;幼童应在监护人指导下食用。"
+    "usage_text": "开封即食。3岁以下婴幼儿不宜直接食用;幼童应在监护人指导下食用。 致敏原信息:该生产线有生产芒果、菠萝相关产品，过敏者慎用!",
+    "allergens_raw_text": "致敏原信息:该生产线有生产芒果、菠萝相关产品，过敏者慎用!"
   },
   "evidence": [
     {
@@ -327,6 +323,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:187df65b3bc5dc6a9a9216c6e5f39a2f815081d1d28763a033def54c6419a792",
-  "label_fingerprint": "sha256:432bbcd6e2990dad244d318a8a0a21e2d0422f1b57c119f0c6b82bf5f0b5c805"
+  "core_fingerprint": "sha256:8605eefbc34e686d70d21f31a10f581ef3af869c21a9135ee0df51c522400540",
+  "label_fingerprint": "sha256:c866ef1bc805d70e2bb0a1218b295038c5b58d283b056596e293162c24441447"
 }

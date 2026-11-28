@@ -91,16 +91,11 @@
         "nodes": [
           {
             "name": "Non Dairy Creamer",
+            "qualifier": "Contains Milk",
             "allergens": [
               "milk"
             ],
             "children": [
-              {
-                "name": "Contains Milk",
-                "allergens": [
-                  "milk"
-                ]
-              },
               {
                 "name": "Glucose Syrup Solids"
               },
@@ -123,14 +118,9 @@
                     "is_additive": true
                   },
                   {
-                    "name": "INS 481",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "i",
-                        "is_additive": true
-                      }
-                    ]
+                    "name": "INS 481(i)",
+                    "ins": "481",
+                    "is_additive": true
                   }
                 ]
               },
@@ -139,15 +129,9 @@
                 "is_additive": true,
                 "children": [
                   {
-                    "name": "INS 340",
+                    "name": "INS 340(ii)",
                     "ins": "340",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "ii",
-                        "is_additive": true
-                      }
-                    ]
+                    "is_additive": true
                   }
                 ]
               },
@@ -164,14 +148,12 @@
               },
               {
                 "name": "Colourants",
+                "is_additive": true,
                 "children": [
                   {
-                    "name": "INS 160b",
-                    "children": [
-                      {
-                        "name": "ii"
-                      }
-                    ]
+                    "name": "INS 160b(ii)",
+                    "ins": "160b",
+                    "is_additive": true
                   }
                 ]
               }
@@ -189,13 +171,11 @@
           },
           {
             "name": "Foaming Creamer",
+            "qualifier": "Contains Milk",
+            "allergens": [
+              "milk"
+            ],
             "children": [
-              {
-                "name": "Contains Milk",
-                "allergens": [
-                  "milk"
-                ]
-              },
               {
                 "name": "Glucose Syrup Solids"
               },
@@ -211,23 +191,17 @@
               {
                 "name": "Stabiliser",
                 "is_additive": true,
+                "qualifier": "and",
                 "children": [
                   {
-                    "name": "INS 340",
+                    "name": "INS 340(ii)",
                     "ins": "340",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "ii",
-                        "is_additive": true
-                      }
-                    ]
+                    "is_additive": true
                   }
                 ]
               },
               {
                 "name": "Anticaking Agent",
-                "functional_class": "and",
                 "is_additive": true,
                 "children": [
                   {
@@ -254,7 +228,14 @@
             "name": "Flavouring Substances"
           },
           {
-            "name": "Salt and Contains Acesulfame Potassium As Permitted Non-Nutritive Sweetening Substance"
+            "name": "Salt",
+            "qualifier": "and Contains"
+          },
+          {
+            "name": "Acesulfame Potassium",
+            "ins": "950",
+            "is_additive": true,
+            "qualifier": "As Permitted Non-Nutritive Sweetening Substance"
           }
         ]
       },
@@ -263,16 +244,11 @@
         "nodes": [
           {
             "name": "Krimer Tanpa Tenusu",
+            "qualifier": "Mengandungi Susu",
             "allergens": [
               "milk"
             ],
             "children": [
-              {
-                "name": "Mengandungi Susu",
-                "allergens": [
-                  "milk"
-                ]
-              },
               {
                 "name": "Pepejal Sirap Glukosa"
               },
@@ -295,14 +271,9 @@
                     "is_additive": true
                   },
                   {
-                    "name": "INS 481",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "i",
-                        "is_additive": true
-                      }
-                    ]
+                    "name": "INS 481(i)",
+                    "ins": "481",
+                    "is_additive": true
                   }
                 ]
               },
@@ -311,15 +282,9 @@
                 "is_additive": true,
                 "children": [
                   {
-                    "name": "INS 340",
+                    "name": "INS 340(ii)",
                     "ins": "340",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "ii",
-                        "is_additive": true
-                      }
-                    ]
+                    "is_additive": true
                   }
                 ]
               },
@@ -339,14 +304,9 @@
                 "is_additive": true,
                 "children": [
                   {
-                    "name": "INS 160b",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "ii",
-                        "is_additive": true
-                      }
-                    ]
+                    "name": "INS 160b(ii)",
+                    "ins": "160b",
+                    "is_additive": true
                   }
                 ]
               }
@@ -364,13 +324,11 @@
           },
           {
             "name": "Krimer Pembusa",
+            "qualifier": "Mengandungi Susu",
+            "allergens": [
+              "milk"
+            ],
             "children": [
-              {
-                "name": "Mengandungi Susu",
-                "allergens": [
-                  "milk"
-                ]
-              },
               {
                 "name": "Pepejal Sirap Glukosa"
               },
@@ -386,23 +344,17 @@
               {
                 "name": "Penstabil",
                 "is_additive": true,
+                "qualifier": "dan",
                 "children": [
                   {
-                    "name": "INS 340",
+                    "name": "INS 340(ii)",
                     "ins": "340",
-                    "is_additive": true,
-                    "children": [
-                      {
-                        "name": "ii",
-                        "is_additive": true
-                      }
-                    ]
+                    "is_additive": true
                   }
                 ]
               },
               {
                 "name": "Agen Antipengerakan",
-                "functional_class": "dan",
                 "is_additive": true,
                 "children": [
                   {
@@ -430,7 +382,14 @@
             "is_additive": true
           },
           {
-            "name": "Garam dan Mengandungi Acesulfame Potassium Sebagai Bahan Pemanis Tanpa Zat Yang Dibenarkan"
+            "name": "Garam",
+            "qualifier": "dan Mengandungi"
+          },
+          {
+            "name": "Acesulfame Potassium",
+            "ins": "950",
+            "is_additive": true,
+            "qualifier": "Sebagai Bahan Pemanis Tanpa Zat Yang Dibenarkan"
           }
         ]
       }
@@ -474,8 +433,7 @@
       {
         "role": "manufacturer",
         "name": "ORIENTAL COFFEE INTERNATIONAL SDN. BHD.",
-        "address": "No. 39, Jalan TPP3, Taman Perindustrian Putra, 47130 Puchong, Selangor",
-        "license": "1415058-W"
+        "address": "No. 39, Jalan TPP3, Taman Perindustrian Putra, 47130 Puchong, Selangor"
       }
     ],
     "storage_text": "Store at cool and dry place. / Simpan di tempat yang dingin dan kering.",
@@ -599,10 +557,13 @@
       }
     },
     "additives_ins": [
+      "160b",
       "340",
       "466",
       "471",
-      "551"
+      "481",
+      "551",
+      "950"
     ],
     "allergens": {
       "contains": [
@@ -708,6 +669,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:31afb4bb7da0cf64a81902c6eb9513c9d79b39019e272b9c5904c819243c3db6",
-  "label_fingerprint": "sha256:a8c3380e27d3994f5c6047181b32da19d0d38f5a91f83bc195c5919a3e1f1cf4"
+  "core_fingerprint": "sha256:a034afdda6e84b322262d2a42955dc6c2bc917e58303d5aab776fe90a94e390c",
+  "label_fingerprint": "sha256:d92be5f8b1ac12c272e954aca03ac3bfd7c00793ff2dce99b1c6b08de514f117"
 }
