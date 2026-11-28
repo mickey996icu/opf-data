@@ -1,0 +1,336 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06977210471781",
+  "edition_id": "01M8G98HBK4D90K9TYYZ40HBCK",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1368",
+          "unit": "kJ",
+          "nrv_pct": "16"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0.9",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "79.6",
+          "unit": "g",
+          "nrv_pct": "27"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "29.3",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "1598",
+          "unit": "mg",
+          "nrv_pct": "80"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "李梅",
+            "qualifier": "嫁接；添加量≥60%"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "食用葡萄糖"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              },
+              {
+                "name": "DL-苹果酸",
+                "ins": "296",
+                "is_additive": true
+              },
+              {
+                "name": "甜蜜素",
+                "is_additive": true,
+                "ins": "952"
+              },
+              {
+                "name": "糖精钠",
+                "is_additive": true,
+                "ins": "954"
+              },
+              {
+                "name": "甘草酸一钾",
+                "is_additive": true
+              },
+              {
+                "name": "三氯蔗糖",
+                "ins": "955",
+                "is_additive": true
+              },
+              {
+                "name": "苯甲酸钠",
+                "ins": "211",
+                "is_additive": true
+              },
+              {
+                "name": "山梨酸钾",
+                "ins": "202",
+                "is_additive": true
+              },
+              {
+                "name": "焦亚硫酸钠",
+                "ins": "223",
+                "is_additive": true,
+                "allergens": [
+                  "sulphites"
+                ]
+              },
+              {
+                "name": "苋菜红",
+                "is_additive": true,
+                "ins": "123"
+              },
+              {
+                "name": "胭脂红",
+                "is_additive": true,
+                "ins": "124"
+              },
+              {
+                "name": "日落黄",
+                "ins": "110",
+                "is_additive": true
+              },
+              {
+                "name": "柠檬黄",
+                "ins": "102",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "食用香料"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "牧果人",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "乌梅条(李梅制品)"
+      }
+    ],
+    "declared_category": "凉果类",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "李梅(嫁接)(添加量≥60%)、白砂糖、食用葡萄糖、食用盐、食品添加剂(柠檬酸、DL-苹果酸、甜蜜素、糖精钠、甘草酸一钾、三氯蔗糖、苯甲酸钠、山梨酸钾、焦亚硫酸钠、苋菜红、胭脂红、日落黄、柠檬黄)、食用香料"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "安徽省宣城市",
+      "raw_text": "安徽省宣城市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "杭州牧果人电子商务有限公司",
+        "address": "浙江省杭州市拱墅区智趣弄188号清来嘉座5幢1201室"
+      },
+      {
+        "role": "manufacturer",
+        "name": "安徽凡农农业科技有限公司",
+        "address": "安徽省宣城市绩溪县华阳镇经开区纬二路与省道207交叉口东北侧",
+        "plant_code": "A",
+        "license": "SC10134182430102"
+      },
+      {
+        "role": "manufacturer",
+        "name": "安徽味来生物科技有限公司",
+        "address": "安徽省宣城市绩溪县华阳镇纬二路长三角绿色农产品加工产业园3#楼",
+        "plant_code": "B",
+        "license": "SC11734182430219"
+      }
+    ],
+    "product_standard": [
+      "GB 14884"
+    ],
+    "lot_code_rule": "【生产日期】见喷码处",
+    "shelf_life": {
+      "value": "12",
+      "unit": "month",
+      "label": "12个月"
+    },
+    "storage_text": "置于阴凉干燥处，密封存放",
+    "usage_text": "开封即食。3岁以下婴幼儿不宜直接食用;幼童应在监护人指导下食用。 致敏原信息:该生产线有生产芒果、菠萝相关产品，过敏者慎用!",
+    "allergens_raw_text": "致敏原信息:该生产线有生产芒果、菠萝相关产品，过敏者慎用!"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "507523c40b065613a59db436b2d5b4429417a6a94f05d651ae59ff6d4fb69f1e",
+      "media_ref": "opf-media://sha256/507523c40b065613a59db436b2d5b4429417a6a94f05d651ae59ff6d4fb69f1e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-muguoren-plum-strips",
+      "evidence_id": "sha256:507523c40b065613a59db436b2d5b4429417a6a94f05d651ae59ff6d4fb69f1e"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:17Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:507523c40b065613a59db436b2d5b4429417a6a94f05d651ae59ff6d4fb69f1e"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1368",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "0.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "79.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "29.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "1598",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "327",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "4",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "102",
+      "110",
+      "123",
+      "124",
+      "202",
+      "211",
+      "223",
+      "296",
+      "330",
+      "952",
+      "954",
+      "955"
+    ],
+    "allergens": {
+      "contains": [
+        "sulphites"
+      ],
+      "declared_contains": [],
+      "inferred_from_ingredients": [
+        "sulphites"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:952b95a1170b94655c844da4bd62a1a2822d284a72a3178038918a842338fed6",
+  "label_fingerprint": "sha256:ba4dc0d2b231cab493f6dd1a885de629b53ea8dea695c5a05102a1cdb2499a89"
+}

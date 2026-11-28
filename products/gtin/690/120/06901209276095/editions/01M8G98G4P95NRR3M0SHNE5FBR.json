@@ -1,0 +1,308 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06901209276095",
+  "edition_id": "01M8G98G4P95NRR3M0SHNE5FBR",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "251",
+          "unit": "kJ",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "protein",
+          "value": "1.3",
+          "unit": "g",
+          "nrv_pct": "2"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.6",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1.3",
+          "unit": "g",
+          "nrv_pct": "7"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "10",
+          "unit": "g",
+          "nrv_pct": "3"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "8",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "65",
+          "unit": "mg",
+          "nrv_pct": "3"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "生牛乳",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "果葡糖浆"
+          },
+          {
+            "name": "全脂乳粉",
+            "allergens": [
+              "milk"
+            ]
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "羧甲基纤维素钠",
+            "ins": "466",
+            "is_additive": true
+          },
+          {
+            "name": "单,双甘油脂肪酸酯",
+            "ins": "471",
+            "is_additive": true
+          },
+          {
+            "name": "三聚磷酸钠",
+            "ins": "451(i)",
+            "is_additive": true
+          },
+          {
+            "name": "柠檬酸",
+            "ins": "330",
+            "is_additive": true
+          },
+          {
+            "name": "三氯蔗糖",
+            "ins": "955",
+            "is_additive": true
+          },
+          {
+            "name": "山梨酸钾",
+            "ins": "202",
+            "is_additive": true
+          },
+          {
+            "name": "食品用香精"
+          },
+          {
+            "name": "唾液链球菌嗜热亚种"
+          },
+          {
+            "name": "德氏乳杆菌保加利亚亚种",
+            "allergens": [
+              "milk"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "光明",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "噜渴 LooK 酸奶饮品(杀菌型)"
+      }
+    ],
+    "declared_category": "酸奶饮品(杀菌型)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、生牛乳、果葡糖浆、全脂乳粉、白砂糖、羧甲基纤维素钠、单,双甘油脂肪酸酯、三聚磷酸钠、柠檬酸、三氯蔗糖、山梨酸钾、食品用香精、唾液链球菌嗜热亚种、德氏乳杆菌保加利亚亚种。"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "raw_text": "成都市 / 海口市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "光明乳业股份有限公司",
+        "address": "上海市闵行区合川路2680号"
+      },
+      {
+        "role": "manufacturer",
+        "name": "成都光明乳业有限公司",
+        "address": "四川省成都市成华区东三环路二段航天路9号",
+        "plant_code": "S",
+        "license": "SC10551010800030"
+      },
+      {
+        "role": "manufacturer",
+        "name": "雨帆乳业(海南)股份有限公司",
+        "address": "海南省海口市秀英区狮子岭工业园创新东路1号",
+        "plant_code": "V",
+        "license": "SC10646010502508"
+      }
+    ],
+    "product_standard": [
+      "GB/T 21732"
+    ],
+    "lot_code_rule": "生产日期末端英文字母代表生产商",
+    "shelf_life": {
+      "value": "6",
+      "unit": "month",
+      "label": "6个月"
+    },
+    "storage_text": "常温避光",
+    "claims_text": [
+      "*使用光明乳业自研菌株(唾液链球菌嗜热亚种、德氏乳杆菌保加利亚亚种)，添加量7.5×10^7CFU/100g。"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "dbe80ba9be2b6cf98a5bb890fcd132de3aa9da32427a66b9d62f3ccf676d4f09",
+      "media_ref": "opf-media://sha256/dbe80ba9be2b6cf98a5bb890fcd132de3aa9da32427a66b9d62f3ccf676d4f09",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-bright-look-yogurt",
+      "evidence_id": "sha256:dbe80ba9be2b6cf98a5bb890fcd132de3aa9da32427a66b9d62f3ccf676d4f09"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "d25a62496e28991ff23d468d94f8b5cd9d770e0ee55b4d521e6ea3b643a5252b",
+      "media_ref": "opf-media://sha256/d25a62496e28991ff23d468d94f8b5cd9d770e0ee55b4d521e6ea3b643a5252b",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-bright-look-yogurt",
+      "evidence_id": "sha256:d25a62496e28991ff23d468d94f8b5cd9d770e0ee55b4d521e6ea3b643a5252b"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:16Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:dbe80ba9be2b6cf98a5bb890fcd132de3aa9da32427a66b9d62f3ccf676d4f09",
+        "sha256:d25a62496e28991ff23d468d94f8b5cd9d770e0ee55b4d521e6ea3b643a5252b"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "251",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "1.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.6",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1.3",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "10",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "65",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "60",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.16",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "202",
+      "330",
+      "451(i)",
+      "466",
+      "471",
+      "955"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:7a544a9a1a010907938a4a085dd91817632ccfe8e6589b745329864efec8b0e1",
+  "label_fingerprint": "sha256:752aabf1efdf453037ea38c5cbbc0cd7bb2011db549bd923f3b1546ef8f4f9e0"
+}

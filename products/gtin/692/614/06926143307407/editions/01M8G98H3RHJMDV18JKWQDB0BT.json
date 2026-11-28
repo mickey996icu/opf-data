@@ -1,0 +1,324 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06926143307407",
+  "edition_id": "01M8G98H3RHJMDV18JKWQDB0BT",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "1479",
+          "unit": "kJ",
+          "nrv_pct": "18"
+        },
+        {
+          "nutrient": "protein",
+          "value": "34.9",
+          "unit": "g",
+          "nrv_pct": "58"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "5.8",
+          "unit": "g",
+          "nrv_pct": "10"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1.1",
+          "unit": "g",
+          "nrv_pct": "6"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "39.5",
+          "unit": "g",
+          "nrv_pct": "13"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "20.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "1457",
+          "unit": "mg",
+          "nrv_pct": "73"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鸡肉",
+            "qualifier": "≥65%",
+            "allergens": [
+              "chicken"
+            ]
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "豌豆粉"
+          },
+          {
+            "name": "植物油"
+          },
+          {
+            "name": "食用盐"
+          },
+          {
+            "name": "味精",
+            "ins": "621",
+            "is_additive": true
+          },
+          {
+            "name": "酿造酱油",
+            "allergens": [
+              "soybeans"
+            ],
+            "children": [
+              {
+                "functional_class": "含",
+                "name": "焦糖色",
+                "ins": "150a",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "香辛料",
+            "qualifier": "辐照"
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "乙基麦芽酚",
+                "is_additive": true,
+                "ins": "637"
+              },
+              {
+                "name": "辣椒红",
+                "ins": "160c",
+                "is_additive": true
+              },
+              {
+                "name": "红曲红",
+                "is_additive": true
+              },
+              {
+                "name": "D-异抗坏血酸钠",
+                "ins": "316",
+                "is_additive": true
+              },
+              {
+                "name": "双乙酸钠",
+                "is_additive": true,
+                "ins": "262(ii)"
+              }
+            ]
+          },
+          {
+            "name": "食用香精香料"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "soybeans"
+      ],
+      "may_contain": [
+        "beef",
+        "chicken",
+        "pork"
+      ]
+    }
+  },
+  "attributes": {
+    "brand": "浦阳",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "手切鸡肉条(香辣味)"
+      }
+    ],
+    "declared_category": "熟肉干制品",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鸡肉(≥65%)、白砂糖、豌豆粉、植物油、食用盐、味精、酿造酱油(含焦糖色)、香辛料(辐照)、食品添加剂(乙基麦芽酚、辣椒红、红曲红、D-异抗坏血酸钠、双乙酸钠)、食用香精香料"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "福建省漳州市",
+      "raw_text": "福建省漳州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "漳州市浦阳食品有限公司",
+        "address": "福建省漳州市龙文区朝阳工业集中区朝盛路302号(2号楼2楼)"
+      },
+      {
+        "role": "manufacturer",
+        "name": "漳州市卤小仙食品有限公司",
+        "address": "福建省漳州市龙文区石浦路18号1号生产车间3楼",
+        "license": "SC10435060310938"
+      }
+    ],
+    "product_standard": [
+      "GB 2726"
+    ],
+    "lot_code_rule": "生产日期:见右侧喷码处 保质期至:见右侧喷码处",
+    "shelf_life": {
+      "value": "10",
+      "unit": "month",
+      "label": "10个月"
+    },
+    "storage_text": "请置于阴凉干燥处，避免阳光直射",
+    "usage_text": "食用方法:开封即食；本车间生产牛肉、猪肉、鸡肉、鸭肉等产品",
+    "allergens_raw_text": "过敏原信息:含大豆及其制品；本车间生产牛肉、猪肉、鸡肉、鸭肉等产品"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "f1daaa683efe6cfd1a5a97c771222169e50b60e6e6799d3aae646891609df489",
+      "media_ref": "opf-media://sha256/f1daaa683efe6cfd1a5a97c771222169e50b60e6e6799d3aae646891609df489",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-07",
+      "specimen_id": "sp-handcut-chicken-spicy",
+      "evidence_id": "sha256:f1daaa683efe6cfd1a5a97c771222169e50b60e6e6799d3aae646891609df489"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "92224ba19252b93563a03bafd41bb0e213e63d8d83dde535821222c8ebf12554",
+      "media_ref": "opf-media://sha256/92224ba19252b93563a03bafd41bb0e213e63d8d83dde535821222c8ebf12554",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-07",
+      "specimen_id": "sp-handcut-chicken-spicy",
+      "evidence_id": "sha256:92224ba19252b93563a03bafd41bb0e213e63d8d83dde535821222c8ebf12554"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:17Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:f1daaa683efe6cfd1a5a97c771222169e50b60e6e6799d3aae646891609df489",
+        "sha256:92224ba19252b93563a03bafd41bb0e213e63d8d83dde535821222c8ebf12554"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kj": {
+        "value": "1479",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "34.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "5.8",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1.1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "39.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "20.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "1457",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "353.5",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "3.64",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "150a",
+      "160c",
+      "262(ii)",
+      "316",
+      "621",
+      "637"
+    ],
+    "allergens": {
+      "contains": [
+        "chicken",
+        "soybeans"
+      ],
+      "declared_contains": [
+        "soybeans"
+      ],
+      "inferred_from_ingredients": [
+        "chicken",
+        "soybeans"
+      ],
+      "may_contain": [
+        "beef",
+        "chicken",
+        "pork"
+      ]
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:cdfc7b5ee7a234f368e5aee464f7edf4fd5bcef635cdc42fbb9b5e77ab14c7a3",
+  "label_fingerprint": "sha256:becdf84c8dd50be25c11a4b3a0715789a2eea59df7b6f7d438d777fc6efe4625"
+}

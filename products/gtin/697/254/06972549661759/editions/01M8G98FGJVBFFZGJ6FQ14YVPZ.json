@@ -1,0 +1,263 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06972549661759",
+  "edition_id": "01M8G98FGJVBFFZGJ6FQ14YVPZ",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [],
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "ml"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "63",
+          "unit": "kJ",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "protein",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "0",
+          "unit": "g",
+          "nrv_pct": "0"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "3.7",
+          "unit": "g",
+          "nrv_pct": "1"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "3.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "6",
+          "unit": "mg",
+          "nrv_pct": "0"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "水"
+          },
+          {
+            "name": "果葡糖浆"
+          },
+          {
+            "name": "白砂糖"
+          },
+          {
+            "name": "食品添加剂",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "柠檬酸",
+                "ins": "330",
+                "is_additive": true
+              },
+              {
+                "name": "柠檬酸钠",
+                "ins": "331(iii)",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "食用香精"
+          },
+          {
+            "name": "蜂蜜"
+          },
+          {
+            "name": "原榨草莓汁"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "三得利",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "沁莓水 草莓味饮料"
+      }
+    ],
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "水、果葡糖浆、白砂糖、食品添加剂(柠檬酸、柠檬酸钠)、食用香精、蜂蜜、原榨草莓汁。"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "江苏省苏州市",
+      "raw_text": "江苏省苏州市"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "三得利(中国)投资有限公司",
+        "address": "上海市静安区恒丰路329号2302单元"
+      },
+      {
+        "role": "manufacturer",
+        "name": "东洋饮料(常熟)有限公司",
+        "address": "江苏省苏州市常熟市高新技术产业开发区银丰路88号",
+        "plant_code": "D",
+        "license": "SC10632058100011"
+      }
+    ],
+    "product_standard": [
+      "GB 7101"
+    ],
+    "lot_code_rule": "生产日期(第一行)/保质日期(第二行):标于瓶盖",
+    "storage_text": "请保存于室温干燥处，避免阳光直晒及高温。",
+    "claims_text": [
+      "新西兰蜂蜜添加量:200mg/L",
+      "NFC原榨草莓汁添加量:50mg/L",
+      "*NFC: Not From Concentrated 原榨(非浓缩复原)"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "0234b2f499c5ae04f19bc27a84b0cde6d4dfddf58845844e0a89e421150d993a",
+      "media_ref": "opf-media://sha256/0234b2f499c5ae04f19bc27a84b0cde6d4dfddf58845844e0a89e421150d993a",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-suntory-berry-drink",
+      "evidence_id": "sha256:0234b2f499c5ae04f19bc27a84b0cde6d4dfddf58845844e0a89e421150d993a"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:15Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:0234b2f499c5ae04f19bc27a84b0cde6d4dfddf58845844e0a89e421150d993a"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100ml",
+    "nutrients": {
+      "energy_kj": {
+        "value": "63",
+        "unit": "kJ",
+        "basis": "reported"
+      },
+      "protein": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_total": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "fat_saturated": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "carbs_available": {
+        "value": "3.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "3.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "6",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kcal": {
+        "value": "15.1",
+        "unit": "kcal",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.02",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "330",
+      "331(iii)"
+    ],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "protein",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_total",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_saturated",
+      "detail": "Declared 0 g under CN/GB28050-2025 zero-threshold rule implies <0.5 g/100ml"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:99f20e0c0ed86052f4be86eb6586a0eec78a4e12e888ae7f868ac2bfcd45a106",
+  "label_fingerprint": "sha256:018d3a0538d6726340d6018a50535ccdcd1942c86ad76079756672410934bc59"
+}

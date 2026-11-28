@@ -1,0 +1,500 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:08850329309115",
+  "edition_id": "01M8G98EBF98HBV0N7W55E0V6E",
+  "rev": 1,
+  "track": "SG/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "SG/SFA-FR",
+    "net_content": [
+      {
+        "value": "90",
+        "unit": "g"
+      }
+    ],
+    "serving_size": {
+      "value": "90",
+      "unit": "g"
+    },
+    "nutrition_declared": {
+      "basis": {
+        "value": "100",
+        "unit": "g"
+      },
+      "rows": [
+        {
+          "nutrient": "energy",
+          "value": "82",
+          "unit": "kcal"
+        },
+        {
+          "nutrient": "protein",
+          "value": "3.2",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_total",
+          "value": "1.5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_saturated",
+          "value": "1",
+          "unit": "g"
+        },
+        {
+          "nutrient": "fat_trans",
+          "value": "0",
+          "unit": "g"
+        },
+        {
+          "nutrient": "cholesterol",
+          "value": "6",
+          "unit": "mg"
+        },
+        {
+          "nutrient": "carbs_available",
+          "value": "13.9",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_total",
+          "value": "11.5",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sugars_added",
+          "value": "7.2",
+          "unit": "g"
+        },
+        {
+          "nutrient": "dietary_fiber",
+          "value": "0.7",
+          "unit": "g"
+        },
+        {
+          "nutrient": "sodium",
+          "value": "43",
+          "unit": "mg"
+        }
+      ]
+    },
+    "ingredients_tree": [
+      {
+        "lang": "en",
+        "nodes": [
+          {
+            "name": "Yoghurt",
+            "children": [
+              {
+                "name": "Fresh Milk",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Skimmed Milk Powder",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Whey Protein Concentrate",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Milk Fat",
+                "allergens": [
+                  "milk"
+                ]
+              },
+              {
+                "name": "Whole Milk Powder",
+                "allergens": [
+                  "milk"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Strawberry in syrup",
+            "children": [
+              {
+                "name": "Strawberry"
+              },
+              {
+                "name": "Sugar"
+              }
+            ]
+          },
+          {
+            "name": "Thickener",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E 1442",
+                "is_additive": true,
+                "ins": "1442"
+              },
+              {
+                "name": "E 1422",
+                "is_additive": true,
+                "ins": "1422"
+              },
+              {
+                "name": "E 440",
+                "ins": "440",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Emulsifier",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E 471",
+                "ins": "471",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Nature Identical Flavouring"
+          },
+          {
+            "name": "Bifidobacterium lactis"
+          },
+          {
+            "name": "Lactobacillus bulgaricus and Streptococcus thermophilus"
+          },
+          {
+            "name": "Preservative",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E 211",
+                "ins": "211",
+                "is_additive": true
+              }
+            ],
+            "qualifier": "carry over from fruit syrup"
+          },
+          {
+            "name": "Acidity Regulator",
+            "is_additive": true,
+            "children": [
+              {
+                "name": "E 330",
+                "ins": "330",
+                "is_additive": true
+              }
+            ]
+          },
+          {
+            "name": "Colouring",
+            "children": [
+              {
+                "name": "E 124",
+                "is_additive": true,
+                "ins": "124"
+              }
+            ],
+            "is_additive": true
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "milk"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "CP-meiji",
+    "product_name": [
+      {
+        "lang": "en",
+        "text": "Low Fat Yoghurt with Strawberry"
+      }
+    ],
+    "net_content_label": "90 g",
+    "ingredients_text": [
+      {
+        "lang": "en",
+        "text": "Yoghurt (Fresh Milk, Skimmed Milk Powder, Whey Protein Concentrate, Milk Fat, Whole Milk Powder), Strawberry in syrup (Strawberry, Sugar), Thickener (E 1442, E 1422, E 440), Emulsifier (E 471), Nature Identical Flavouring, Bifidobacterium lactis, Lactobacillus bulgaricus and Streptococcus thermophilus, Preservative (E 211) (carry over from fruit syrup), Acidity Regulator (E 330), Colouring (E 124)"
+      }
+    ],
+    "origin": {
+      "country": "TH",
+      "region": "Saraburi",
+      "raw_text": "PRODUCT OF THAILAND"
+    },
+    "parties": [
+      {
+        "role": "importer",
+        "name": "Crown Pacific Investments Pte Ltd",
+        "address": "26 Tuas Ave 12, Singapore 639042"
+      },
+      {
+        "role": "distributor",
+        "name": "Crown Pacific Beverage Pte Ltd",
+        "address": "26 Tuas Ave 12, Singapore 639042"
+      },
+      {
+        "role": "distributor",
+        "name": "Chia Tai Consumer Products Pte Ltd",
+        "address": "26 Tuas Ave 12, Singapore 639042"
+      },
+      {
+        "role": "brand_owner",
+        "name": "MEIJI CO., LTD. JAPAN"
+      },
+      {
+        "role": "manufacturer",
+        "name": "CP - MEIJI CO., LTD",
+        "address": "2/9 Moo 4, Phaholyothin Rd., Nongnak, Nongkae, Saraburi 18230, Thailand"
+      }
+    ],
+    "storage_text": "REFRIGERATE AT 2-8℃",
+    "claims_text": [
+      "Lower in Sugar",
+      "Healthier Choice Lower in Sugar Lower in Saturated Fat"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "nutrition_table",
+      "cropped_sha256": "ba8ab88f67d71f1b4a94c819f9db8bf2833c36ac19c4675c02b6bf5119dfcce2",
+      "media_ref": "opf-media://sha256/ba8ab88f67d71f1b4a94c819f9db8bf2833c36ac19c4675c02b6bf5119dfcce2",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-sg-meiji-strawberry-90g",
+      "evidence_id": "sha256:ba8ab88f67d71f1b4a94c819f9db8bf2833c36ac19c4675c02b6bf5119dfcce2"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "barcode_net_content",
+      "cropped_sha256": "cfeec0dd51165a2204a1f6c1cb6128be11e9ec38f4c9b5de0479bfdb1480183e",
+      "media_ref": "opf-media://sha256/cfeec0dd51165a2204a1f6c1cb6128be11e9ec38f4c9b5de0479bfdb1480183e",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-sg-meiji-strawberry-90g",
+      "evidence_id": "sha256:cfeec0dd51165a2204a1f6c1cb6128be11e9ec38f4c9b5de0479bfdb1480183e"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "ingredients_box",
+      "cropped_sha256": "9257264bbe211a8534b75fbcc2eb2012a81126ac8f0b35e2022aa5d6bd23ff76",
+      "media_ref": "opf-media://sha256/9257264bbe211a8534b75fbcc2eb2012a81126ac8f0b35e2022aa5d6bd23ff76",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-sg-meiji-strawberry-90g",
+      "evidence_id": "sha256:9257264bbe211a8534b75fbcc2eb2012a81126ac8f0b35e2022aa5d6bd23ff76"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T05:15:14Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:ba8ab88f67d71f1b4a94c819f9db8bf2833c36ac19c4675c02b6bf5119dfcce2",
+        "sha256:cfeec0dd51165a2204a1f6c1cb6128be11e9ec38f4c9b5de0479bfdb1480183e",
+        "sha256:9257264bbe211a8534b75fbcc2eb2012a81126ac8f0b35e2022aa5d6bd23ff76"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {
+      "energy_kcal": {
+        "value": "82",
+        "unit": "kcal",
+        "basis": "reported"
+      },
+      "protein": {
+        "value": "3.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_total": {
+        "value": "1.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_saturated": {
+        "value": "1",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "fat_trans": {
+        "qualifier": "<",
+        "value": "0.5",
+        "unit": "g",
+        "basis": "regulatory_upper_bound"
+      },
+      "cholesterol": {
+        "value": "6",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "carbs_available": {
+        "value": "13.9",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_total": {
+        "value": "11.5",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sugars_added": {
+        "value": "7.2",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "dietary_fiber": {
+        "value": "0.7",
+        "unit": "g",
+        "basis": "reported"
+      },
+      "sodium": {
+        "value": "43",
+        "unit": "mg",
+        "basis": "reported"
+      },
+      "energy_kj": {
+        "value": "343.1",
+        "unit": "kJ",
+        "basis": "derived"
+      },
+      "salt_equivalent": {
+        "value": "0.11",
+        "unit": "g",
+        "basis": "derived"
+      }
+    },
+    "additives_ins": [
+      "124",
+      "1422",
+      "1442",
+      "211",
+      "330",
+      "440",
+      "471"
+    ],
+    "allergens": {
+      "contains": [
+        "milk"
+      ],
+      "declared_contains": [
+        "milk"
+      ],
+      "inferred_from_ingredients": [
+        "milk"
+      ],
+      "may_contain": []
+    },
+    "per_unit": {
+      "unit_amount": {
+        "value": "90",
+        "unit": "g"
+      },
+      "nutrients": {
+        "energy_kcal": {
+          "value": "73.8",
+          "unit": "kcal",
+          "basis": "derived"
+        },
+        "protein": {
+          "value": "2.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_total": {
+          "value": "1.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_saturated": {
+          "value": "0.9",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "fat_trans": {
+          "value": "0.45",
+          "unit": "g",
+          "basis": "regulatory_upper_bound",
+          "qualifier": "<"
+        },
+        "cholesterol": {
+          "value": "5.4",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "carbs_available": {
+          "value": "12.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_total": {
+          "value": "10.4",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sugars_added": {
+          "value": "6.5",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "dietary_fiber": {
+          "value": "0.6",
+          "unit": "g",
+          "basis": "derived"
+        },
+        "sodium": {
+          "value": "38.7",
+          "unit": "mg",
+          "basis": "derived"
+        },
+        "energy_kj": {
+          "value": "308.8",
+          "unit": "kJ",
+          "basis": "derived"
+        },
+        "salt_equivalent": {
+          "value": "0.1",
+          "unit": "g",
+          "basis": "derived"
+        }
+      }
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "REGULATORY_ZERO_ROUNDING_ARTIFACT",
+      "field": "fat_trans",
+      "detail": "Declared 0 g under SG/SFA-FR zero-threshold rule implies <0.5 g/100g"
+    },
+    {
+      "code": "SALT_DERIVED_FROM_SODIUM",
+      "field": "salt_equivalent",
+      "detail": "Derived from sodium using ratio 2.5"
+    }
+  ],
+  "core_fingerprint": "sha256:fe8ac8d37a120acccb13a7eb11bbec3777e013864df374ac319971759277d992",
+  "label_fingerprint": "sha256:b42cb58b398b9f05e2d4df56e07d6ddc7f33d24f1250c1d95e6c6a497b003201"
+}
