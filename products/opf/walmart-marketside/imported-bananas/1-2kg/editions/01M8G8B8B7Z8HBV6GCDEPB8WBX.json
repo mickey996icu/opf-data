@@ -54,10 +54,6 @@
     },
     "parties": [
       {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
-      {
         "role": "importer",
         "name": "上海都乐食品有限公司",
         "address": "上海市浦东新区高东工业小区海徐路1105号"
@@ -125,5 +121,5 @@
     }
   ],
   "core_fingerprint": "sha256:6c0c5664cf20a655fc9a22284ab80bf4866203bcb6de9b095249f3088d5f7c9a",
-  "label_fingerprint": "sha256:7f18e3af3ea5b32bdc4b82011c9971aab0723350242495e90f7891995a368414"
+  "label_fingerprint": "sha256:d300fc42da01d21f75444d7428180900495cd93e1e9a996cc6fcdefe8d7bd22f"
 }

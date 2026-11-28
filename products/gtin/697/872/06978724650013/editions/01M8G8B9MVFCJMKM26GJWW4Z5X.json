@@ -58,10 +58,6 @@
     },
     "parties": [
       {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
-      {
         "role": "commissioner",
         "name": "北京广能华发商贸有限公司",
         "address": "北京市丰台区南顶路6号月盛斋34号楼408室"
@@ -138,5 +134,5 @@
     }
   ],
   "core_fingerprint": "sha256:370bb2a79c2d2a747b85bc4dc97f9831d80b9d59f40b11fc71a906ec93010249",
-  "label_fingerprint": "sha256:742e12e9c2b36c6e3deeb623fdabf7c913158873c8b6cc1c4404aa737168cc6a"
+  "label_fingerprint": "sha256:7d33306d7e1c6e71521e366e0b0e00d75cb0552f2640924b7ee928284612bce1"
 }

@@ -61,10 +61,6 @@
     },
     "parties": [
       {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
-      {
         "role": "commissioner",
         "name": "福州仁达绿色食品有限公司",
         "address": "福建省福州市晋安区岳峰镇横屿路9号(原连江北路与化工路交叉处)东二环泰禾城市广场(四期)2#楼18层01办公"
@@ -159,5 +155,5 @@
     }
   ],
   "core_fingerprint": "sha256:84635d4e310a7db9923eeb5bee64684e035c1598ebf3a2122b50f8079e203e5c",
-  "label_fingerprint": "sha256:01986c3882bb634981080a6eeb0083610185e11a3f56d3079b0fcfb77ffc9999"
+  "label_fingerprint": "sha256:2cfc81e1226817ed3f4463d83faadf7de7b3ffcfbcbd91d8dbe9ac4db400c155"
 }

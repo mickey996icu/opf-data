@@ -72,21 +72,11 @@
           },
           {
             "name": "饮用水",
-            "children": [
-              {
-                "name": "20%-",
-                "qualifier": "25%"
-              }
-            ]
+            "qualifier": "20%-25%"
           },
           {
             "name": "食用盐",
-            "children": [
-              {
-                "name": "18%-",
-                "qualifier": "22%"
-              }
-            ]
+            "qualifier": "18%-22%"
           }
         ]
       }
@@ -118,10 +108,6 @@
       "raw_text": "山东省威海市"
     },
     "parties": [
-      {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
       {
         "role": "manufacturer",
         "name": "山东海之宝海洋科技有限公司",
@@ -330,6 +316,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:700c9333e7c1c6ca342a8e5bccbf57430ffdfac1df9e5a0d80fc8c9d948989bf",
-  "label_fingerprint": "sha256:c0331da73e44a4e8166f2d8890bfdd16ac5d69c703568360dc353c8935ada12e"
+  "core_fingerprint": "sha256:86e7a295009e6507f0e6e65f3b864e1adec425bf01dcebea9b1330b4cf3e275a",
+  "label_fingerprint": "sha256:d6bbb2e73dfa50f120059774aa8debde49611db5d03caa99b9062b1340a9348f"
 }

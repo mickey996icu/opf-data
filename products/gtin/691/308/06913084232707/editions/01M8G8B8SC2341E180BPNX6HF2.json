@@ -114,10 +114,6 @@
     },
     "parties": [
       {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
-      {
         "role": "manufacturer",
         "name": "湖北神丹健康食品有限公司",
         "address": "湖北省孝感市安陆市解放大道东3号"
@@ -314,5 +310,5 @@
     }
   ],
   "core_fingerprint": "sha256:7aa370e0540a99e67e88b396a8253f1dfbdae1d0b190d8f65ff83c8edbb55eb9",
-  "label_fingerprint": "sha256:4978b5b0720c1161d4dfb7ac965fd510d446885139016f77262d51fdd6cf24ab"
+  "label_fingerprint": "sha256:40016784ab42588af0ed5f70e4e8e24ac9b766bc81ab721bb9b59a355d66c2c9"
 }

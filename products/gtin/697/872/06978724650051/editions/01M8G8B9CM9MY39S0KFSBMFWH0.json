@@ -23,7 +23,10 @@
         "lang": "zh-Hans",
         "nodes": [
           {
-            "name": "鸡翅根"
+            "name": "鸡翅根",
+            "allergens": [
+              "chicken"
+            ]
           }
         ]
       }
@@ -54,10 +57,6 @@
       "raw_text": "广东省梅州市兴宁市"
     },
     "parties": [
-      {
-        "role": "brand_owner",
-        "name": "沃尔玛(中国)投资有限公司"
-      },
       {
         "role": "commissioner",
         "name": "北京广能华发商贸有限公司",
@@ -117,9 +116,13 @@
     "nutrients": {},
     "additives_ins": [],
     "allergens": {
-      "contains": [],
+      "contains": [
+        "chicken"
+      ],
       "declared_contains": [],
-      "inferred_from_ingredients": [],
+      "inferred_from_ingredients": [
+        "chicken"
+      ],
       "may_contain": []
     }
   },
@@ -130,6 +133,6 @@
       "detail": "Nutrition panel legally exempt under category 'single_ingredient_unprocessed' (GB 28050 生鲜禽肉（单一生鲜原料）豁免强制标示营养成分表); normalized.nutrients is intentionally empty."
     }
   ],
-  "core_fingerprint": "sha256:f7e0c23f2cae8b103f57e31894304e0902187aa646496228fdfe949065d2e2ed",
-  "label_fingerprint": "sha256:79a25d605a10e8be66d20395be285f41612fc40e64f545cf97be584a4e8157f3"
+  "core_fingerprint": "sha256:e6310bab85911a2a3d28b27acc24d5fe4e6b5705ff63cd2010bcf66473517da3",
+  "label_fingerprint": "sha256:93af2ef3058b1506896198739875895e0e7f6d8745e7ef9869e8a76f3b72dff7"
 }
