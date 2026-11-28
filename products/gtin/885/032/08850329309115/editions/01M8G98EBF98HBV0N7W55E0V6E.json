@@ -136,11 +136,13 @@
             "children": [
               {
                 "name": "E 1442",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "1442"
               },
               {
                 "name": "E 1422",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "1422"
               },
               {
                 "name": "E 440",
@@ -197,7 +199,8 @@
             "children": [
               {
                 "name": "E 124",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "124"
               }
             ],
             "is_additive": true
@@ -385,6 +388,9 @@
       }
     },
     "additives_ins": [
+      "124",
+      "1422",
+      "1442",
       "211",
       "330",
       "440",
@@ -489,6 +495,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:250d31b0229ddfe1f925a7a0bb4631723a21b356ce8296a4de56ba29e8476c0a",
-  "label_fingerprint": "sha256:2772f13dfc82b2a00f443738182afa35abffd7cced6e59fd9d999179d2fb14b8"
+  "core_fingerprint": "sha256:fe8ac8d37a120acccb13a7eb11bbec3777e013864df374ac319971759277d992",
+  "label_fingerprint": "sha256:b42cb58b398b9f05e2d4df56e07d6ddc7f33d24f1250c1d95e6c6a497b003201"
 }

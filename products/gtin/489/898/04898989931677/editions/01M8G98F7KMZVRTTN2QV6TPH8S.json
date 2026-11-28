@@ -157,7 +157,8 @@
               },
               {
                 "name": "双乙酸钠",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "262(ii)"
               },
               {
                 "name": "红曲红",
@@ -297,6 +298,7 @@
       }
     },
     "additives_ins": [
+      "262(ii)",
       "621"
     ],
     "allergens": {
@@ -330,6 +332,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:be26c39c177cb4c35e983cd5c8b028990c486f5480012fbcb2c09f563dcebdc1",
-  "label_fingerprint": "sha256:84e81870894463536da087bdd7fe8b153407d67ba102eaa1ce0411b7a8d73cf2"
+  "core_fingerprint": "sha256:96b401c24535b23d371ef2ffcd07fb9f00327ec9e952edf4ff2941eabed6edfe",
+  "label_fingerprint": "sha256:23ed8f9274580723e6f78798e65478ae522f1edfea371b64d47c181c8938d6af"
 }

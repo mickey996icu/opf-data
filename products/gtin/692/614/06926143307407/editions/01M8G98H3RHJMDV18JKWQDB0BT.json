@@ -109,7 +109,8 @@
             "children": [
               {
                 "name": "乙基麦芽酚",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "637"
               },
               {
                 "name": "辣椒红",
@@ -127,7 +128,8 @@
               },
               {
                 "name": "双乙酸钠",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "262(ii)"
               }
             ]
           },
@@ -286,8 +288,10 @@
     "additives_ins": [
       "150a",
       "160c",
+      "262(ii)",
       "316",
-      "621"
+      "621",
+      "637"
     ],
     "allergens": {
       "contains": [
@@ -315,6 +319,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:f3b1081ebd4d7414e3c638f1d21c5065fa34e75864977c43325cee2edc9c1a7e",
-  "label_fingerprint": "sha256:1922e80fc40f6197fa87057453f62d05bc9a36fd7424e5b3e386c56b5e7c5e27"
+  "core_fingerprint": "sha256:cdfc7b5ee7a234f368e5aee464f7edf4fd5bcef635cdc42fbb9b5e77ab14c7a3",
+  "label_fingerprint": "sha256:becdf84c8dd50be25c11a4b3a0715789a2eea59df7b6f7d438d777fc6efe4625"
 }

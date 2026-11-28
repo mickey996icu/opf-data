@@ -91,7 +91,7 @@
         "nodes": [
           {
             "name": "Non Dairy Creamer",
-            "qualifier": "Contains Milk",
+            "qualifier": "Milk",
             "allergens": [
               "milk"
             ],
@@ -119,7 +119,7 @@
                   },
                   {
                     "name": "INS 481(i)",
-                    "ins": "481",
+                    "ins": "481(i)",
                     "is_additive": true
                   }
                 ]
@@ -130,7 +130,7 @@
                 "children": [
                   {
                     "name": "INS 340(ii)",
-                    "ins": "340",
+                    "ins": "340(ii)",
                     "is_additive": true
                   }
                 ]
@@ -152,7 +152,7 @@
                 "children": [
                   {
                     "name": "INS 160b(ii)",
-                    "ins": "160b",
+                    "ins": "160b(ii)",
                     "is_additive": true
                   }
                 ]
@@ -171,7 +171,7 @@
           },
           {
             "name": "Foaming Creamer",
-            "qualifier": "Contains Milk",
+            "qualifier": "Milk",
             "allergens": [
               "milk"
             ],
@@ -191,11 +191,10 @@
               {
                 "name": "Stabiliser",
                 "is_additive": true,
-                "qualifier": "and",
                 "children": [
                   {
                     "name": "INS 340(ii)",
-                    "ins": "340",
+                    "ins": "340(ii)",
                     "is_additive": true
                   }
                 ]
@@ -228,8 +227,7 @@
             "name": "Flavouring Substances"
           },
           {
-            "name": "Salt",
-            "qualifier": "and Contains"
+            "name": "Salt"
           },
           {
             "name": "Acesulfame Potassium",
@@ -244,7 +242,7 @@
         "nodes": [
           {
             "name": "Krimer Tanpa Tenusu",
-            "qualifier": "Mengandungi Susu",
+            "qualifier": "Susu",
             "allergens": [
               "milk"
             ],
@@ -272,7 +270,7 @@
                   },
                   {
                     "name": "INS 481(i)",
-                    "ins": "481",
+                    "ins": "481(i)",
                     "is_additive": true
                   }
                 ]
@@ -283,7 +281,7 @@
                 "children": [
                   {
                     "name": "INS 340(ii)",
-                    "ins": "340",
+                    "ins": "340(ii)",
                     "is_additive": true
                   }
                 ]
@@ -305,7 +303,7 @@
                 "children": [
                   {
                     "name": "INS 160b(ii)",
-                    "ins": "160b",
+                    "ins": "160b(ii)",
                     "is_additive": true
                   }
                 ]
@@ -324,7 +322,7 @@
           },
           {
             "name": "Krimer Pembusa",
-            "qualifier": "Mengandungi Susu",
+            "qualifier": "Susu",
             "allergens": [
               "milk"
             ],
@@ -344,11 +342,10 @@
               {
                 "name": "Penstabil",
                 "is_additive": true,
-                "qualifier": "dan",
                 "children": [
                   {
                     "name": "INS 340(ii)",
-                    "ins": "340",
+                    "ins": "340(ii)",
                     "is_additive": true
                   }
                 ]
@@ -382,8 +379,7 @@
             "is_additive": true
           },
           {
-            "name": "Garam",
-            "qualifier": "dan Mengandungi"
+            "name": "Garam"
           },
           {
             "name": "Acesulfame Potassium",
@@ -557,11 +553,11 @@
       }
     },
     "additives_ins": [
-      "160b",
-      "340",
+      "160b(ii)",
+      "340(ii)",
       "466",
       "471",
-      "481",
+      "481(i)",
       "551",
       "950"
     ],
@@ -669,6 +665,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:a034afdda6e84b322262d2a42955dc6c2bc917e58303d5aab776fe90a94e390c",
-  "label_fingerprint": "sha256:d92be5f8b1ac12c272e954aca03ac3bfd7c00793ff2dce99b1c6b08de514f117"
+  "core_fingerprint": "sha256:7e28d902c6837168a26a2c2e9897ac681dcd945f703e77a107a47c5dd81ced0f",
+  "label_fingerprint": "sha256:35928e62cd520ee05833d4b8fbe0d39075c37acb9fa5ce0dc1088fe55496ca26"
 }

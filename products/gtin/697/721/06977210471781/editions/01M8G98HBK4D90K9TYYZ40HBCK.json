@@ -63,7 +63,7 @@
         "nodes": [
           {
             "name": "李梅",
-            "qualifier": "嫁接)(添加量≥60%"
+            "qualifier": "嫁接；添加量≥60%"
           },
           {
             "name": "白砂糖"
@@ -90,11 +90,13 @@
               },
               {
                 "name": "甜蜜素",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "952"
               },
               {
                 "name": "糖精钠",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "954"
               },
               {
                 "name": "甘草酸一钾",
@@ -125,11 +127,13 @@
               },
               {
                 "name": "苋菜红",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "123"
               },
               {
                 "name": "胭脂红",
-                "is_additive": true
+                "is_additive": true,
+                "ins": "124"
               },
               {
                 "name": "日落黄",
@@ -288,11 +292,15 @@
     "additives_ins": [
       "102",
       "110",
+      "123",
+      "124",
       "202",
       "211",
       "223",
       "296",
       "330",
+      "952",
+      "954",
       "955"
     ],
     "allergens": {
@@ -323,6 +331,6 @@
       "detail": "Derived from sodium using ratio 2.5"
     }
   ],
-  "core_fingerprint": "sha256:8605eefbc34e686d70d21f31a10f581ef3af869c21a9135ee0df51c522400540",
-  "label_fingerprint": "sha256:c866ef1bc805d70e2bb0a1218b295038c5b58d283b056596e293162c24441447"
+  "core_fingerprint": "sha256:952b95a1170b94655c844da4bd62a1a2822d284a72a3178038918a842338fed6",
+  "label_fingerprint": "sha256:ba4dc0d2b231cab493f6dd1a885de629b53ea8dea695c5a05102a1cdb2499a89"
 }
