@@ -1,0 +1,163 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06935429800235",
+  "edition_id": "01M8G8BAK9H26AD5TH22S9SM4V",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "750",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "single_ingredient_unprocessed",
+      "legal_basis": "GB 28050 鲜鸡蛋（单一未加工初级农产品）豁免强制标示营养成分表"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "鲜鸡蛋",
+            "allergens": [
+              "eggs"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "eggs"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "沃集鲜",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "谷物鸡蛋"
+      }
+    ],
+    "declared_category": "鲜鸡蛋",
+    "net_content_label": "750克(15枚)",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "鲜鸡蛋"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "福建省南平市建阳区回龙乡浒洲村第九组白岩坑",
+      "raw_text": "福建省南平市建阳区回龙乡浒洲村第九组白岩坑"
+    },
+    "parties": [
+      {
+        "role": "brand_owner",
+        "name": "沃尔玛(中国)投资有限公司"
+      },
+      {
+        "role": "commissioner",
+        "name": "福州仁达绿色食品有限公司",
+        "address": "福建省福州市晋安区岳峰镇横屿路9号(原连江北路与化工路交叉处)东二环泰禾城市广场(四期)2#楼18层01办公"
+      },
+      {
+        "role": "manufacturer",
+        "name": "福建省恒亮生态禽业有限公司",
+        "address": "福建省南平市建阳区回龙乡浒洲村第九组白岩坑"
+      }
+    ],
+    "product_standard": [
+      "GB 2749"
+    ],
+    "storage_text": "存放在阴凉、干燥、清洁卫生、无异味、无有毒有害物品处，0℃-8℃冷藏效果更佳。",
+    "usage_text": "烹饪熟制后食用。注意事项: 鸡蛋属鲜货易碎产品，破损变质请勿食用。",
+    "claims_text": [
+      "优质谷物喂养 精心配比",
+      "谷物精心配比 全程质量监控"
+    ],
+    "translations": [
+      {
+        "lang": "en",
+        "field": "brand",
+        "text": "MARKETSIDE",
+        "source": "contributor_translated",
+        "contributor": "github:mickey996icu"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "0702cf8f723eabcdbade31fdc85f04e2e48c09aca39752ef957f5f1ecfbc33e5",
+      "media_ref": "opf-media://sha256/0702cf8f723eabcdbade31fdc85f04e2e48c09aca39752ef957f5f1ecfbc33e5",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-ms-grain-eggs-750g",
+      "evidence_id": "sha256:0702cf8f723eabcdbade31fdc85f04e2e48c09aca39752ef957f5f1ecfbc33e5"
+    },
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "other",
+      "cropped_sha256": "4efe676d60ab4a36ae024ee212a38af35f204a15f1867848fe31fadb95338df7",
+      "media_ref": "opf-media://sha256/4efe676d60ab4a36ae024ee212a38af35f204a15f1867848fe31fadb95338df7",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-11",
+      "specimen_id": "sp-ms-grain-eggs-750g",
+      "evidence_id": "sha256:4efe676d60ab4a36ae024ee212a38af35f204a15f1867848fe31fadb95338df7"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:20Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:0702cf8f723eabcdbade31fdc85f04e2e48c09aca39752ef957f5f1ecfbc33e5",
+        "sha256:4efe676d60ab4a36ae024ee212a38af35f204a15f1867848fe31fadb95338df7"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "eggs"
+      ],
+      "declared_contains": [
+        "eggs"
+      ],
+      "inferred_from_ingredients": [
+        "eggs"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'single_ingredient_unprocessed' (GB 28050 鲜鸡蛋（单一未加工初级农产品）豁免强制标示营养成分表); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:84635d4e310a7db9923eeb5bee64684e035c1598ebf3a2122b50f8079e203e5c",
+  "label_fingerprint": "sha256:01986c3882bb634981080a6eeb0083610185e11a3f56d3079b0fcfb77ffc9999"
+}

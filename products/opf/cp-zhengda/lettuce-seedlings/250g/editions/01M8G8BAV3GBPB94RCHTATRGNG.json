@@ -1,0 +1,116 @@
+{
+  "opf_schema": "0.3",
+  "id": "opf:cp-zhengda/lettuce-seedlings/250g",
+  "edition_id": "01M8G8BAV3GBPB94RCHTATRGNG",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "250",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "single_ingredient_unprocessed",
+      "legal_basis": "GB 28050 初级食用农产品（生鲜蔬菜）豁免强制标示营养成分表"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "生菜苗"
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "正大景瑞",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "苗苗菜 生菜苗"
+      }
+    ],
+    "net_content_label": "250g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "生菜苗"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "云南省曲靖市陆良县",
+      "raw_text": "云南省曲靖市陆良县"
+    },
+    "parties": [
+      {
+        "role": "distributor",
+        "name": "正大景瑞农业科技发展(上海)有限公司"
+      }
+    ],
+    "lot_code_rule": "店内条码:2400005526242",
+    "usage_text": "清炒・白灼・涮锅",
+    "claims_text": [
+      "不要粗枝烂叶，只要脆嫩部位",
+      "普通蔬菜生长周期30-60天，苗苗菜是生长15-30天的幼苗嫩叶"
+    ]
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "006d5b22e4c1b7861e7d684394d632747ea62b3f27a4179adb55dd00f6bd7370",
+      "media_ref": "opf-media://sha256/006d5b22e4c1b7861e7d684394d632747ea62b3f27a4179adb55dd00f6bd7370",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "vintage_month": "2026-10",
+      "specimen_id": "sp-cp-lettuce-250g",
+      "evidence_id": "sha256:006d5b22e4c1b7861e7d684394d632747ea62b3f27a4179adb55dd00f6bd7370"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:20Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:006d5b22e4c1b7861e7d684394d632747ea62b3f27a4179adb55dd00f6bd7370"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [],
+      "declared_contains": [],
+      "inferred_from_ingredients": [],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'single_ingredient_unprocessed' (GB 28050 初级食用农产品（生鲜蔬菜）豁免强制标示营养成分表); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:24e3a7f6e01cbb7e12b5b4903b6009c68f8e4ea3430edefbdf818210ce6bf477",
+  "label_fingerprint": "sha256:b4868c98c585070cb5a57326345551b973322c37b46348aff59815806691f700"
+}

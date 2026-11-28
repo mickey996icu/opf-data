@@ -1,0 +1,138 @@
+{
+  "opf_schema": "0.3",
+  "id": "gtin:06974123731223",
+  "edition_id": "01M8G8BA67MZRSG5YV6960YSD3",
+  "rev": 1,
+  "track": "CN/default",
+  "supersedes": [],
+  "core": {
+    "regulatory_profile": "CN/GB28050-2025",
+    "net_content": [
+      {
+        "value": "350",
+        "unit": "g"
+      }
+    ],
+    "nutrition_declared": null,
+    "nutrition_exemption": {
+      "category": "single_ingredient_unprocessed",
+      "legal_basis": "GB 28050 初级农产品（鲜活/冰鲜水产）豁免强制标示营养成分表"
+    },
+    "ingredients_tree": [
+      {
+        "lang": "zh-Hans",
+        "nodes": [
+          {
+            "name": "龙利鱼",
+            "allergens": [
+              "fish"
+            ]
+          }
+        ]
+      }
+    ],
+    "allergens_declared": {
+      "contains": [
+        "fish"
+      ],
+      "may_contain": []
+    }
+  },
+  "attributes": {
+    "brand": "海之家",
+    "product_name": [
+      {
+        "lang": "zh-Hans",
+        "text": "本港去鳃去脏龙利鱼"
+      }
+    ],
+    "declared_category": "初级农产品",
+    "net_content_label": "350g",
+    "ingredients_text": [
+      {
+        "lang": "zh-Hans",
+        "text": "龙利鱼"
+      }
+    ],
+    "origin": {
+      "country": "CN",
+      "region": "广东省东莞市虎门镇",
+      "raw_text": "广东省东莞市虎门镇"
+    },
+    "parties": [
+      {
+        "role": "commissioner",
+        "name": "深圳市海之家渔网开发有限公司",
+        "address": "深圳市南山区南山街道荔湾社区前海路0070号泛海拉菲花园(二期)2栋B座403"
+      },
+      {
+        "role": "manufacturer",
+        "name": "东莞市海之家渔网开发有限公司",
+        "address": "广东省东莞市虎门镇虎门南北路9号2栋101、102室"
+      }
+    ],
+    "product_standard": [
+      "GB 2733"
+    ],
+    "lot_code_rule": "生产日期:见正面喷码",
+    "shelf_life": {
+      "value": "4",
+      "unit": "day",
+      "label": "4天"
+    },
+    "storage_text": "0-4℃冷藏储存",
+    "usage_text": "生制品，需烹饪后食用。温馨提示: 海鲜过敏者请谨慎食用"
+  },
+  "evidence": [
+    {
+      "type": "label_photo",
+      "provenance": "maintainer",
+      "region": "full_back_label",
+      "cropped_sha256": "f04b7576231299e90ce9b3abdf8a4eb35c4e0142247d5b26d8d0fd4ab885f186",
+      "media_ref": "opf-media://sha256/f04b7576231299e90ce9b3abdf8a4eb35c4e0142247d5b26d8d0fd4ab885f186",
+      "contributor": "github:mickey996icu",
+      "reported_at": "2026-11-28",
+      "specimen_id": "sp-longli-fish-350g",
+      "evidence_id": "sha256:f04b7576231299e90ce9b3abdf8a4eb35c4e0142247d5b26d8d0fd4ab885f186"
+    }
+  ],
+  "revisions": [
+    {
+      "rev": 1,
+      "kind": "initial",
+      "created_at": "2026-11-28T04:59:20Z",
+      "author": "github:mickey996icu",
+      "provenance": "maintainer",
+      "evidence_refs": [
+        "sha256:f04b7576231299e90ce9b3abdf8a4eb35c4e0142247d5b26d8d0fd4ab885f186"
+      ],
+      "patch": []
+    }
+  ],
+  "normalized": {
+    "basis": "100g",
+    "nutrients": {},
+    "additives_ins": [],
+    "allergens": {
+      "contains": [
+        "fish"
+      ],
+      "declared_contains": [
+        "fish"
+      ],
+      "inferred_from_ingredients": [
+        "fish"
+      ],
+      "may_contain": []
+    }
+  },
+  "quality_flags": [
+    {
+      "code": "NUTRITION_LABEL_EXEMPT",
+      "field": "nutrition_declared",
+      "detail": "Nutrition panel legally exempt under category 'single_ingredient_unprocessed' (GB 28050 初级农产品（鲜活/冰鲜水产）豁免强制标示营养成分表); normalized.nutrients is intentionally empty."
+    }
+  ],
+  "core_fingerprint": "sha256:30380aee50dfea6ce814b6bb680046e40b912dae8f9974764c601efd2457ca89",
+  "label_fingerprint": "sha256:e3929f8e36131fae039994afcdb3313e3df7f4a6a538b46ba4e8c9f468136f64"
+}
